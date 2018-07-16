@@ -1,0 +1,630 @@
+2018-04-21 20:59:07.702404: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-21 20:59:07.702434: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-21 20:59:07.702440: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-21 20:59:07.702444: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-21 20:59:07.702447: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-04-21 20:59:08.068733: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: TITAN X (Pascal)
+major: 6 minor: 1 memoryClockRate (GHz) 1.531
+pciBusID 0000:04:00.0
+Total memory: 11.90GiB
+Free memory: 11.75GiB
+2018-04-21 20:59:08.068784: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-04-21 20:59:08.068793: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-04-21 20:59:08.068807: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:04:00.0)
+classnum: 324
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/Lvmoh% \xe6\xb7\x8b\xe5\xb7\xb4\xe7\xbb\x86\xe8\x83\x9e\xe7\x99\xbe\xe5\x88\x86\xe6\x95\xb0'
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe7\xbb\x86\xe8\x83\x9e\xe5\xb9\xb3\xe5\x9d\x87\xe5\x8e\x8b\xe7\xa7\xaf'
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe6\xb5\x93\xe5\xba\xa6298.00 \xe2\x86\x93320--355 g/L'
+(15773, 30, 200, 1)
+(15773, 1)
+Train:  12618
+Test:  3155
+(?, 15, 34, 16)
+(?, 15, 34, 32)
+(?, 8, 17, 128)
+(?, 8, 17, 256)
+(?, 8192)
+batch_size: 128
+Epoch 0
+Test accuracy: 0.0133463541667
+Test loss: 5.64211304983
+Epoch 1
+Test accuracy: 0.0325520833333
+Test loss: 5.53223079443
+Epoch 2
+Test accuracy: 0.0481770833333
+Test loss: 5.00893803438
+Epoch 3
+Test accuracy: 0.462565104167
+Test loss: 2.99385311206
+Epoch 4
+Test accuracy: 0.688151041667
+Test loss: 1.56929454207
+Epoch 5
+Test accuracy: 0.755859375
+Test loss: 1.17353332539
+Epoch 6
+Test accuracy: 0.810546875
+Test loss: 0.929167831937
+Epoch 7
+Test accuracy: 0.844401041667
+Test loss: 0.747720052799
+Epoch 8
+Test accuracy: 0.87890625
+Test loss: 0.625894074639
+Epoch 9
+Test accuracy: 0.900716145833
+Test loss: 0.524313297123
+Epoch 10
+Test accuracy: 0.916666666667
+Test loss: 0.483390101542
+Epoch 11
+Test accuracy: 0.935872395833
+Test loss: 0.370850600923
+Epoch 12
+Test accuracy: 0.946614583333
+Test loss: 0.333210576326
+Epoch 13
+Test accuracy: 0.9541015625
+Test loss: 0.310105826706
+Epoch 14
+Test accuracy: 0.952473958333
+Test loss: 0.271514042591
+Epoch 15
+Test accuracy: 0.955729166667
+Test loss: 0.254104986787
+Epoch 16
+Test accuracy: 0.963216145833
+Test loss: 0.213745016605
+Epoch 17
+Test accuracy: 0.9501953125
+Test loss: 0.283040011923
+Epoch 18
+Test accuracy: 0.964192708333
+Test loss: 0.196456981823
+Epoch 19
+Test accuracy: 0.9658203125
+Test loss: 0.188979299118
+Epoch 20
+Test accuracy: 0.965169270833
+Test loss: 0.193799488867
+Epoch 21
+Test accuracy: 0.970052083333
+Test loss: 0.16865378432
+Epoch 22
+Test accuracy: 0.967122395833
+Test loss: 0.179972765657
+Epoch 23
+Test accuracy: 0.9658203125
+Test loss: 0.172722922638
+Epoch 24
+Test accuracy: 0.970052083333
+Test loss: 0.157353214299
+Epoch 25
+Test accuracy: 0.971354166667
+Test loss: 0.157158338154
+Epoch 26
+Test accuracy: 0.970052083333
+Test loss: 0.161100044226
+Epoch 27
+Test accuracy: 0.970052083333
+Test loss: 0.160793954196
+Epoch 28
+Test accuracy: 0.9716796875
+Test loss: 0.147022869438
+Epoch 29
+Test accuracy: 0.968424479167
+Test loss: 0.154128962196
+Epoch 30
+Test accuracy: 0.972981770833
+Test loss: 0.151989521769
+Epoch 31
+Test accuracy: 0.971028645833
+Test loss: 0.152116046287
+Epoch 32
+Test accuracy: 0.972330729167
+Test loss: 0.139797019151
+Epoch 33
+Test accuracy: 0.97265625
+Test loss: 0.1367818648
+Epoch 34
+Test accuracy: 0.975260416667
+Test loss: 0.130216730138
+Epoch 35
+Test accuracy: 0.974934895833
+Test loss: 0.131222839778
+Epoch 36
+Test accuracy: 0.972981770833
+Test loss: 0.135752768256
+Epoch 37
+Test accuracy: 0.974934895833
+Test loss: 0.13321668872
+Epoch 38
+Test accuracy: 0.975260416667
+Test loss: 0.124351692231
+Epoch 39
+Test accuracy: 0.97265625
+Test loss: 0.1413427433
+Epoch 40
+Test accuracy: 0.973958333333
+Test loss: 0.130784863606
+Epoch 41
+Test accuracy: 0.973958333333
+Test loss: 0.129145778716
+Epoch 42
+Test accuracy: 0.975260416667
+Test loss: 0.125074611822
+Epoch 43
+Test accuracy: 0.973307291667
+Test loss: 0.129348601215
+Epoch 44
+Test accuracy: 0.975911458333
+Test loss: 0.124379807462
+Epoch 45
+Test accuracy: 0.976236979167
+Test loss: 0.125447621879
+Epoch 46
+Test accuracy: 0.973307291667
+Test loss: 0.127813006441
+Epoch 47
+Test accuracy: 0.974609375
+Test loss: 0.122055471254
+Epoch 48
+Test accuracy: 0.9755859375
+Test loss: 0.123618152924
+Epoch 49
+Test accuracy: 0.9755859375
+Test loss: 0.122412446731
+Epoch 50
+Test accuracy: 0.975911458333
+Test loss: 0.119856858781
+Epoch 51
+Test accuracy: 0.973958333333
+Test loss: 0.128926444023
+Epoch 52
+Test accuracy: 0.974934895833
+Test loss: 0.128459207558
+Epoch 53
+Test accuracy: 0.977213541667
+Test loss: 0.119475204963
+Epoch 54
+Test accuracy: 0.975260416667
+Test loss: 0.121703406796
+Epoch 55
+Test accuracy: 0.974934895833
+Test loss: 0.122895958989
+Epoch 56
+Test accuracy: 0.976236979167
+Test loss: 0.120337541215
+Epoch 57
+Test accuracy: 0.976888020833
+Test loss: 0.120421198041
+Epoch 58
+Test accuracy: 0.972981770833
+Test loss: 0.129639884457
+Epoch 59
+Test accuracy: 0.9765625
+Test loss: 0.120598566098
+Epoch 60
+Test accuracy: 0.976236979167
+Test loss: 0.120034166922
+Epoch 61
+Test accuracy: 0.9755859375
+Test loss: 0.118845761133
+Epoch 62
+Test accuracy: 0.976236979167
+Test loss: 0.120265559293
+Epoch 63
+Test accuracy: 0.9775390625
+Test loss: 0.117406593636
+Epoch 64
+Test accuracy: 0.9736328125
+Test loss: 0.124619463148
+Epoch 65
+Test accuracy: 0.9765625
+Test loss: 0.123679412218
+Epoch 66
+Test accuracy: 0.974934895833
+Test loss: 0.121770680882
+Epoch 67
+Test accuracy: 0.976236979167
+Test loss: 0.11872269803
+Epoch 68
+Test accuracy: 0.965169270833
+Test loss: 0.154221704851
+Epoch 69
+Test accuracy: 0.9736328125
+Test loss: 0.124977971738
+Epoch 70
+Test accuracy: 0.974609375
+Test loss: 0.121294339498
+Epoch 71
+Test accuracy: 0.975260416667
+Test loss: 0.122034334267
+Epoch 72
+Test accuracy: 0.979166666667
+Test loss: 0.114222711107
+Epoch 73
+Test accuracy: 0.9775390625
+Test loss: 0.118109789367
+Epoch 74
+Test accuracy: 0.978515625
+Test loss: 0.121365463982
+Epoch 75
+Test accuracy: 0.977213541667
+Test loss: 0.119333821038
+Epoch 76
+Test accuracy: 0.972981770833
+Test loss: 0.127497414127
+Epoch 77
+Test accuracy: 0.9765625
+Test loss: 0.120783140262
+Epoch 78
+Test accuracy: 0.976236979167
+Test loss: 0.12280986396
+Epoch 79
+Test accuracy: 0.977864583333
+Test loss: 0.116883603235
+Epoch 80
+Test accuracy: 0.9775390625
+Test loss: 0.117609550556
+Epoch 81
+Test accuracy: 0.976888020833
+Test loss: 0.118328250013
+Epoch 82
+Test accuracy: 0.973958333333
+Test loss: 0.124505150132
+Epoch 83
+Test accuracy: 0.976888020833
+Test loss: 0.119847788941
+Epoch 84
+Test accuracy: 0.9775390625
+Test loss: 0.117705679499
+Epoch 85
+Test accuracy: 0.9765625
+Test loss: 0.11981142095
+Epoch 86
+Test accuracy: 0.975260416667
+Test loss: 0.121652544476
+Epoch 87
+Test accuracy: 0.976236979167
+Test loss: 0.120857933847
+Epoch 88
+Test accuracy: 0.975911458333
+Test loss: 0.119057841599
+Epoch 89
+Test accuracy: 0.976888020833
+Test loss: 0.119273226553
+Epoch 90
+Test accuracy: 0.977213541667
+Test loss: 0.114313624489
+Epoch 91
+Test accuracy: 0.9765625
+Test loss: 0.112968777151
+Epoch 92
+Test accuracy: 0.977213541667
+Test loss: 0.121783614314
+Epoch 93
+Test accuracy: 0.977213541667
+Test loss: 0.117147281455
+Epoch 94
+Test accuracy: 0.977213541667
+Test loss: 0.11426620651
+Epoch 95
+Test accuracy: 0.977213541667
+Test loss: 0.117596602533
+Epoch 96
+Test accuracy: 0.978515625
+Test loss: 0.113832518924
+Epoch 97
+Test accuracy: 0.9765625
+Test loss: 0.11684999646
+Epoch 98
+Test accuracy: 0.976888020833
+Test loss: 0.115867965234
+Epoch 99
+Test accuracy: 0.977864583333
+Test loss: 0.114038284713
+Epoch 100
+Test accuracy: 0.976888020833
+Test loss: 0.118634798564
+Epoch 101
+Test accuracy: 0.978190104167
+Test loss: 0.11572174402
+Epoch 102
+Test accuracy: 0.978515625
+Test loss: 0.11592990843
+Epoch 103
+Test accuracy: 0.977864583333
+Test loss: 0.114562142485
+Epoch 104
+Test accuracy: 0.975260416667
+Test loss: 0.120552199117
+Epoch 105
+Test accuracy: 0.978841145833
+Test loss: 0.113039372178
+Epoch 106
+Test accuracy: 0.977864583333
+Test loss: 0.113884668021
+Epoch 107
+Test accuracy: 0.977864583333
+Test loss: 0.112989804242
+Epoch 108
+Test accuracy: 0.978841145833
+Test loss: 0.115403755413
+Epoch 109
+Test accuracy: 0.977864583333
+Test loss: 0.117352407736
+Epoch 110
+Test accuracy: 0.9775390625
+Test loss: 0.113923746782
+Epoch 111
+Test accuracy: 0.978841145833
+Test loss: 0.113166291888
+Epoch 112
+Test accuracy: 0.978190104167
+Test loss: 0.116255283356
+Epoch 113
+Test accuracy: 0.978841145833
+Test loss: 0.112865143456
+Epoch 114
+Test accuracy: 0.978190104167
+Test loss: 0.114449321913
+Epoch 115
+Test accuracy: 0.978190104167
+Test loss: 0.115979072483
+Epoch 116
+Test accuracy: 0.977213541667
+Test loss: 0.118681811572
+Epoch 117
+Test accuracy: 0.977213541667
+Test loss: 0.114776671554
+Epoch 118Using TensorFlow backend.
+
+Test accuracy: 0.9794921875
+Test loss: 0.116841695582
+Epoch 119
+Test accuracy: 0.979817708333
+Test loss: 0.113205209064
+Epoch 120
+Test accuracy: 0.979166666667
+Test loss: 0.116929727606
+Epoch 121
+Test accuracy: 0.978841145833
+Test loss: 0.117615838225
+Epoch 122
+Test accuracy: 0.978841145833
+Test loss: 0.114292569614
+Epoch 123
+Test accuracy: 0.978515625
+Test loss: 0.113554197364
+Epoch 124
+Test accuracy: 0.978190104167
+Test loss: 0.11512928782
+Epoch 125
+Test accuracy: 0.977864583333
+Test loss: 0.116391859328
+Epoch 126
+Test accuracy: 0.9775390625
+Test loss: 0.11738522506
+Epoch 127
+Test accuracy: 0.977864583333
+Test loss: 0.114282009968
+Epoch 128
+Test accuracy: 0.978515625
+Test loss: 0.115979017379
+Epoch 129
+Test accuracy: 0.977864583333
+Test loss: 0.115936814963
+Epoch 130
+Test accuracy: 0.978190104167
+Test loss: 0.115540950559
+Epoch 131
+Test accuracy: 0.977213541667
+Test loss: 0.115801114899
+Epoch 132
+Test accuracy: 0.977864583333
+Test loss: 0.116540024988
+Epoch 133
+Test accuracy: 0.979166666667
+Test loss: 0.112254464223
+Epoch 134
+Test accuracy: 0.976888020833
+Test loss: 0.1156955945
+Epoch 135
+Test accuracy: 0.978841145833
+Test loss: 0.115241783982
+Epoch 136
+Test accuracy: 0.978515625
+Test loss: 0.1136539833
+Epoch 137
+Test accuracy: 0.9775390625
+Test loss: 0.115289813528
+Epoch 138
+Test accuracy: 0.976236979167
+Test loss: 0.11727023016
+Epoch 139
+Test accuracy: 0.9775390625
+Test loss: 0.116860653739
+Epoch 140
+Test accuracy: 0.978190104167
+Test loss: 0.11746839884
+Epoch 141
+Test accuracy: 0.978515625
+Test loss: 0.116126082217
+Epoch 142
+Test accuracy: 0.978190104167
+Test loss: 0.117034004846
+Epoch 143
+Test accuracy: 0.9775390625
+Test loss: 0.117243148386
+Epoch 144
+Test accuracy: 0.9765625
+Test loss: 0.118645894186
+Epoch 145
+Test accuracy: 0.978841145833
+Test loss: 0.11596759626
+Epoch 146
+Test accuracy: 0.978515625
+Test loss: 0.115354359305
+Epoch 147
+Test accuracy: 0.977864583333
+Test loss: 0.116756012198
+Epoch 148
+Test accuracy: 0.976888020833
+Test loss: 0.120937233325
+Epoch 149
+Test accuracy: 0.976888020833
+Test loss: 0.116648665164
+Epoch 150
+Test accuracy: 0.975911458333
+Test loss: 0.118946201323
+Epoch 151
+Test accuracy: 0.978190104167
+Test loss: 0.119691614993
+Epoch 152
+Test accuracy: 0.978190104167
+Test loss: 0.114734844926
+Epoch 153
+Test accuracy: 0.977213541667
+Test loss: 0.115884042345
+Epoch 154
+Test accuracy: 0.977213541667
+Test loss: 0.115154857282
+Epoch 155
+Test accuracy: 0.977864583333
+Test loss: 0.116094922181
+Epoch 156
+Test accuracy: 0.978515625
+Test loss: 0.115627731507
+Epoch 157
+Test accuracy: 0.979166666667
+Test loss: 0.115694738304
+Epoch 158
+Test accuracy: 0.979166666667
+Test loss: 0.114971740947
+Epoch 159
+Test accuracy: 0.979817708333
+Test loss: 0.116912113813
+Epoch 160
+Test accuracy: 0.978841145833
+Test loss: 0.116131102045
+Epoch 161
+Test accuracy: 0.978841145833
+Test loss: 0.115012041448
+Epoch 162
+Test accuracy: 0.976888020833
+Test loss: 0.121967926311
+Epoch 163
+Test accuracy: 0.978841145833
+Test loss: 0.116254850912
+Epoch 164
+Test accuracy: 0.9775390625
+Test loss: 0.115160546266
+Epoch 165
+Test accuracy: 0.978841145833
+Test loss: 0.115125141262
+Epoch 166
+Test accuracy: 0.978515625
+Test loss: 0.116143625695
+Epoch 167
+Test accuracy: 0.978190104167
+Test loss: 0.11519716618
+Epoch 168
+Test accuracy: 0.978841145833
+Test loss: 0.116434649254
+Epoch 169
+Test accuracy: 0.978515625
+Test loss: 0.115019106151
+Epoch 170
+Test accuracy: 0.978190104167
+Test loss: 0.116319198472
+Epoch 171
+Test accuracy: 0.978190104167
+Test loss: 0.117949104557
+Epoch 172
+Test accuracy: 0.978515625
+Test loss: 0.114101581431
+Epoch 173
+Test accuracy: 0.9775390625
+Test loss: 0.117022449616
+Epoch 174
+Test accuracy: 0.977864583333
+Test loss: 0.114099325767
+Epoch 175
+Test accuracy: 0.978190104167
+Test loss: 0.114551135184
+Epoch 176
+Test accuracy: 0.9775390625
+Test loss: 0.120715094265
+Epoch 177
+Test accuracy: 0.978841145833
+Test loss: 0.115850071578
+Epoch 178
+Test accuracy: 0.9775390625
+Test loss: 0.11494313584
+Epoch 179
+Test accuracy: 0.978515625
+Test loss: 0.11452824669
+Epoch 180
+Test accuracy: 0.978190104167
+Test loss: 0.116051786579
+Epoch 181
+Test accuracy: 0.9794921875
+Test loss: 0.117242020555
+Epoch 182
+Test accuracy: 0.9775390625
+Test loss: 0.117725399168
+Epoch 183
+Test accuracy: 0.9794921875
+Test loss: 0.116696244416
+Epoch 184
+Test accuracy: 0.978190104167
+Test loss: 0.117852051432
+Epoch 185
+Test accuracy: 0.977864583333
+Test loss: 0.113987697133
+Epoch 186
+Test accuracy: 0.978515625
+Test loss: 0.116898578592
+Epoch 187
+Test accuracy: 0.977864583333
+Test loss: 0.116380563782
+Epoch 188
+Test accuracy: 0.978841145833
+Test loss: 0.117211956065
+Epoch 189
+Test accuracy: 0.978841145833
+Test loss: 0.117757640934
+Epoch 190
+Test accuracy: 0.977864583333
+Test loss: 0.116510794032
+Epoch 191
+Test accuracy: 0.978515625
+Test loss: 0.115501378197
+Epoch 192
+Test accuracy: 0.978190104167
+Test loss: 0.114928998984
+Epoch 193
+Test accuracy: 0.979166666667
+Test loss: 0.114840825554
+Epoch 194
+Test accuracy: 0.977864583333
+Test loss: 0.116481835488
+Epoch 195
+Test accuracy: 0.977864583333
+Test loss: 0.117346144592
+Epoch 196
+Test accuracy: 0.977864583333
+Test loss: 0.113489718176
+Epoch 197
+Test accuracy: 0.9775390625
+Test loss: 0.118967961675
+Epoch 198
+Test accuracy: 0.977864583333
+Test loss: 0.114000990366
+Epoch 199
+Test accuracy: 0.977864583333
+Test loss: 0.115814627924
+0

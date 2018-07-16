@@ -1,0 +1,53 @@
+Using TensorFlow backend.
+usage: train.py [-h] [--Kth_fold KTH_FOLD] [--gpu_core GPU_CORE] [--logs LOGS]
+                [--XN XN]
+train.py: error: unrecognized arguments: X1111A1.txt
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "train.py", line 6, in <module>
+    from keras.preprocessing.image import ImageDataGenerator
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/keras/__init__.py", line 3, in <module>
+    from . import activations
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/keras/activations.py", line 4, in <module>
+    from . import backend as K
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/keras/backend/__init__.py", line 83, in <module>
+    from .tensorflow_backend import *
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/keras/backend/tensorflow_backend.py", line 1, in <module>
+    import tensorflow as tf
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/tensorflow/__init__.py", line 24, in <module>
+    from tensorflow.python import *
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/tensorflow/python/__init__.py", line 52, in <module>
+    from tensorflow.core.framework.graph_pb2 import *
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/tensorflow/core/framework/graph_pb2.py", line 6, in <module>
+    from google.protobuf import descriptor as _descriptor
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/google/__init__.py", line 2, in <module>
+    __import__('pkg_resources').declare_namespace(__name__)
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/pkg_resources/__init__.py", line 3074, in <module>
+    @_call_aside
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/pkg_resources/__init__.py", line 3058, in _call_aside
+    f(*args, **kwargs)
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/pkg_resources/__init__.py", line 3087, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/pkg_resources/__init__.py", line 655, in _build_master
+    ws = cls()
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/pkg_resources/__init__.py", line 648, in __init__
+    self.add_entry(entry)
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/pkg_resources/__init__.py", line 704, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/pkg_resources/__init__.py", line 2059, in find_on_path
+    path_item, entry, metadata, precedence=DEVELOP_DIST
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/pkg_resources/__init__.py", line 2488, in from_location
+    py_version=py_version, platform=platform, **kw
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/pkg_resources/__init__.py", line 2828, in _reload_version
+    md_version = _version_from_file(self._get_metadata(self.PKG_INFO))
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/pkg_resources/__init__.py", line 2453, in _version_from_file
+    line = next(iter(version_lines), '')
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/pkg_resources/__init__.py", line 2621, in _get_metadata
+    for line in self.get_metadata_lines(name):
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/pkg_resources/__init__.py", line 1490, in get_metadata_lines
+    return yield_lines(self.get_metadata(name))
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/pkg_resources/__init__.py", line 1486, in get_metadata
+    value = self._get(self._fn(self.egg_info, name))
+  File "/home/lihang/anaconda2/envs/p352/lib/python3.5/site-packages/pkg_resources/__init__.py", line 1596, in _get
+    return stream.read()
+KeyboardInterrupt

@@ -1,0 +1,1829 @@
+2017-11-11 12:56:06.632885: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-11 12:56:06.632930: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-11 12:56:06.632935: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-11 12:56:06.632939: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-11 12:56:06.632942: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-11 12:56:12.137922: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:84:00.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+2017-11-11 12:56:12.137965: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-11-11 12:56:12.137970: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-11-11 12:56:12.137979: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:84:00.0)
+(24159, 50, 15, 1)
+(24159, 1)
+Train:  23917
+Test:  242
+(?, 7, 2, 128)
+Epoch 0
+Train accuracy: 0.515
+Train loss: 2.91065
+Test accuracy: 0.53719
+Test loss: 2.94118
+Train accuracy: 0.735
+Train loss: 1.49464
+Test accuracy: 0.694215
+Test loss: 1.58707
+Epoch 1
+Train accuracy: 0.74
+Train loss: 1.04897
+Test accuracy: 0.822314
+Test loss: 0.87086
+Train accuracy: 0.875
+Train loss: 0.63094
+Test accuracy: 0.842975
+Test loss: 0.6759
+Epoch 2
+Train accuracy: 0.88
+Train loss: 0.519664
+Test accuracy: 0.871901
+Test loss: 0.452187
+Train accuracy: 0.935
+Train loss: 0.351437
+Test accuracy: 0.892562
+Test loss: 0.403436
+Epoch 3
+Train accuracy: 0.92
+Train loss: 0.321714
+Test accuracy: 0.909091
+Test loss: 0.309489
+Train accuracy: 0.955
+Train loss: 0.220701
+Test accuracy: 0.933884
+Test loss: 0.271683
+Epoch 4
+Train accuracy: 0.955
+Train loss: 0.224741
+Test accuracy: 0.946281
+Test loss: 0.232313
+Train accuracy: 0.97
+Train loss: 0.172432
+Test accuracy: 0.958678
+Test loss: 0.221797
+Epoch 5
+Train accuracy: 0.96
+Train loss: 0.174249
+Test accuracy: 0.96281
+Test loss: 0.195958
+Train accuracy: 0.98
+Train loss: 0.13668
+Test accuracy: 0.958678
+Test loss: 0.183869
+Epoch 6
+Train accuracy: 0.97
+Train loss: 0.144601
+Test accuracy: 0.966942
+Test loss: 0.166576
+Train accuracy: 0.98
+Train loss: 0.116898
+Test accuracy: 0.966942
+Test loss: 0.155496
+Epoch 7
+Train accuracy: 0.975
+Train loss: 0.129422
+Test accuracy: 0.971074
+Test loss: 0.153058
+Train accuracy: 0.975
+Train loss: 0.106686
+Test accuracy: 0.971074
+Test loss: 0.14366
+Epoch 8
+Train accuracy: 0.975
+Train loss: 0.110456
+Test accuracy: 0.975207
+Test loss: 0.133419
+Train accuracy: 0.975
+Train loss: 0.096191
+Test accuracy: 0.971074
+Test loss: 0.136252
+Epoch 9
+Train accuracy: 0.98
+Train loss: 0.101085
+Test accuracy: 0.975207
+Test loss: 0.127698
+Train accuracy: 0.975
+Train loss: 0.0897333
+Test accuracy: 0.979339
+Test loss: 0.122715
+Epoch 10
+Train accuracy: 0.98
+Train loss: 0.0863392
+Test accuracy: 0.979339
+Test loss: 0.119042
+Train accuracy: 0.98
+Train loss: 0.0833135
+Test accuracy: 0.979339
+Test loss: 0.116441
+Epoch 11
+Train accuracy: 0.985
+Train loss: 0.0870744
+Test accuracy: 0.979339
+Test loss: 0.110072
+Train accuracy: 0.975
+Train loss: 0.0793789
+Test accuracy: 0.983471
+Test loss: 0.111856
+Epoch 12
+Train accuracy: 0.985
+Train loss: 0.0804484
+Test accuracy: 0.975207
+Test loss: 0.109858
+Train accuracy: 0.98
+Train loss: 0.0783554
+Test accuracy: 0.983471
+Test loss: 0.108012
+Epoch 13
+Train accuracy: 0.98
+Train loss: 0.0788337
+Test accuracy: 0.983471
+Test loss: 0.1052
+Train accuracy: 0.98
+Train loss: 0.0764785
+Test accuracy: 0.983471
+Test loss: 0.105637
+Epoch 14
+Train accuracy: 0.985
+Train loss: 0.0745085
+Test accuracy: 0.983471
+Test loss: 0.102279
+Train accuracy: 0.98
+Train loss: 0.0714053
+Test accuracy: 0.983471
+Test loss: 0.0983753
+Epoch 15
+Train accuracy: 0.985
+Train loss: 0.0715746
+Test accuracy: 0.987603
+Test loss: 0.0949676
+Train accuracy: 0.98
+Train loss: 0.0657566
+Test accuracy: 0.983471
+Test loss: 0.0978362
+Epoch 16
+Train accuracy: 0.985
+Train loss: 0.071168
+Test accuracy: 0.987603
+Test loss: 0.0969984
+Train accuracy: 0.98
+Train loss: 0.0631903
+Test accuracy: 0.987603
+Test loss: 0.0971656
+Epoch 17
+Train accuracy: 0.985
+Train loss: 0.0683502
+Test accuracy: 0.987603
+Test loss: 0.100497
+Train accuracy: 0.98
+Train loss: 0.0625292
+Test accuracy: 0.987603
+Test loss: 0.0947716
+Epoch 18
+Train accuracy: 0.985
+Train loss: 0.064787
+Test accuracy: 0.987603
+Test loss: 0.0973436
+Train accuracy: 0.98
+Train loss: 0.0625354
+Test accuracy: 0.987603
+Test loss: 0.0930273
+Epoch 19
+Train accuracy: 0.985
+Train loss: 0.0643833
+Test accuracy: 0.987603
+Test loss: 0.0953522
+Train accuracy: 0.98
+Train loss: 0.0628396
+Test accuracy: 0.987603
+Test loss: 0.0954504
+Epoch 20
+Train accuracy: 0.98
+Train loss: 0.0612213
+Test accuracy: 0.987603
+Test loss: 0.0953724
+Train accuracy: 0.98
+Train loss: 0.0590542
+Test accuracy: 0.987603
+Test loss: 0.0942149
+Epoch 21
+Train accuracy: 0.985
+Train loss: 0.0612927
+Test accuracy: 0.987603
+Test loss: 0.0941868
+Train accuracy: 0.98
+Train loss: 0.0611356
+Test accuracy: 0.987603
+Test loss: 0.0939057
+Epoch 22
+Train accuracy: 0.985
+Train loss: 0.0654569
+Test accuracy: 0.987603
+Test loss: 0.096082
+Train accuracy: 0.985
+Train loss: 0.0572991
+Test accuracy: 0.987603
+Test loss: 0.094395
+Epoch 23
+Train accuracy: 0.985
+Train loss: 0.0603244
+Test accuracy: 0.991736
+Test loss: 0.0920131
+Train accuracy: 0.98
+Train loss: 0.0588346
+Test accuracy: 0.987603
+Test loss: 0.0931121
+Epoch 24
+Train accuracy: 0.985
+Train loss: 0.0575411
+Test accuracy: 0.991736
+Test loss: 0.0928641
+Train accuracy: 0.975
+Train loss: 0.056644
+Test accuracy: 0.987603
+Test loss: 0.0935946
+Epoch 25
+Train accuracy: 0.99
+Train loss: 0.055123
+Test accuracy: 0.987603
+Test loss: 0.095593
+Train accuracy: 0.98
+Train loss: 0.0524393
+Test accuracy: 0.987603
+Test loss: 0.0965215
+Epoch 26
+Train accuracy: 0.99
+Train loss: 0.0554152
+Test accuracy: 0.983471
+Test loss: 0.0978578
+Train accuracy: 0.98
+Train loss: 0.0530602
+Test accuracy: 0.987603
+Test loss: 0.0937293
+Epoch 27
+Train accuracy: 0.985
+Train loss: 0.0526718
+Test accuracy: 0.987603
+Test loss: 0.0983028
+Train accuracy: 0.99
+Train loss: 0.0521792
+Test accuracy: 0.987603
+Test loss: 0.0981029
+Epoch 28
+Train accuracy: 0.985
+Train loss: 0.0576528
+Test accuracy: 0.987603
+Test loss: 0.0978642
+Train accuracy: 0.98
+Train loss: 0.0552218
+Test accuracy: 0.987603
+Test loss: 0.0973875
+Epoch 29
+Train accuracy: 0.99
+Train loss: 0.0539644
+Test accuracy: 0.987603
+Test loss: 0.10055
+Train accuracy: 0.98
+Train loss: 0.0525818
+Test accuracy: 0.987603
+Test loss: 0.0970564
+Epoch 30
+Train accuracy: 0.99
+Train loss: 0.0579263
+Test accuracy: 0.987603
+Test loss: 0.0981211
+Train accuracy: 0.99
+Train loss: 0.0517653
+Test accuracy: 0.987603
+Test loss: 0.0973368
+Epoch 31
+Train accuracy: 0.985
+Train loss: 0.0559059
+Test accuracy: 0.987603
+Test loss: 0.0963105
+Train accuracy: 0.99
+Train loss: 0.0462838
+Test accuracy: 0.987603
+Test loss: 0.101024
+Epoch 32
+Train accuracy: 0.99
+Train loss: 0.052096
+Test accuracy: 0.987603
+Test loss: 0.0996389
+Train accuracy: 0.99
+Train loss: 0.0415045
+Test accuracy: 0.987603
+Test loss: 0.0976943
+Epoch 33
+Train accuracy: 0.98
+Train loss: 0.0535404
+Test accuracy: 0.987603
+Test loss: 0.101769
+Train accuracy: 0.985
+Train loss: 0.0495136
+Test accuracy: 0.987603
+Test loss: 0.100941
+Epoch 34
+Train accuracy: 0.985
+Train loss: 0.0490259
+Test accuracy: 0.987603
+Test loss: 0.100799
+Train accuracy: 0.985
+Train loss: 0.049614
+Test accuracy: 0.987603
+Test loss: 0.101245
+Epoch 35
+Train accuracy: 0.985
+Train loss: 0.0463032
+Test accuracy: 0.983471
+Test loss: 0.103929
+Train accuracy: 0.99
+Train loss: 0.0427937
+Test accuracy: 0.987603
+Test loss: 0.100421
+Epoch 36
+Train accuracy: 0.99
+Train loss: 0.0507722
+Test accuracy: 0.983471
+Test loss: 0.102931
+Train accuracy: 0.985
+Train loss: 0.0410866
+Test accuracy: 0.987603
+Test loss: 0.0985228
+Epoch 37
+Train accuracy: 0.995
+Train loss: 0.0491978
+Test accuracy: 0.987603
+Test loss: 0.0999643
+Train accuracy: 0.985
+Train loss: 0.0497169
+Test accuracy: 0.987603
+Test loss: 0.101059
+Epoch 38
+Train accuracy: 0.99
+Train loss: 0.044732
+Test accuracy: 0.987603
+Test loss: 0.100044
+Train accuracy: 0.99
+Train loss: 0.0415663
+Test accuracy: 0.987603
+Test loss: 0.0988079
+Epoch 39
+Train accuracy: 0.995
+Train loss: 0.0382652
+Test accuracy: 0.983471
+Test loss: 0.100399
+Train accuracy: 0.99
+Train loss: 0.043765
+Test accuracy: 0.987603
+Test loss: 0.0993727
+Epoch 40
+Train accuracy: 0.99
+Train loss: 0.0410243
+Test accuracy: 0.987603
+Test loss: 0.0993231
+Train accuracy: 0.99
+Train loss: 0.042072
+Test accuracy: 0.987603
+Test loss: 0.100069
+Epoch 41
+Train accuracy: 0.985
+Train loss: 0.0424137
+Test accuracy: 0.987603
+Test loss: 0.0978606
+Train accuracy: 0.99
+Train loss: 0.040369
+Test accuracy: 0.987603
+Test loss: 0.10048
+Epoch 42
+Train accuracy: 0.985
+Train loss: 0.0447481
+Test accuracy: 0.987603
+Test loss: 0.101159
+Train accuracy: 0.99
+Train loss: 0.0362822
+Test accuracy: 0.987603
+Test loss: 0.0990983
+Epoch 43
+Train accuracy: 0.985
+Train loss: 0.0428676
+Test accuracy: 0.987603
+Test loss: 0.098606
+Train accuracy: 0.99
+Train loss: 0.0335543
+Test accuracy: 0.987603
+Test loss: 0.0987766
+Epoch 44
+Train accuracy: 0.99
+Train loss: 0.0413626
+Test accuracy: 0.987603
+Test loss: 0.104016
+Train accuracy: 0.99
+Train loss: 0.0352927
+Test accuracy: 0.987603
+Test loss: 0.0990674
+Epoch 45
+Train accuracy: 0.99
+Train loss: 0.0416484
+Test accuracy: 0.987603
+Test loss: 0.101037
+Train accuracy: 0.99
+Train loss: 0.0357086
+Test accuracy: 0.987603
+Test loss: 0.0999703
+Epoch 46
+Train accuracy: 0.99
+Train loss: 0.043509
+Test accuracy: 0.987603
+Test loss: 0.100581
+Train accuracy: 0.99
+Train loss: 0.0344405
+Test accuracy: 0.987603
+Test loss: 0.0948067
+Epoch 47
+Train accuracy: 0.995
+Train loss: 0.0385922
+Test accuracy: 0.987603
+Test loss: 0.105557
+Train accuracy: 0.99
+Train loss: 0.036566
+Test accuracy: 0.987603
+Test loss: 0.100692
+Epoch 48
+Train accuracy: 0.995
+Train loss: 0.040216
+Test accuracy: 0.983471
+Test loss: 0.103956
+Train accuracy: 0.99
+Train loss: 0.0384031
+Test accuracy: 0.987603
+Test loss: 0.099955
+Epoch 49
+Train accuracy: 0.995
+Train loss: 0.0371988
+Test accuracy: 0.987603
+Test loss: 0.103937
+Train accuracy: 0.99
+Train loss: 0.0380114
+Test accuracy: 0.987603
+Test loss: 0.100694
+Epoch 50
+Train accuracy: 0.995
+Train loss: 0.0379821
+Test accuracy: 0.983471
+Test loss: 0.102091
+Train accuracy: 0.99
+Train loss: 0.0418323
+Test accuracy: 0.987603
+Test loss: 0.104168
+Epoch 51
+Train accuracy: 0.995
+Train loss: 0.0400285
+Test accuracy: 0.983471
+Test loss: 0.105633
+Train accuracy: 0.99
+Train loss: 0.0362437
+Test accuracy: 0.987603
+Test loss: 0.104069
+Epoch 52
+Train accuracy: 0.995
+Train loss: 0.034394
+Test accuracy: 0.983471
+Test loss: 0.105857
+Train accuracy: 0.99
+Train loss: 0.0381731
+Test accuracy: 0.987603
+Test loss: 0.10557
+Epoch 53
+Train accuracy: 0.995
+Train loss: 0.0326654
+Test accuracy: 0.983471
+Test loss: 0.104534
+Train accuracy: 0.99
+Train loss: 0.0311854
+Test accuracy: 0.987603
+Test loss: 0.101304
+Epoch 54
+Train accuracy: 0.995
+Train loss: 0.0355181
+Test accuracy: 0.983471
+Test loss: 0.10476
+Train accuracy: 0.99
+Train loss: 0.0352496
+Test accuracy: 0.987603
+Test loss: 0.103942
+Epoch 55
+Train accuracy: 0.995
+Train loss: 0.0331654
+Test accuracy: 0.983471
+Test loss: 0.106878
+Train accuracy: 0.99
+Train loss: 0.0345461
+Test accuracy: 0.987603
+Test loss: 0.102034
+Epoch 56
+Train accuracy: 0.995
+Train loss: 0.0314017
+Test accuracy: 0.983471
+Test loss: 0.106152
+Train accuracy: 0.99
+Train loss: 0.0315186
+Test accuracy: 0.987603
+Test loss: 0.100157
+Epoch 57
+Train accuracy: 0.99
+Train loss: 0.0310829
+Test accuracy: 0.987603
+Test loss: 0.103725
+Train accuracy: 0.99
+Train loss: 0.0317679
+Test accuracy: 0.987603
+Test loss: 0.0991284
+Epoch 58
+Train accuracy: 0.995
+Train loss: 0.0345441
+Test accuracy: 0.991736
+Test loss: 0.106211
+Train accuracy: 0.99
+Train loss: 0.0291276
+Test accuracy: 0.987603
+Test loss: 0.1034
+Epoch 59
+Train accuracy: 0.995
+Train loss: 0.0373655
+Test accuracy: 0.983471
+Test loss: 0.107669
+Train accuracy: 0.99
+Train loss: 0.0281668
+Test accuracy: 0.987603
+Test loss: 0.105296
+Epoch 60
+Train accuracy: 0.995
+Train loss: 0.0401874
+Test accuracy: 0.983471
+Test loss: 0.107234
+Train accuracy: 0.99
+Train loss: 0.0275722
+Test accuracy: 0.987603
+Test loss: 0.105424
+Epoch 61
+Train accuracy: 0.995
+Train loss: 0.0359444
+Test accuracy: 0.983471
+Test loss: 0.113203
+Train accuracy: 0.99
+Train loss: 0.0290443
+Test accuracy: 0.987603
+Test loss: 0.106829
+Epoch 62
+Train accuracy: 0.995
+Train loss: 0.03178
+Test accuracy: 0.983471
+Test loss: 0.106614
+Train accuracy: 0.99
+Train loss: 0.0256686
+Test accuracy: 0.987603
+Test loss: 0.107205
+Epoch 63
+Train accuracy: 0.995
+Train loss: 0.03479
+Test accuracy: 0.983471
+Test loss: 0.110931
+Train accuracy: 0.99
+Train loss: 0.0279349
+Test accuracy: 0.987603
+Test loss: 0.114552
+Epoch 64
+Train accuracy: 0.995
+Train loss: 0.0293814
+Test accuracy: 0.983471
+Test loss: 0.109075
+Train accuracy: 0.99
+Train loss: 0.0299213
+Test accuracy: 0.987603
+Test loss: 0.107881
+Epoch 65
+Train accuracy: 0.995
+Train loss: 0.0307946
+Test accuracy: 0.983471
+Test loss: 0.11242
+Train accuracy: 0.99
+Train loss: 0.026058
+Test accuracy: 0.987603
+Test loss: 0.107225
+Epoch 66
+Train accuracy: 0.99
+Train loss: 0.0276951
+Test accuracy: 0.983471
+Test loss: 0.111445
+Train accuracy: 0.99
+Train loss: 0.0309047
+Test accuracy: 0.987603
+Test loss: 0.106017
+Epoch 67
+Train accuracy: 0.995
+Train loss: 0.0263336
+Test accuracy: 0.983471
+Test loss: 0.106365
+Train accuracy: 0.99
+Train loss: 0.0248584
+Test accuracy: 0.987603
+Test loss: 0.10376
+Epoch 68
+Train accuracy: 0.99
+Train loss: 0.0302247
+Test accuracy: 0.979339
+Test loss: 0.110485
+Train accuracy: 0.99
+Train loss: 0.0241304
+Test accuracy: 0.987603
+Test loss: 0.103671
+Epoch 69
+Train accuracy: 0.99
+Train loss: 0.0289493
+Test accuracy: 0.983471
+Test loss: 0.107901
+Train accuracy: 0.99
+Train loss: 0.0236476
+Test accuracy: 0.987603
+Test loss: 0.107973
+Epoch 70
+Train accuracy: 0.995
+Train loss: 0.0271169
+Test accuracy: 0.983471
+Test loss: 0.113463
+Train accuracy: 0.99
+Train loss: 0.0295783
+Test accuracy: 0.987603
+Test loss: 0.106675
+Epoch 71
+Train accuracy: 0.995
+Train loss: 0.0316745
+Test accuracy: 0.983471
+Test loss: 0.115301
+Train accuracy: 0.99
+Train loss: 0.0244627
+Test accuracy: 0.987603
+Test loss: 0.108578
+Epoch 72
+Train accuracy: 0.99
+Train loss: 0.0258347
+Test accuracy: 0.983471
+Test loss: 0.113456
+Train accuracy: 0.99
+Train loss: 0.0255607
+Test accuracy: 0.987603
+Test loss: 0.110873
+Epoch 73
+Train accuracy: 0.99
+Train loss: 0.027522
+Test accuracy: 0.983471
+Test loss: 0.11191
+Train accuracy: 0.99
+Train loss: 0.0284059
+Test accuracy: 0.987603
+Test loss: 0.110262
+Epoch 74
+Train accuracy: 0.99
+Train loss: 0.0304196
+Test accuracy: 0.987603
+Test loss: 0.112773
+Train accuracy: 0.99
+Train loss: 0.0223716
+Test accuracy: 0.987603
+Test loss: 0.108199
+Epoch 75
+Train accuracy: 0.99
+Train loss: 0.0276878
+Test accuracy: 0.987603
+Test loss: 0.113651
+Train accuracy: 0.99
+Train loss: 0.0236848
+Test accuracy: 0.987603
+Test loss: 0.106676
+Epoch 76
+Train accuracy: 0.99
+Train loss: 0.0265554
+Test accuracy: 0.987603
+Test loss: 0.110322
+Train accuracy: 0.99
+Train loss: 0.0246122
+Test accuracy: 0.987603
+Test loss: 0.106636
+Epoch 77
+Train accuracy: 0.995
+Train loss: 0.0271433
+Test accuracy: 0.983471
+Test loss: 0.11098
+Train accuracy: 0.99
+Train loss: 0.0248326
+Test accuracy: 0.987603
+Test loss: 0.110057
+Epoch 78
+Train accuracy: 0.99
+Train loss: 0.0267142
+Test accuracy: 0.983471
+Test loss: 0.118376
+Train accuracy: 0.99
+Train loss: 0.0203005
+Test accuracy: 0.987603
+Test loss: 0.11338
+Epoch 79
+Train accuracy: 0.995
+Train loss: 0.0231221
+Test accuracy: 0.983471
+Test loss: 0.117692
+Train accuracy: 0.995
+Train loss: 0.018691
+Test accuracy: 0.987603
+Test loss: 0.110443
+Epoch 80
+Train accuracy: 0.985
+Train loss: 0.02751
+Test accuracy: 0.987603
+Test loss: 0.114322
+Train accuracy: 0.99
+Train loss: 0.0212274
+Test accuracy: 0.987603
+Test loss: 0.108441
+Epoch 81
+Train accuracy: 0.995
+Train loss: 0.0259724
+Test accuracy: 0.983471
+Test loss: 0.112871
+Train accuracy: 0.995
+Train loss: 0.0167081
+Test accuracy: 0.987603
+Test loss: 0.108019
+Epoch 82
+Train accuracy: 0.995
+Train loss: 0.026494
+Test accuracy: 0.983471
+Test loss: 0.11601
+Train accuracy: 0.99
+Train loss: 0.0216684
+Test accuracy: 0.987603
+Test loss: 0.113955
+Epoch 83
+Train accuracy: 0.995
+Train loss: 0.0245309
+Test accuracy: 0.983471
+Test loss: 0.113709
+Train accuracy: 0.99
+Train loss: 0.0241934
+Test accuracy: 0.987603
+Test loss: 0.109615
+Epoch 84
+Train accuracy: 0.995
+Train loss: 0.021539
+Test accuracy: 0.987603
+Test loss: 0.113752
+Train accuracy: 0.99
+Train loss: 0.0227351
+Test accuracy: 0.987603
+Test loss: 0.109985
+Epoch 85
+Train accuracy: 0.995
+Train loss: 0.022905
+Test accuracy: 0.983471
+Test loss: 0.119837
+Train accuracy: 0.99
+Train loss: 0.0211056
+Test accuracy: 0.987603
+Test loss: 0.110993
+Epoch 86
+Train accuracy: 0.995
+Train loss: 0.0279695
+Test accuracy: 0.979339
+Test loss: 0.118173
+Train accuracy: 0.99
+Train loss: 0.0183967
+Test accuracy: 0.987603
+Test loss: 0.109266
+Epoch 87
+Train accuracy: 0.99
+Train loss: 0.0238888
+Test accuracy: 0.983471
+Test loss: 0.118211
+Train accuracy: 0.995
+Train loss: 0.0199824
+Test accuracy: 0.987603
+Test loss: 0.112053
+Epoch 88
+Train accuracy: 0.995
+Train loss: 0.0275544
+Test accuracy: 0.983471
+Test loss: 0.116794
+Train accuracy: 0.995
+Train loss: 0.0192621
+Test accuracy: 0.987603
+Test loss: 0.110639
+Epoch 89
+Train accuracy: 0.995
+Train loss: 0.0256542
+Test accuracy: 0.979339
+Test loss: 0.116836
+Train accuracy: 0.995
+Train loss: 0.0161076
+Test accuracy: 0.987603
+Test loss: 0.109143
+Epoch 90
+Train accuracy: 1.0
+Train loss: 0.0234232
+Test accuracy: 0.983471
+Test loss: 0.115947
+Train accuracy: 0.995
+Train loss: 0.0163725
+Test accuracy: 0.987603
+Test loss: 0.109868
+Epoch 91
+Train accuracy: 0.99
+Train loss: 0.0252705
+Test accuracy: 0.983471
+Test loss: 0.114945
+Train accuracy: 0.99
+Train loss: 0.0166361
+Test accuracy: 0.987603
+Test loss: 0.112849
+Epoch 92
+Train accuracy: 0.995
+Train loss: 0.0222612
+Test accuracy: 0.983471
+Test loss: 0.117407
+Train accuracy: 0.995
+Train loss: 0.0144715
+Test accuracy: 0.987603
+Test loss: 0.112859
+Epoch 93
+Train accuracy: 0.99
+Train loss: 0.0259989
+Test accuracy: 0.983471
+Test loss: 0.118941
+Train accuracy: 1.0
+Train loss: 0.0133809
+Test accuracy: 0.987603
+Test loss: 0.115826
+Epoch 94
+Train accuracy: 0.99
+Train loss: 0.0230628
+Test accuracy: 0.987603
+Test loss: 0.120165
+Train accuracy: 0.99
+Train loss: 0.0182193
+Test accuracy: 0.987603
+Test loss: 0.114215
+Epoch 95
+Train accuracy: 1.0
+Train loss: 0.0214324
+Test accuracy: 0.983471
+Test loss: 0.119522
+Train accuracy: 0.995
+Train loss: 0.0140098
+Test accuracy: 0.987603
+Test loss: 0.113458
+Epoch 96
+Train accuracy: 0.995
+Train loss: 0.0259536
+Test accuracy: 0.983471
+Test loss: 0.120064
+Train accuracy: 1.0
+Train loss: 0.0120589
+Test accuracy: 0.987603
+Test loss: 0.115249
+Epoch 97
+Train accuracy: 0.99
+Train loss: 0.0248774
+Test accuracy: 0.983471
+Test loss: 0.123738
+Train accuracy: 1.0
+Train loss: 0.0143328
+Test accuracy: 0.987603
+Test loss: 0.115981
+Epoch 98
+Train accuracy: 0.99
+Train loss: 0.0229555
+Test accuracy: 0.983471
+Test loss: 0.125329
+Train accuracy: 0.995
+Train loss: 0.0158294
+Test accuracy: 0.987603
+Test loss: 0.120084
+Epoch 99
+Train accuracy: 0.99
+Train loss: 0.0230659
+Test accuracy: 0.983471
+Test loss: 0.124786
+Train accuracy: 1.0
+Train loss: 0.0130602
+Test accuracy: 0.987603
+Test loss: 0.11795
+Epoch 100
+Train accuracy: 0.99
+Train loss: 0.0258487
+Test accuracy: 0.983471
+Test loss: 0.118344
+Train accuracy: 0.99
+Train loss: 0.0157655
+Test accuracy: 0.987603
+Test loss: 0.114327
+Epoch 101
+Train accuracy: 0.985
+Train loss: 0.0245637
+Test accuracy: 0.983471
+Test loss: 0.120443
+Train accuracy: 0.995
+Train loss: 0.0143075
+Test accuracy: 0.987603
+Test loss: 0.114927
+Epoch 102
+Train accuracy: 1.0
+Train loss: 0.0233796
+Test accuracy: 0.983471
+Test loss: 0.121447
+Train accuracy: 0.995
+Train loss: 0.0151941
+Test accuracy: 0.987603
+Test loss: 0.11582
+Epoch 103
+Train accuracy: 0.995
+Train loss: 0.0225227
+Test accuracy: 0.983471
+Test loss: 0.11771
+Train accuracy: 0.995
+Train loss: 0.014682
+Test accuracy: 0.987603
+Test loss: 0.113644
+Epoch 104
+Train accuracy: 0.995
+Train loss: 0.0270661
+Test accuracy: 0.987603
+Test loss: 0.11983
+Train accuracy: 0.995
+Train loss: 0.0154876
+Test accuracy: 0.987603
+Test loss: 0.113233
+Epoch 105
+Train accuracy: 0.99
+Train loss: 0.0249873
+Test accuracy: 0.983471
+Test loss: 0.121865
+Train accuracy: 1.0
+Train loss: 0.0141456
+Test accuracy: 0.987603
+Test loss: 0.113584
+Epoch 106
+Train accuracy: 0.99
+Train loss: 0.0283411
+Test accuracy: 0.983471
+Test loss: 0.120845
+Train accuracy: 0.995
+Train loss: 0.0150125
+Test accuracy: 0.987603
+Test loss: 0.112423
+Epoch 107
+Train accuracy: 0.995
+Train loss: 0.0255107
+Test accuracy: 0.983471
+Test loss: 0.117989
+Train accuracy: 1.0
+Train loss: 0.0117321
+Test accuracy: 0.987603
+Test loss: 0.111017
+Epoch 108
+Train accuracy: 1.0
+Train loss: 0.0215439
+Test accuracy: 0.983471
+Test loss: 0.117009
+Train accuracy: 0.995
+Train loss: 0.0146182
+Test accuracy: 0.987603
+Test loss: 0.11016
+Epoch 109
+Train accuracy: 1.0
+Train loss: 0.0210464
+Test accuracy: 0.983471
+Test loss: 0.116424
+Train accuracy: 0.995
+Train loss: 0.0152354
+Test accuracy: 0.987603
+Test loss: 0.114651
+Epoch 110
+Train accuracy: 1.0
+Train loss: 0.0206157
+Test accuracy: 0.983471
+Test loss: 0.120112
+Train accuracy: 1.0
+Train loss: 0.0129892
+Test accuracy: 0.987603
+Test loss: 0.112494
+Epoch 111
+Train accuracy: 0.995
+Train loss: 0.0253208
+Test accuracy: 0.983471
+Test loss: 0.117126
+Train accuracy: 0.995
+Train loss: 0.0148247
+Test accuracy: 0.987603
+Test loss: 0.110642
+Epoch 112
+Train accuracy: 1.0
+Train loss: 0.020403
+Test accuracy: 0.987603
+Test loss: 0.118655
+Train accuracy: 1.0
+Train loss: 0.0121818
+Test accuracy: 0.987603
+Test loss: 0.115409
+Epoch 113
+Train accuracy: 1.0
+Train loss: 0.0215176
+Test accuracy: 0.983471
+Test loss: 0.122375
+Train accuracy: 1.0
+Train loss: 0.0115762
+Test accuracy: 0.987603
+Test loss: 0.115457
+Epoch 114
+Train accuracy: 0.995
+Train loss: 0.0236805
+Test accuracy: 0.983471
+Test loss: 0.115444
+Train accuracy: 0.995
+Train loss: 0.0148401
+Test accuracy: 0.987603
+Test loss: 0.114831
+Epoch 115
+Train accuracy: 1.0
+Train loss: 0.0212277
+Test accuracy: 0.983471
+Test loss: 0.120117
+Train accuracy: 1.0
+Train loss: 0.0114273
+Test accuracy: 0.987603
+Test loss: 0.120388
+Epoch 116
+Train accuracy: 1.0
+Train loss: 0.0233386
+Test accuracy: 0.983471
+Test loss: 0.125206
+Train accuracy: 0.99
+Train loss: 0.016082
+Test accuracy: 0.987603
+Test loss: 0.119945
+Epoch 117
+Train accuracy: 0.995
+Train loss: 0.0222826
+Test accuracy: 0.983471
+Test loss: 0.12774
+Train accuracy: 1.0
+Train loss: 0.0128229
+Test accuracy: 0.987603
+Test loss: 0.119746
+Epoch 118
+Train accuracy: 1.0
+Train loss: 0.0217915
+Test accuracy: 0.983471
+Test loss: 0.124773
+Train accuracy: 1.0
+Train loss: 0.0113336
+Test accuracy: 0.987603
+Test loss: 0.118899
+Epoch 119
+Train accuracy: 0.995
+Train loss: 0.0201974
+Test accuracy: 0.983471
+Test loss: 0.126309
+Train accuracy: 0.995
+Train loss: 0.0139597
+Test accuracy: 0.987603
+Test loss: 0.117563
+Epoch 120
+Train accuracy: 1.0
+Train loss: 0.021274
+Test accuracy: 0.983471
+Test loss: 0.125701
+Train accuracy: 1.0
+Train loss: 0.0109813
+Test accuracy: 0.987603
+Test loss: 0.119799
+Epoch 121
+Train accuracy: 0.99
+Train loss: 0.0221817
+Test accuracy: 0.983471
+Test loss: 0.124437
+Train accuracy: 1.0
+Train loss: 0.00896695
+Test accuracy: 0.987603
+Test loss: 0.120285
+Epoch 122
+Train accuracy: 0.99
+Train loss: 0.023665
+Test accuracy: 0.983471
+Test loss: 0.120123
+Train accuracy: 1.0
+Train loss: 0.00952334
+Test accuracy: 0.987603
+Test loss: 0.116796
+Epoch 123
+Train accuracy: 0.995
+Train loss: 0.0204701
+Test accuracy: 0.983471
+Test loss: 0.123024
+Train accuracy: 1.0
+Train loss: 0.0114457
+Test accuracy: 0.987603
+Test loss: 0.113723
+Epoch 124
+Train accuracy: 1.0
+Train loss: 0.0199684
+Test accuracy: 0.983471
+Test loss: 0.122401
+Train accuracy: 1.0
+Train loss: 0.0126791
+Test accuracy: 0.987603
+Test loss: 0.117621
+Epoch 125
+Train accuracy: 1.0
+Train loss: 0.0207853
+Test accuracy: 0.983471
+Test loss: 0.123008
+Train accuracy: 1.0
+Train loss: 0.0122647
+Test accuracy: 0.987603
+Test loss: 0.118372
+Epoch 126
+Train accuracy: 0.99
+Train loss: 0.0222643
+Test accuracy: 0.983471
+Test loss: 0.119503
+Train accuracy: 1.0
+Train loss: 0.00883436
+Test accuracy: 0.987603
+Test loss: 0.111112
+Epoch 127
+Train accuracy: 0.985
+Train loss: 0.0263687
+Test accuracy: 0.983471
+Test loss: 0.122703
+Train accuracy: 1.0
+Train loss: 0.0111659
+Test accuracy: 0.987603
+Test loss: 0.112742
+Epoch 128
+Train accuracy: 0.995
+Train loss: 0.0205916
+Test accuracy: 0.983471
+Test loss: 0.119666
+Train accuracy: 1.0
+Train loss: 0.0113134
+Test accuracy: 0.987603
+Test loss: 0.115109
+Epoch 129
+Train accuracy: 0.995
+Train loss: 0.0247274
+Test accuracy: 0.983471
+Test loss: 0.116269
+Train accuracy: 1.0
+Train loss: 0.0104693
+Test accuracy: 0.987603
+Test loss: 0.115791
+Epoch 130
+Train accuracy: 0.995
+Train loss: 0.0221185
+Test accuracy: 0.983471
+Test loss: 0.123175
+Train accuracy: 1.0
+Train loss: 0.00972528
+Test accuracy: 0.987603
+Test loss: 0.11495
+Epoch 131
+Train accuracy: 1.0
+Train loss: 0.0194826
+Test accuracy: 0.983471
+Test loss: 0.121563
+Train accuracy: 1.0
+Train loss: 0.00979832
+Test accuracy: 0.987603
+Test loss: 0.118265
+Epoch 132
+Train accuracy: 0.995
+Train loss: 0.0212554
+Test accuracy: 0.983471
+Test loss: 0.129169
+Train accuracy: 1.0
+Train loss: 0.010607
+Test accuracy: 0.987603
+Test loss: 0.124043
+Epoch 133
+Train accuracy: 0.995
+Train loss: 0.0207202
+Test accuracy: 0.983471
+Test loss: 0.128633
+Train accuracy: 1.0
+Train loss: 0.00937854
+Test accuracy: 0.987603
+Test loss: 0.123963
+Epoch 134
+Train accuracy: 0.99
+Train loss: 0.0234981
+Test accuracy: 0.979339
+Test loss: 0.13046
+Train accuracy: 1.0
+Train loss: 0.00965824
+Test accuracy: 0.987603
+Test loss: 0.119603
+Epoch 135
+Train accuracy: 0.995
+Train loss: 0.0207963
+Test accuracy: 0.983471
+Test loss: 0.127641
+Train accuracy: 1.0
+Train loss: 0.00966379
+Test accuracy: 0.987603
+Test loss: 0.117236
+Epoch 136
+Train accuracy: 0.995
+Train loss: 0.0208569
+Test accuracy: 0.983471
+Test loss: 0.129305
+Train accuracy: 1.0
+Train loss: 0.00960377
+Test accuracy: 0.987603
+Test loss: 0.119383
+Epoch 137
+Train accuracy: 0.995
+Train loss: 0.0214398
+Test accuracy: 0.983471
+Test loss: 0.125149
+Train accuracy: 1.0
+Train loss: 0.0108784
+Test accuracy: 0.987603
+Test loss: 0.120388
+Epoch 138
+Train accuracy: 0.995
+Train loss: 0.0201259
+Test accuracy: 0.983471
+Test loss: 0.131013
+Train accuracy: 1.0
+Train loss: 0.00930151
+Test accuracy: 0.987603
+Test loss: 0.120923
+Epoch 139
+Train accuracy: 1.0
+Train loss: 0.0223911
+Test accuracy: 0.983471
+Test loss: 0.12655
+Train accuracy: 1.0
+Train loss: 0.00926967
+Test accuracy: 0.987603
+Test loss: 0.119584
+Epoch 140
+Train accuracy: 0.995
+Train loss: 0.0217111
+Test accuracy: 0.983471
+Test loss: 0.129095
+Train accuracy: 1.0
+Train loss: 0.0109699
+Test accuracy: 0.987603
+Test loss: 0.126209
+Epoch 141
+Train accuracy: 0.995
+Train loss: 0.022007
+Test accuracy: 0.983471
+Test loss: 0.130607
+Train accuracy: 1.0
+Train loss: 0.00992432
+Test accuracy: 0.987603
+Test loss: 0.125775
+Epoch 142
+Train accuracy: 0.995
+Train loss: 0.021225
+Test accuracy: 0.983471
+Test loss: 0.129215
+Train accuracy: 1.0
+Train loss: 0.0091332
+Test accuracy: 0.987603
+Test loss: 0.125106
+Epoch 143
+Train accuracy: 1.0
+Train loss: 0.0190402
+Test accuracy: 0.983471
+Test loss: 0.130869
+Train accuracy: 1.0
+Train loss: 0.00915515
+Test accuracy: 0.987603
+Test loss: 0.125054
+Epoch 144
+Train accuracy: 1.0
+Train loss: 0.0179022
+Test accuracy: 0.987603
+Test loss: 0.133789
+Train accuracy: 1.0
+Train loss: 0.00935318
+Test accuracy: 0.987603
+Test loss: 0.12782
+Epoch 145
+Train accuracy: 1.0
+Train loss: 0.0191599
+Test accuracy: 0.983471
+Test loss: 0.131768
+Train accuracy: 1.0
+Train loss: 0.0103351
+Test accuracy: 0.987603
+Test loss: 0.130679
+Epoch 146
+Train accuracy: 1.0
+Train loss: 0.0190246
+Test accuracy: 0.983471
+Test loss: 0.133427
+Train accuracy: 1.0
+Train loss: 0.00963541
+Test accuracy: 0.987603
+Test loss: 0.130624
+Epoch 147
+Train accuracy: 0.995
+Train loss: 0.0211158
+Test accuracy: 0.983471
+Test loss: 0.13406
+Train accuracy: 1.0
+Train loss: 0.00987861
+Test accuracy: 0.987603
+Test loss: 0.128257
+Epoch 148
+Train accuracy: 0.995
+Train loss: 0.0203171
+Test accuracy: 0.983471
+Test loss: 0.133744
+Train accuracy: 1.0
+Train loss: 0.00960349
+Test accuracy: 0.987603
+Test loss: 0.125183
+Epoch 149
+Train accuracy: 1.0
+Train loss: 0.0201965
+Test accuracy: 0.983471
+Test loss: 0.131737
+Train accuracy: 1.0
+Train loss: 0.00842471
+Test accuracy: 0.987603
+Test loss: 0.122938
+Epoch 150
+Train accuracy: 0.995
+Train loss: 0.0182511
+Test accuracy: 0.983471
+Test loss: 0.130352
+Train accuracy: 1.0
+Train loss: 0.00931763
+Test accuracy: 0.987603
+Test loss: 0.125437
+Epoch 151
+Train accuracy: 1.0
+Train loss: 0.0191444
+Test accuracy: 0.983471
+Test loss: 0.136624
+Train accuracy: 1.0
+Train loss: 0.00823309
+Test accuracy: 0.987603
+Test loss: 0.128811
+Epoch 152
+Train accuracy: 0.995
+Train loss: 0.0186576
+Test accuracy: 0.983471
+Test loss: 0.138402
+Train accuracy: 1.0
+Train loss: 0.00895172
+Test accuracy: 0.987603
+Test loss: 0.130143
+Epoch 153
+Train accuracy: 1.0
+Train loss: 0.0179814
+Test accuracy: 0.983471
+Test loss: 0.139756
+Train accuracy: 1.0
+Train loss: 0.00905958
+Test accuracy: 0.987603
+Test loss: 0.131167
+Epoch 154
+Train accuracy: 1.0
+Train loss: 0.0184282
+Test accuracy: 0.983471
+Test loss: 0.13552
+Train accuracy: 1.0
+Train loss: 0.00917009
+Test accuracy: 0.987603
+Test loss: 0.126875
+Epoch 155
+Train accuracy: 1.0
+Train loss: 0.0195671
+Test accuracy: 0.983471
+Test loss: 0.134511
+Train accuracy: 1.0
+Train loss: 0.00862986
+Test accuracy: 0.987603
+Test loss: 0.124819
+Epoch 156
+Train accuracy: 0.995
+Train loss: 0.0201006
+Test accuracy: 0.983471
+Test loss: 0.132527
+Train accuracy: 1.0
+Train loss: 0.00771462
+Test accuracy: 0.983471
+Test loss: 0.125352
+Epoch 157
+Train accuracy: 1.0
+Train loss: 0.0189687
+Test accuracy: 0.983471
+Test loss: 0.13338
+Train accuracy: 1.0
+Train loss: 0.00982761
+Test accuracy: 0.987603
+Test loss: 0.123463
+Epoch 158
+Train accuracy: 1.0
+Train loss: 0.0195331
+Test accuracy: 0.983471
+Test loss: 0.13352
+Train accuracy: 1.0
+Train loss: 0.0101491
+Test accuracy: 0.987603
+Test loss: 0.123856
+Epoch 159
+Train accuracy: 1.0
+Train loss: 0.0207745
+Test accuracy: 0.983471
+Test loss: 0.13073
+Train accuracy: 1.0
+Train loss: 0.00929614
+Test accuracy: 0.987603
+Test loss: 0.12421
+Epoch 160
+Train accuracy: 0.99
+Train loss: 0.0196211
+Test accuracy: 0.983471
+Test loss: 0.134053
+Train accuracy: 1.0
+Train loss: 0.00891773
+Test accuracy: 0.987603
+Test loss: 0.127991
+Epoch 161
+Train accuracy: 0.995
+Train loss: 0.0203592
+Test accuracy: 0.983471
+Test loss: 0.132525
+Train accuracy: 1.0
+Train loss: 0.00934842
+Test accuracy: 0.987603
+Test loss: 0.127851
+Epoch 162
+Train accuracy: 1.0
+Train loss: 0.0197828
+Test accuracy: 0.983471
+Test loss: 0.135917
+Train accuracy: 1.0
+Train loss: 0.00824382
+Test accuracy: 0.987603
+Test loss: 0.132016
+Epoch 163
+Train accuracy: 1.0
+Train loss: 0.0189882
+Test accuracy: 0.983471
+Test loss: 0.135783
+Train accuracy: 1.0
+Train loss: 0.00989424
+Test accuracy: 0.987603
+Test loss: 0.130511
+Epoch 164
+Train accuracy: 1.0
+Train loss: 0.0195833
+Test accuracy: 0.983471
+Test loss: 0.134016
+Train accuracy: 1.0
+Train loss: 0.00969883
+Test accuracy: 0.987603
+Test loss: 0.127231
+Epoch 165
+Train accuracy: 1.0
+Train loss: 0.0176315
+Test accuracy: 0.983471
+Test loss: 0.134643
+Train accuracy: 1.0
+Train loss: 0.0104589
+Test accuracy: 0.987603
+Test loss: 0.13213
+Epoch 166
+Train accuracy: 1.0
+Train loss: 0.0183635
+Test accuracy: 0.983471
+Test loss: 0.138424
+Train accuracy: 1.0
+Train loss: 0.0123303
+Test accuracy: 0.987603
+Test loss: 0.128838
+Epoch 167
+Train accuracy: 1.0
+Train loss: 0.0200966
+Test accuracy: 0.983471
+Test loss: 0.137292
+Train accuracy: 1.0
+Train loss: 0.00880916
+Test accuracy: 0.987603
+Test loss: 0.130214
+Epoch 168
+Train accuracy: 1.0
+Train loss: 0.0197718
+Test accuracy: 0.983471
+Test loss: 0.13922
+Train accuracy: 1.0
+Train loss: 0.0100993
+Test accuracy: 0.987603
+Test loss: 0.131975
+Epoch 169
+Train accuracy: 1.0
+Train loss: 0.0183495
+Test accuracy: 0.983471
+Test loss: 0.136836
+Train accuracy: 1.0
+Train loss: 0.00997883
+Test accuracy: 0.987603
+Test loss: 0.129204
+Epoch 170
+Train accuracy: 1.0
+Train loss: 0.0179866
+Test accuracy: 0.983471
+Test loss: 0.14331
+Train accuracy: 1.0
+Train loss: 0.0101034
+Test accuracy: 0.987603
+Test loss: 0.132946
+Epoch 171
+Train accuracy: 0.995
+Train loss: 0.018943
+Test accuracy: 0.983471
+Test loss: 0.139378
+Train accuracy: 1.0
+Train loss: 0.00971937
+Test accuracy: 0.987603
+Test loss: 0.132678
+Epoch 172
+Train accuracy: 0.995
+Train loss: 0.0184286
+Test accuracy: 0.983471
+Test loss: 0.138603
+Train accuracy: 1.0
+Train loss: 0.00936609
+Test accuracy: 0.987603
+Test loss: 0.128876
+Epoch 173
+Train accuracy: 0.995
+Train loss: 0.0194136
+Test accuracy: 0.983471
+Test loss: 0.136803
+Train accuracy: 1.0
+Train loss: 0.00903421
+Test accuracy: 0.987603
+Test loss: 0.133623
+Epoch 174
+Train accuracy: 0.995
+Train loss: 0.0189441
+Test accuracy: 0.983471
+Test loss: 0.137261
+Train accuracy: 1.0
+Train loss: 0.00932647
+Test accuracy: 0.987603
+Test loss: 0.130928
+Epoch 175
+Train accuracy: 0.995
+Train loss: 0.0185363
+Test accuracy: 0.983471
+Test loss: 0.139622
+Train accuracy: 1.0
+Train loss: 0.00912748
+Test accuracy: 0.987603
+Test loss: 0.132445
+Epoch 176
+Train accuracy: 1.0
+Train loss: 0.0177932
+Test accuracy: 0.983471
+Test loss: 0.138456
+Train accuracy: 1.0
+Train loss: 0.0099702
+Test accuracy: 0.987603
+Test loss: 0.1301
+Epoch 177
+Train accuracy: 1.0
+Train loss: 0.0186256
+Test accuracy: 0.983471
+Test loss: 0.140945
+Train accuracy: 1.0
+Train loss: 0.00875953
+Test accuracy: 0.983471
+Test loss: 0.135678
+Epoch 178
+Train accuracy: 0.995
+Train loss: 0.0187529
+Test accuracy: 0.983471Using TensorFlow backend.
+
+Test loss: 0.135341
+Train accuracy: 1.0
+Train loss: 0.00986659
+Test accuracy: 0.987603
+Test loss: 0.126224
+Epoch 179
+Train accuracy: 0.995
+Train loss: 0.0188323
+Test accuracy: 0.983471
+Test loss: 0.133474
+Train accuracy: 1.0
+Train loss: 0.00854033
+Test accuracy: 0.987603
+Test loss: 0.129214
+Epoch 180
+Train accuracy: 0.995
+Train loss: 0.020711
+Test accuracy: 0.987603
+Test loss: 0.13118
+Train accuracy: 1.0
+Train loss: 0.00916732
+Test accuracy: 0.987603
+Test loss: 0.12653
+Epoch 181
+Train accuracy: 0.995
+Train loss: 0.019913
+Test accuracy: 0.983471
+Test loss: 0.13472
+Train accuracy: 1.0
+Train loss: 0.0092928
+Test accuracy: 0.987603
+Test loss: 0.127222
+Epoch 182
+Train accuracy: 0.995
+Train loss: 0.0192053
+Test accuracy: 0.983471
+Test loss: 0.13392
+Train accuracy: 1.0
+Train loss: 0.00835175
+Test accuracy: 0.987603
+Test loss: 0.128296
+Epoch 183
+Train accuracy: 0.995
+Train loss: 0.0179521
+Test accuracy: 0.983471
+Test loss: 0.132348
+Train accuracy: 1.0
+Train loss: 0.00901824
+Test accuracy: 0.987603
+Test loss: 0.123565
+Epoch 184
+Train accuracy: 0.995
+Train loss: 0.0181222
+Test accuracy: 0.983471
+Test loss: 0.13266
+Train accuracy: 1.0
+Train loss: 0.0114907
+Test accuracy: 0.987603
+Test loss: 0.126256
+Epoch 185
+Train accuracy: 0.995
+Train loss: 0.0188318
+Test accuracy: 0.983471
+Test loss: 0.130369
+Train accuracy: 1.0
+Train loss: 0.0111603
+Test accuracy: 0.987603
+Test loss: 0.126966
+Epoch 186
+Train accuracy: 0.995
+Train loss: 0.0189053
+Test accuracy: 0.983471
+Test loss: 0.133267
+Train accuracy: 1.0
+Train loss: 0.00973485
+Test accuracy: 0.987603
+Test loss: 0.12455
+Epoch 187
+Train accuracy: 0.995
+Train loss: 0.0169953
+Test accuracy: 0.983471
+Test loss: 0.126111
+Train accuracy: 1.0
+Train loss: 0.00889467
+Test accuracy: 0.987603
+Test loss: 0.125668
+Epoch 188
+Train accuracy: 0.995
+Train loss: 0.018994
+Test accuracy: 0.983471
+Test loss: 0.126472
+Train accuracy: 1.0
+Train loss: 0.00970171
+Test accuracy: 0.987603
+Test loss: 0.12235
+Epoch 189
+Train accuracy: 1.0
+Train loss: 0.0167907
+Test accuracy: 0.983471
+Test loss: 0.12597
+Train accuracy: 1.0
+Train loss: 0.00960383
+Test accuracy: 0.987603
+Test loss: 0.120272
+Epoch 190
+Train accuracy: 1.0
+Train loss: 0.0178669
+Test accuracy: 0.983471
+Test loss: 0.132129
+Train accuracy: 1.0
+Train loss: 0.00924942
+Test accuracy: 0.987603
+Test loss: 0.127351
+Epoch 191
+Train accuracy: 0.995
+Train loss: 0.0170477
+Test accuracy: 0.983471
+Test loss: 0.130258
+Train accuracy: 1.0
+Train loss: 0.0094274
+Test accuracy: 0.987603
+Test loss: 0.122545
+Epoch 192
+Train accuracy: 1.0
+Train loss: 0.0181647
+Test accuracy: 0.983471
+Test loss: 0.132113
+Train accuracy: 1.0
+Train loss: 0.00940196
+Test accuracy: 0.987603
+Test loss: 0.124762
+Epoch 193
+Train accuracy: 0.995
+Train loss: 0.0171171
+Test accuracy: 0.983471
+Test loss: 0.134167
+Train accuracy: 1.0
+Train loss: 0.0084407
+Test accuracy: 0.987603
+Test loss: 0.129411
+Epoch 194
+Train accuracy: 1.0
+Train loss: 0.0172729
+Test accuracy: 0.983471
+Test loss: 0.133867
+Train accuracy: 1.0
+Train loss: 0.00867601
+Test accuracy: 0.987603
+Test loss: 0.125105
+Epoch 195
+Train accuracy: 1.0
+Train loss: 0.0174844
+Test accuracy: 0.983471
+Test loss: 0.128655
+Train accuracy: 1.0
+Train loss: 0.0083515
+Test accuracy: 0.987603
+Test loss: 0.126639
+Epoch 196
+Train accuracy: 0.995
+Train loss: 0.0180048
+Test accuracy: 0.983471
+Test loss: 0.131768
+Train accuracy: 1.0
+Train loss: 0.00944448
+Test accuracy: 0.987603
+Test loss: 0.123696
+Epoch 197
+Train accuracy: 0.995
+Train loss: 0.016966
+Test accuracy: 0.983471
+Test loss: 0.127142
+Train accuracy: 1.0
+Train loss: 0.0089503
+Test accuracy: 0.987603
+Test loss: 0.122688
+Epoch 198
+Train accuracy: 1.0
+Train loss: 0.0166404
+Test accuracy: 0.983471
+Test loss: 0.128863
+Train accuracy: 1.0
+Train loss: 0.00893629
+Test accuracy: 0.983471
+Test loss: 0.133512
+Epoch 199
+Train accuracy: 1.0
+Train loss: 0.0175776
+Test accuracy: 0.979339
+Test loss: 0.130608
+Train accuracy: 1.0
+Train loss: 0.00847674
+Test accuracy: 0.983471
+Test loss: 0.126198
+Epoch 200
+Train accuracy: 0.995
+Train loss: 0.0184336
+Test accuracy: 0.983471
+Test loss: 0.135664
+Train accuracy: 1.0
+Train loss: 0.00796757
+Test accuracy: 0.987603
+Test loss: 0.120405

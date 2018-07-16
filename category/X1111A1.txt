@@ -1,0 +1,3940 @@
+2017-11-11 16:41:04.330710: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-11 16:41:04.330743: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-11 16:41:04.330748: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-11 16:41:04.330752: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-11 16:41:04.330756: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-11 16:41:10.654470: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: TITAN X (Pascal)
+major: 6 minor: 1 memoryClockRate (GHz) 1.531
+pciBusID 0000:04:00.0
+Total memory: 11.90GiB
+Free memory: 11.76GiB
+2017-11-11 16:41:10.654509: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-11-11 16:41:10.654515: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-11-11 16:41:10.654522: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:04:00.0)
+classnum: 325
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/Lvmoh% \xe6\xb7\x8b\xe5\xb7\xb4\xe7\xbb\x86\xe8\x83\x9e\xe7\x99\xbe\xe5\x88\x86\xe6\x95\xb0'
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe7\xbb\x86\xe8\x83\x9e\xe5\xb9\xb3\xe5\x9d\x87\xe5\x8e\x8b\xe7\xa7\xaf'
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe6\xb5\x93\xe5\xba\xa6298.00 \xe2\x86\x93320--355 g/L'
+(15762, 25, 150, 1)
+(15762, 1)
+Train:  15604
+Test:  158
+(?, 10, 24, 16)
+(?, 10, 24, 32)
+(?, 4, 11, 128)
+(?, 3, 10, 256)
+(?, 7680)
+batch_size: 260
+Epoch 0
+Train loss: 7.03714
+Train loss: 5.89892
+Train loss: 5.14915
+Train accuracy: 0.0269231
+Test accuracy: 0.0253165
+Test loss: 5.77394
+Epoch 1
+Train loss: 4.3842
+Train loss: 4.1264
+Train loss: 3.79121
+Train accuracy: 0.0230769
+Test accuracy: 0.0253165
+Test loss: 5.52137
+Epoch 2
+Train loss: 3.52057
+Train loss: 3.3327
+Train loss: 3.20824
+Train accuracy: 0.0307692
+Test accuracy: 0.0379747
+Test loss: 5.52283
+Epoch 3
+Train loss: 2.98539
+Train loss: 2.78417
+Train loss: 2.74087
+Train accuracy: 0.173077
+Test accuracy: 0.202532
+Test loss: 4.41673
+Epoch 4
+Train loss: 2.52108
+Train loss: 2.59202
+Train loss: 2.27428
+Train accuracy: 0.530769
+Test accuracy: 0.575949
+Test loss: 2.89829
+Epoch 5
+Train loss: 2.02502
+Train loss: 2.43505
+Train loss: 2.06265
+Train accuracy: 0.665385
+Test accuracy: 0.702532
+Test loss: 1.67723
+Epoch 6
+Train loss: 2.2961
+Train loss: 2.01474
+Train loss: 1.89403
+Train accuracy: 0.730769
+Test accuracy: 0.727848
+Test loss: 1.41225
+Epoch 7
+Train loss: 1.90341
+Train loss: 1.8649
+Train loss: 1.75568
+Train accuracy: 0.688462
+Test accuracy: 0.708861
+Test loss: 1.29412
+Epoch 8
+Train loss: 1.80819
+Train loss: 1.62712
+Train loss: 1.67913
+Train accuracy: 0.757692
+Test accuracy: 0.791139
+Test loss: 1.03299
+Epoch 9
+Train loss: 1.62014
+Train loss: 1.52078
+Train loss: 1.47
+Train accuracy: 0.803846
+Test accuracy: 0.803797
+Test loss: 0.942907
+Epoch 10
+Train loss: 1.40148
+Train loss: 1.37866
+Train loss: 1.29627
+Train accuracy: 0.807692
+Test accuracy: 0.873418
+Test loss: 0.766222
+Epoch 11
+Train loss: 1.29138
+Train loss: 1.27552
+Train loss: 1.2358
+Train accuracy: 0.842308
+Test accuracy: 0.886076
+Test loss: 0.627817
+Epoch 12
+Train loss: 1.12061
+Train loss: 1.30099
+Train loss: 1.14834
+Train accuracy: 0.861538
+Test accuracy: 0.898734
+Test loss: 0.557862
+Epoch 13
+Train loss: 1.14256
+Train loss: 1.22693
+Train loss: 1.16021
+Train accuracy: 0.919231
+Test accuracy: 0.917722
+Test loss: 0.496227
+Epoch 14
+Train loss: 1.03784
+Train loss: 1.19764
+Train loss: 1.1561
+Train accuracy: 0.919231
+Test accuracy: 0.898734
+Test loss: 0.52638
+Epoch 15
+Train loss: 1.02324
+Train loss: 1.10442
+Train loss: 1.08189
+Train accuracy: 0.95
+Test accuracy: 0.924051
+Test loss: 0.416282
+Epoch 16
+Train loss: 1.00529
+Train loss: 0.894432
+Train loss: 0.953884
+Train accuracy: 0.903846
+Test accuracy: 0.936709
+Test loss: 0.424683
+Epoch 17
+Train loss: 0.885515
+Train loss: 0.904893
+Train loss: 0.914168
+Train accuracy: 0.926923
+Test accuracy: 0.924051
+Test loss: 0.391704
+Epoch 18
+Train loss: 0.821676
+Train loss: 0.99466
+Train loss: 0.810585
+Train accuracy: 0.973077
+Test accuracy: 0.962025
+Test loss: 0.29885
+Epoch 19
+Train loss: 0.828707
+Train loss: 0.784463
+Train loss: 0.857163
+Train accuracy: 0.957692
+Test accuracy: 0.936709
+Test loss: 0.32107
+Epoch 20
+Train loss: 0.715698
+Train loss: 0.766526
+Train loss: 0.830907
+Train accuracy: 0.973077
+Test accuracy: 0.962025
+Test loss: 0.272797
+Epoch 21
+Train loss: 0.754282
+Train loss: 0.717296
+Train loss: 0.760466
+Train accuracy: 0.938462
+Test accuracy: 0.981013
+Test loss: 0.243653
+Epoch 22
+Train loss: 0.687837
+Train loss: 0.708686
+Train loss: 0.732656
+Train accuracy: 0.95
+Test accuracy: 0.943038
+Test loss: 0.352826
+Epoch 23
+Train loss: 0.704618
+Train loss: 0.703013
+Train loss: 0.678382
+Train accuracy: 0.973077
+Test accuracy: 0.968354
+Test loss: 0.221282
+Epoch 24
+Train loss: 0.652515
+Train loss: 0.677481
+Train loss: 0.68062
+Train accuracy: 0.965385
+Test accuracy: 0.974684
+Test loss: 0.208745
+Epoch 25
+Train loss: 0.654063
+Train loss: 0.708073
+Train loss: 0.641358
+Train accuracy: 0.965385
+Test accuracy: 0.974684
+Test loss: 0.190817
+Epoch 26
+Train loss: 0.599709
+Train loss: 0.603755
+Train loss: 0.577733
+Train accuracy: 0.961538
+Test accuracy: 0.981013
+Test loss: 0.191335
+Epoch 27
+Train loss: 0.59228
+Train loss: 0.656942
+Train loss: 0.675192
+Train accuracy: 0.969231
+Test accuracy: 0.981013
+Test loss: 0.159283
+Epoch 28
+Train loss: 0.59286
+Train loss: 0.550681
+Train loss: 0.567035
+Train accuracy: 0.95
+Test accuracy: 0.968354
+Test loss: 0.202091
+Epoch 29
+Train loss: 0.58129
+Train loss: 0.572261
+Train loss: 0.563474
+Train accuracy: 0.988461
+Test accuracy: 0.974684
+Test loss: 0.18006
+Epoch 30
+Train loss: 0.574576
+Train loss: 0.576158
+Train loss: 0.603243
+Train accuracy: 0.976923
+Test accuracy: 0.987342
+Test loss: 0.158876
+Epoch 31
+Train loss: 0.52282
+Train loss: 0.527024
+Train loss: 0.549066
+Train accuracy: 0.980769
+Test accuracy: 0.981013
+Test loss: 0.160007
+Epoch 32
+Train loss: 0.543688
+Train loss: 0.599353
+Train loss: 0.565318
+Train accuracy: 0.976923
+Test accuracy: 0.974684
+Test loss: 0.147327
+Epoch 33
+Train loss: 0.532505
+Train loss: 0.50047
+Train loss: 0.551961
+Train accuracy: 0.969231
+Test accuracy: 0.968354
+Test loss: 0.16533
+Epoch 34
+Train loss: 0.517002
+Train loss: 0.499977
+Train loss: 0.510914
+Train accuracy: 0.973077
+Test accuracy: 0.974684
+Test loss: 0.164402
+Epoch 35
+Train loss: 0.521351
+Train loss: 0.537615
+Train loss: 0.566234
+Train accuracy: 0.969231
+Test accuracy: 0.981013
+Test loss: 0.153275
+Epoch 36
+Train loss: 0.480321
+Train loss: 0.48197
+Train loss: 0.541726
+Train accuracy: 0.976923
+Test accuracy: 0.987342
+Test loss: 0.154563
+Epoch 37
+Train loss: 0.475553
+Train loss: 0.512967
+Train loss: 0.496661
+Train accuracy: 0.980769
+Test accuracy: 0.981013
+Test loss: 0.132325
+Epoch 38
+Train loss: 0.476532
+Train loss: 0.443682
+Train loss: 0.487546
+Train accuracy: 0.961538
+Test accuracy: 0.981013
+Test loss: 0.136389
+Epoch 39
+Train loss: 0.440466
+Train loss: 0.500964
+Train loss: 0.47718
+Train accuracy: 0.965385
+Test accuracy: 0.981013
+Test loss: 0.141262
+Epoch 40
+Train loss: 0.450562
+Train loss: 0.465224
+Train loss: 0.436373
+Train accuracy: 0.980769
+Test accuracy: 0.993671
+Test loss: 0.126176
+Epoch 41
+Train loss: 0.440039
+Train loss: 0.447624
+Train loss: 0.474893
+Train accuracy: 0.973077
+Test accuracy: 0.987342
+Test loss: 0.129457
+Epoch 42
+Train loss: 0.411105
+Train loss: 0.493894
+Train loss: 0.476719
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.121653
+Epoch 43
+Train loss: 0.431293
+Train loss: 0.429292
+Train loss: 0.449796
+Train accuracy: 0.984615
+Test accuracy: 0.981013
+Test loss: 0.11992
+Epoch 44
+Train loss: 0.425521
+Train loss: 0.445995
+Train loss: 0.451044
+Train accuracy: 0.976923
+Test accuracy: 0.981013
+Test loss: 0.137237
+Epoch 45
+Train loss: 0.399487
+Train loss: 0.423604
+Train loss: 0.424748
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.119339
+Epoch 46
+Train loss: 0.455245
+Train loss: 0.425577
+Train loss: 0.515178
+Train accuracy: 0.976923
+Test accuracy: 0.981013
+Test loss: 0.146689
+Epoch 47
+Train loss: 0.397774
+Train loss: 0.410317
+Train loss: 0.420847
+Train accuracy: 0.992308
+Test accuracy: 0.974684
+Test loss: 0.149846
+Epoch 48
+Train loss: 0.449989
+Train loss: 0.402532
+Train loss: 0.445086
+Train accuracy: 0.976923
+Test accuracy: 0.981013
+Test loss: 0.129016
+Epoch 49
+Train loss: 0.377896
+Train loss: 0.407718
+Train loss: 0.435028
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.117217
+Epoch 50
+Train loss: 0.421033
+Train loss: 0.394857
+Train loss: 0.342947
+Train accuracy: 0.980769
+Test accuracy: 0.974684
+Test loss: 0.119699
+Epoch 51
+Train loss: 0.40768
+Train loss: 0.413183
+Train loss: 0.414093
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.105321
+Epoch 52
+Train loss: 0.3784
+Train loss: 0.366929
+Train loss: 0.41578
+Train accuracy: 0.980769
+Test accuracy: 0.987342
+Test loss: 0.100631
+Epoch 53
+Train loss: 0.381379
+Train loss: 0.398028
+Train loss: 0.408055
+Train accuracy: 0.992308
+Test accuracy: 0.974684
+Test loss: 0.151979
+Epoch 54
+Train loss: 0.358176
+Train loss: 0.431254
+Train loss: 0.396077
+Train accuracy: 0.992308
+Test accuracy: 0.981013
+Test loss: 0.0997262
+Epoch 55
+Train loss: 0.392447
+Train loss: 0.354967
+Train loss: 0.361126
+Train accuracy: 0.984615
+Test accuracy: 0.981013
+Test loss: 0.113303
+Epoch 56
+Train loss: 0.372017
+Train loss: 0.405509
+Train loss: 0.34976
+Train accuracy: 0.980769
+Test accuracy: 0.981013
+Test loss: 0.101125
+Epoch 57
+Train loss: 0.35729
+Train loss: 0.348091
+Train loss: 0.406975
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.107047
+Epoch 58
+Train loss: 0.331182
+Train loss: 0.391409
+Train loss: 0.36352
+Train accuracy: 0.984615
+Test accuracy: 0.974684
+Test loss: 0.117665
+Epoch 59
+Train loss: 0.344164
+Train loss: 0.356063
+Train loss: 0.344833
+Train accuracy: 0.988461
+Test accuracy: 0.993671
+Test loss: 0.099884
+Epoch 60
+Train loss: 0.368532
+Train loss: 0.304856
+Train loss: 0.365755
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.092187
+Epoch 61
+Train loss: 0.3522
+Train loss: 0.355185
+Train loss: 0.364644
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.0830108
+Epoch 62
+Train loss: 0.320117
+Train loss: 0.34367
+Train loss: 0.372528
+Train accuracy: 0.976923
+Test accuracy: 0.987342
+Test loss: 0.0821206
+Epoch 63
+Train loss: 0.370902
+Train loss: 0.34478
+Train loss: 0.351518
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.0885949
+Epoch 64
+Train loss: 0.324815
+Train loss: 0.366222
+Train loss: 0.375325
+Train accuracy: 0.988461
+Test accuracy: 0.981013
+Test loss: 0.102046
+Epoch 65
+Train loss: 0.328982
+Train loss: 0.319421
+Train loss: 0.350339
+Train accuracy: 0.992308
+Test accuracy: 0.981013
+Test loss: 0.0906123
+Epoch 66
+Train loss: 0.375551
+Train loss: 0.34098
+Train loss: 0.331537
+Train accuracy: 0.988462
+Test accuracy: 0.981013
+Test loss: 0.0896503
+Epoch 67
+Train loss: 0.301445
+Train loss: 0.321458
+Train loss: 0.332737
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0789216
+Epoch 68
+Train loss: 0.325063
+Train loss: 0.379048
+Train loss: 0.34394
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.0837648
+Epoch 69
+Train loss: 0.308536
+Train loss: 0.307261
+Train loss: 0.314335
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0907383
+Epoch 70
+Train loss: 0.327794
+Train loss: 0.316582
+Train loss: 0.316882
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.103179
+Epoch 71
+Train loss: 0.314908
+Train loss: 0.310394
+Train loss: 0.323452
+Train accuracy: 0.992308
+Test accuracy: 0.981013
+Test loss: 0.0836603
+Epoch 72
+Train loss: 0.312243
+Train loss: 0.318957
+Train loss: 0.355486
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0890612
+Epoch 73
+Train loss: 0.303746
+Train loss: 0.292681
+Train loss: 0.298144
+Train accuracy: 0.984615
+Test accuracy: 0.974684
+Test loss: 0.0994582
+Epoch 74
+Train loss: 0.318442
+Train loss: 0.279446
+Train loss: 0.339257
+Train accuracy: 0.992308
+Test accuracy: 0.993671
+Test loss: 0.0747572
+Epoch 75
+Train loss: 0.30185
+Train loss: 0.307167
+Train loss: 0.325361
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0979431
+Epoch 76
+Train loss: 0.30771
+Train loss: 0.305435
+Train loss: 0.287494
+Train accuracy: 0.988461
+Test accuracy: 0.981013
+Test loss: 0.0893462
+Epoch 77
+Train loss: 0.292745
+Train loss: 0.267415
+Train loss: 0.309318
+Train accuracy: 0.996154
+Test accuracy: 0.993671
+Test loss: 0.0817055
+Epoch 78
+Train loss: 0.347188
+Train loss: 0.320178
+Train loss: 0.300196
+Train accuracy: 0.984615
+Test accuracy: 0.981013
+Test loss: 0.0928496
+Epoch 79
+Train loss: 0.286396
+Train loss: 0.328331
+Train loss: 0.318544
+Train accuracy: 0.988461
+Test accuracy: 0.981013
+Test loss: 0.104079
+Epoch 80
+Train loss: 0.253595
+Train loss: 0.287114
+Train loss: 0.266653
+Train accuracy: 0.988462
+Test accuracy: 0.987342
+Test loss: 0.072958
+Epoch 81
+Train loss: 0.28991
+Train loss: 0.262872
+Train loss: 0.274943
+Train accuracy: 0.996154
+Test accuracy: 0.993671
+Test loss: 0.0813037
+Epoch 82
+Train loss: 0.238286
+Train loss: 0.303402
+Train loss: 0.280106
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0983476
+Epoch 83
+Train loss: 0.383807
+Train loss: 0.298688
+Train loss: 0.315726
+Train accuracy: 0.988461
+Test accuracy: 0.993671
+Test loss: 0.0743805
+Epoch 84
+Train loss: 0.287285
+Train loss: 0.260158
+Train loss: 0.267211
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0760151
+Epoch 85
+Train loss: 0.278438
+Train loss: 0.263479
+Train loss: 0.30045
+Train accuracy: 0.988462
+Test accuracy: 0.987342
+Test loss: 0.0789772
+Epoch 86
+Train loss: 0.29435
+Train loss: 0.251047
+Train loss: 0.284439
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.0768565
+Epoch 87
+Train loss: 0.272172
+Train loss: 0.275225
+Train loss: 0.25551
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0837744
+Epoch 88
+Train loss: 0.228464
+Train loss: 0.289518
+Train loss: 0.304733
+Train accuracy: 0.988461
+Test accuracy: 0.981013
+Test loss: 0.0737016
+Epoch 89
+Train loss: 0.267171
+Train loss: 0.269129
+Train loss: 0.266063
+Train accuracy: 0.984615
+Test accuracy: 0.974684
+Test loss: 0.0882085
+Epoch 90
+Train loss: 0.260664
+Train loss: 0.275376
+Train loss: 0.244095
+Train accuracy: 0.988462
+Test accuracy: 0.993671
+Test loss: 0.0750843
+Epoch 91
+Train loss: 0.263025
+Train loss: 0.294317
+Train loss: 0.267103
+Train accuracy: 0.996154
+Test accuracy: 0.993671
+Test loss: 0.0683582
+Epoch 92
+Train loss: 0.246901
+Train loss: 0.311702
+Train loss: 0.309113
+Train accuracy: 0.992308
+Test accuracy: 0.981013
+Test loss: 0.0805824
+Epoch 93
+Train loss: 0.271997
+Train loss: 0.278693
+Train loss: 0.312707
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0711966
+Epoch 94
+Train loss: 0.263707
+Train loss: 0.25264
+Train loss: 0.248701
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0769843
+Epoch 95
+Train loss: 0.295725
+Train loss: 0.276746
+Train loss: 0.276968
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.0673592
+Epoch 96
+Train loss: 0.269078
+Train loss: 0.252523
+Train loss: 0.254476
+Train accuracy: 0.992308
+Test accuracy: 0.981013
+Test loss: 0.0787921
+Epoch 97
+Train loss: 0.256393
+Train loss: 0.232516
+Train loss: 0.237131
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0610023
+Epoch 98
+Train loss: 0.277372
+Train loss: 0.249577
+Train loss: 0.230783
+Train accuracy: 0.980769
+Test accuracy: 0.981013
+Test loss: 0.0760741
+Epoch 99
+Train loss: 0.27485
+Train loss: 0.24134
+Train loss: 0.250686
+Train accuracy: 0.984615
+Test accuracy: 0.981013
+Test loss: 0.0686883
+Epoch 100
+Train loss: 0.251357
+Train loss: 0.281123
+Train loss: 0.239553
+Train accuracy: 0.988462
+Test accuracy: 0.987342
+Test loss: 0.0765013
+Epoch 101
+Train loss: 0.24351
+Train loss: 0.225995
+Train loss: 0.275787
+Train accuracy: 1.0
+Test accuracy: 0.993671
+Test loss: 0.0733595
+Epoch 102
+Train loss: 0.268109
+Train loss: 0.235816
+Train loss: 0.275716
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0605481
+Epoch 103
+Train loss: 0.253794
+Train loss: 0.269883
+Train loss: 0.224894
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.069456
+Epoch 104
+Train loss: 0.22444
+Train loss: 0.232352
+Train loss: 0.284336
+Train accuracy: 0.992308
+Test accuracy: 0.981013
+Test loss: 0.0653274
+Epoch 105
+Train loss: 0.246881
+Train loss: 0.234269
+Train loss: 0.233857
+Train accuracy: 0.996154
+Test accuracy: 0.993671
+Test loss: 0.0525772
+Epoch 106
+Train loss: 0.238412
+Train loss: 0.247617
+Train loss: 0.256298
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0619414
+Epoch 107
+Train loss: 0.240565
+Train loss: 0.257994
+Train loss: 0.229977
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0675672
+Epoch 108
+Train loss: 0.248353
+Train loss: 0.206977
+Train loss: 0.252696
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0650112
+Epoch 109
+Train loss: 0.27915
+Train loss: 0.230226
+Train loss: 0.26636
+Train accuracy: 0.996154
+Test accuracy: 0.993671
+Test loss: 0.0447059
+Epoch 110
+Train loss: 0.273171
+Train loss: 0.252242
+Train loss: 0.245132
+Train accuracy: 0.992308
+Test accuracy: 0.993671
+Test loss: 0.0714121
+Epoch 111
+Train loss: 0.217965
+Train loss: 0.2562
+Train loss: 0.251032
+Train accuracy: 0.984615
+Test accuracy: 0.987342
+Test loss: 0.069339
+Epoch 112
+Train loss: 0.259947
+Train loss: 0.239362
+Train loss: 0.247742
+Train accuracy: 0.996154
+Test accuracy: 0.993671
+Test loss: 0.0654926
+Epoch 113
+Train loss: 0.236216
+Train loss: 0.258578
+Train loss: 0.220049
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0597045
+Epoch 114
+Train loss: 0.207752
+Train loss: 0.261993
+Train loss: 0.234102
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0661708
+Epoch 115
+Train loss: 0.209038
+Train loss: 0.220041
+Train loss: 0.237147
+Train accuracy: 0.992308
+Test accuracy: 0.993671
+Test loss: 0.063107
+Epoch 116
+Train loss: 0.224324
+Train loss: 0.224714
+Train loss: 0.247597
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.0572364
+Epoch 117
+Train loss: 0.231053
+Train loss: 0.238234
+Train loss: 0.227241
+Train accuracy: 0.992308
+Test accuracy: 0.993671
+Test loss: 0.0610002
+Epoch 118
+Train loss: 0.221479
+Train loss: 0.228558
+Train loss: 0.197966
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.0693726
+Epoch 119
+Train loss: 0.224526
+Train loss: 0.202624
+Train loss: 0.231807
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0569052
+Epoch 120
+Train loss: 0.220866
+Train loss: 0.218742
+Train loss: 0.21014
+Train accuracy: 0.996154
+Test accuracy: 0.993671
+Test loss: 0.0541851
+Epoch 121
+Train loss: 0.219118
+Train loss: 0.197611
+Train loss: 0.246151
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.0610508
+Epoch 122
+Train loss: 0.200886
+Train loss: 0.210533
+Train loss: 0.208388
+Train accuracy: 0.992308
+Test accuracy: 0.981013
+Test loss: 0.0628939
+Epoch 123
+Train loss: 0.1999
+Train loss: 0.231174
+Train loss: 0.230213
+Train accuracy: 0.992308
+Test accuracy: 0.981013
+Test loss: 0.073538
+Epoch 124
+Train loss: 0.225815
+Train loss: 0.188307
+Train loss: 0.231028
+Train accuracy: 1.0
+Test accuracy: 1.0
+Test loss: 0.0526135
+Epoch 125
+Train loss: 0.213581
+Train loss: 0.216383
+Train loss: 0.197077
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0674626
+Epoch 126
+Train loss: 0.202672
+Train loss: 0.208886
+Train loss: 0.238048
+Train accuracy: 0.996154
+Test accuracy: 0.993671
+Test loss: 0.0584003
+Epoch 127
+Train loss: 0.220027
+Train loss: 0.202296
+Train loss: 0.212632
+Train accuracy: 0.996154
+Test accuracy: 0.993671
+Test loss: 0.059105
+Epoch 128
+Train loss: 0.199161
+Train loss: 0.207143
+Train loss: 0.231064
+Train accuracy: 0.992308
+Test accuracy: 0.981013
+Test loss: 0.0696494
+Epoch 129
+Train loss: 0.236786
+Train loss: 0.200743
+Train loss: 0.246441
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0647542
+Epoch 130
+Train loss: 0.211113
+Train loss: 0.205816
+Train loss: 0.239578
+Train accuracy: 0.992308
+Test accuracy: 0.981013
+Test loss: 0.0570825
+Epoch 131
+Train loss: 0.19455
+Train loss: 0.22418
+Train loss: 0.214453
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0714582
+Epoch 132
+Train loss: 0.214209
+Train loss: 0.225007
+Train loss: 0.206228
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0597369
+Epoch 133
+Train loss: 0.212423
+Train loss: 0.221214
+Train loss: 0.236936
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0703555
+Epoch 134
+Train loss: 0.21975
+Train loss: 0.188578
+Train loss: 0.219727
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.060938
+Epoch 135
+Train loss: 0.181873
+Train loss: 0.231012
+Train loss: 0.189826
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0599209
+Epoch 136
+Train loss: 0.215435
+Train loss: 0.203878
+Train loss: 0.214587
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0593955
+Epoch 137
+Train loss: 0.1952
+Train loss: 0.203513
+Train loss: 0.193058
+Train accuracy: 0.992308
+Test accuracy: 0.981013
+Test loss: 0.0670652
+Epoch 138
+Train loss: 0.167187
+Train loss: 0.227873
+Train loss: 0.190746
+Train accuracy: 0.996154
+Test accuracy: 0.993671
+Test loss: 0.0514947
+Epoch 139
+Train loss: 0.185829
+Train loss: 0.201915
+Train loss: 0.217132
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0509794
+Epoch 140
+Train loss: 0.189746
+Train loss: 0.17976
+Train loss: 0.207564
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0620192
+Epoch 141
+Train loss: 0.230823
+Train loss: 0.259762
+Train loss: 0.187926
+Train accuracy: 0.996154
+Test accuracy: 0.993671
+Test loss: 0.0517269
+Epoch 142
+Train loss: 0.19882
+Train loss: 0.199401
+Train loss: 0.209151
+Train accuracy: 0.992308
+Test accuracy: 0.993671
+Test loss: 0.0446583
+Epoch 143
+Train loss: 0.174992
+Train loss: 0.189202
+Train loss: 0.208435
+Train accuracy: 0.992308
+Test accuracy: 0.993671
+Test loss: 0.0506363
+Epoch 144
+Train loss: 0.197384
+Train loss: 0.191728
+Train loss: 0.202536
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0526024
+Epoch 145
+Train loss: 0.182659
+Train loss: 0.259569
+Train loss: 0.185812
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.0558121
+Epoch 146
+Train loss: 0.189377
+Train loss: 0.184051
+Train loss: 0.224088
+Train accuracy: 0.976923
+Test accuracy: 0.981013
+Test loss: 0.129674
+Epoch 147
+Train loss: 0.221419
+Train loss: 0.195525
+Train loss: 0.239218
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0719462
+Epoch 148
+Train loss: 0.189584
+Train loss: 0.241007
+Train loss: 0.207844
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0520647
+Epoch 149
+Train loss: 0.200842
+Train loss: 0.182871
+Train loss: 0.196816
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.0540798
+Epoch 150
+Train loss: 0.173104
+Train loss: 0.210539
+Train loss: 0.194591
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0581388
+Epoch 151
+Train loss: 0.179734
+Train loss: 0.183475
+Train loss: 0.190767
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0594384
+Epoch 152
+Train loss: 0.196808
+Train loss: 0.225588
+Train loss: 0.227534
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.0681221
+Epoch 153
+Train loss: 0.228274
+Train loss: 0.192965
+Train loss: 0.217663
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0724775
+Epoch 154
+Train loss: 0.189893
+Train loss: 0.197109
+Train loss: 0.209939
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0634356
+Epoch 155
+Train loss: 0.187021
+Train loss: 0.186257
+Train loss: 0.188029
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0713936
+Epoch 156
+Train loss: 0.174933
+Train loss: 0.167573
+Train loss: 0.197414
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0457801
+Epoch 157
+Train loss: 0.202919
+Train loss: 0.191341
+Train loss: 0.222274
+Train accuracy: 0.996154
+Test accuracy: 0.993671
+Test loss: 0.0567263
+Epoch 158
+Train loss: 0.180035
+Train loss: 0.20614
+Train loss: 0.197081
+Train accuracy: 1.0
+Test accuracy: 0.974684
+Test loss: 0.076028
+Epoch 159
+Train loss: 0.175509
+Train loss: 0.183288
+Train loss: 0.213549
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0685345
+Epoch 160
+Train loss: 0.181527
+Train loss: 0.185504
+Train loss: 0.182565
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0554629
+Epoch 161
+Train loss: 0.181737
+Train loss: 0.178311
+Train loss: 0.187911
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0470762
+Epoch 162
+Train loss: 0.182317
+Train loss: 0.164689
+Train loss: 0.17455
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0645004
+Epoch 163
+Train loss: 0.182539
+Train loss: 0.187621
+Train loss: 0.187468
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0583873
+Epoch 164
+Train loss: 0.184198
+Train loss: 0.191118
+Train loss: 0.188545
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0656713
+Epoch 165
+Train loss: 0.167766
+Train loss: 0.175425
+Train loss: 0.171996
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0695387
+Epoch 166
+Train loss: 0.199048
+Train loss: 0.175613
+Train loss: 0.174144
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.059812
+Epoch 167
+Train loss: 0.203964
+Train loss: 0.190155
+Train loss: 0.224258
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0765285
+Epoch 168
+Train loss: 0.178734
+Train loss: 0.185842
+Train loss: 0.174472
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.056284
+Epoch 169
+Train loss: 0.178054
+Train loss: 0.169138
+Train loss: 0.170437
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0589683
+Epoch 170
+Train loss: 0.206946
+Train loss: 0.175611
+Train loss: 0.218882
+Train accuracy: 1.0
+Test accuracy: 0.993671
+Test loss: 0.0637831
+Epoch 171
+Train loss: 0.195247
+Train loss: 0.204725
+Train loss: 0.207751
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0675621
+Epoch 172
+Train loss: 0.173322
+Train loss: 0.166621
+Train loss: 0.172043
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0518858
+Epoch 173
+Train loss: 0.172343
+Train loss: 0.192788
+Train loss: 0.192611
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0580458
+Epoch 174
+Train loss: 0.183286
+Train loss: 0.173024
+Train loss: 0.16698
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0604744
+Epoch 175
+Train loss: 0.161202
+Train loss: 0.201472
+Train loss: 0.174747
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.0643774
+Epoch 176
+Train loss: 0.177901
+Train loss: 0.202501
+Train loss: 0.187308
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0540402
+Epoch 177
+Train loss: 0.169721
+Train loss: 0.170068
+Train loss: 0.18627
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0585704
+Epoch 178
+Train loss: 0.21565
+Train loss: 0.162126
+Train loss: 0.163097
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0652261
+Epoch 179
+Train loss: 0.1992
+Train loss: 0.193645
+Train loss: 0.192039
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0755525
+Epoch 180
+Train loss: 0.177149
+Train loss: 0.213576
+Train loss: 0.167049
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0596959
+Epoch 181
+Train loss: 0.176303
+Train loss: 0.167009
+Train loss: 0.17897
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0616058
+Epoch 182
+Train loss: 0.170188
+Train loss: 0.174349
+Train loss: 0.19531
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0573676
+Epoch 183
+Train loss: 0.189437
+Train loss: 0.174386
+Train loss: 0.168332
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.065505
+Epoch 184
+Train loss: 0.158443
+Train loss: 0.287864
+Train loss: 0.16028
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0728105
+Epoch 185
+Train loss: 0.182901
+Train loss: 0.156533
+Train loss: 0.169949
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0582604
+Epoch 186
+Train loss: 0.1709
+Train loss: 0.172833
+Train loss: 0.167343
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0673558
+Epoch 187
+Train loss: 0.182904
+Train loss: 0.150498
+Train loss: 0.171779
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0546705
+Epoch 188
+Train loss: 0.1584
+Train loss: 0.184725
+Train loss: 0.185627
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0486774
+Epoch 189
+Train loss: 0.164674
+Train loss: 0.180804
+Train loss: 0.159428
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0554071
+Epoch 190
+Train loss: 0.191365
+Train loss: 0.158072
+Train loss: 0.153447
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0511497
+Epoch 191
+Train loss: 0.17179
+Train loss: 0.1843
+Train loss: 0.175733
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0512502
+Epoch 192
+Train loss: 0.164658
+Train loss: 0.170668
+Train loss: 0.158081
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0509068
+Epoch 193
+Train loss: 0.163927
+Train loss: 0.146451
+Train loss: 0.1752
+Train accuracy: 0.992308
+Test accuracy: 0.993671
+Test loss: 0.0550746
+Epoch 194
+Train loss: 0.155966
+Train loss: 0.155359
+Train loss: 0.175465
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0752475
+Epoch 195
+Train loss: 0.171537
+Train loss: 0.172695
+Train loss: 0.155599
+Train accuracy: 0.988461
+Test accuracy: 0.981013
+Test loss: 0.070613
+Epoch 196
+Train loss: 0.160123
+Train loss: 0.160985
+Train loss: 0.146198
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.0606551
+Epoch 197
+Train loss: 0.14971
+Train loss: 0.146135
+Train loss: 0.162679
+Train accuracy: 0.992308
+Test accuracy: 0.981013
+Test loss: 0.0611302
+Epoch 198
+Train loss: 0.159737
+Train loss: 0.158929
+Train loss: 0.162538
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.0561502
+Epoch 199
+Train loss: 0.156423
+Train loss: 0.148409
+Train loss: 0.173853
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0542479
+Epoch 200
+Train loss: 0.1744
+Train loss: 0.163034
+Train loss: 0.156778
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0526808
+Epoch 201
+Train loss: 0.152795
+Train loss: 0.155119
+Train loss: 0.163346
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0602743
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.161205 0.592014
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0223556 0.97338
+Epoch 202
+Train loss: 0.149543
+Train loss: 0.153625
+Train loss: 0.148861
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0541914
+Epoch 203
+Train loss: 0.167513
+Train loss: 0.165942
+Train loss: 0.163662
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0564427
+Epoch 204
+Train loss: 0.160688
+Train loss: 0.153125
+Train loss: 0.164186
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0598185
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.247883 0.560501
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0127346 0.9817
+Epoch 205
+Train loss: 0.172533
+Train loss: 0.156909
+Train loss: 0.175096
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0565592
+Epoch 206
+Train loss: 0.143255
+Train loss: 0.16411
+Train loss: 0.153325
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.053846
+Epoch 207
+Train loss: 0.17056
+Train loss: 0.157179
+Train loss: 0.159089
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0509929
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.128587 0.635466
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.12352 0.870919
+Epoch 208
+Train loss: 0.151944
+Train loss: 0.161346
+Train loss: 0.156302
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0550942
+Epoch 209
+Train loss: 0.146815
+Train loss: 0.145845
+Train loss: 0.160018
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.045676
+Epoch 210
+Train loss: 0.160424
+Train loss: 0.155913
+Train loss: 0.162059
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.061371
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0522514 0.710586
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0429842 0.949912
+Epoch 211
+Train loss: 0.162448
+Train loss: 0.151895
+Train loss: 0.156067
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0533428
+Epoch 212
+Train loss: 0.167787
+Train loss: 0.155246
+Train loss: 0.168212
+Train accuracy: 0.992308
+Test accuracy: 0.993671
+Test loss: 0.0440213
+Epoch 213
+Train loss: 0.156708
+Train loss: 0.152943
+Train loss: 0.193701
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0578845
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.238224 0.479778
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0362452 0.955752
+Epoch 214
+Train loss: 0.152189
+Train loss: 0.153141
+Train loss: 0.150916
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0475466
+Epoch 215
+Train loss: 0.153709
+Train loss: 0.148055
+Train loss: 0.147201
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0528842
+Epoch 216
+Train loss: 0.155736
+Train loss: 0.150195
+Train loss: 0.164255
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0527195
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0987888 0.522885
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.233574 0.744044
+Epoch 217
+Train loss: 0.137913
+Train loss: 0.162258
+Train loss: 0.150135
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0503003
+Epoch 218
+Train loss: 0.139498
+Train loss: 0.161736
+Train loss: 0.182416
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0550377
+Epoch 219
+Train loss: 0.139742
+Train loss: 0.151306
+Train loss: 0.146687
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0555204
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0295642 0.673435
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.220684 0.769068
+Epoch 220
+Train loss: 0.139644
+Train loss: 0.14639
+Train loss: 0.178307
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0553131
+Epoch 221
+Train loss: 0.146522
+Train loss: 0.141209
+Train loss: 0.144209
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0562926
+Epoch 222
+Train loss: 0.140681
+Train loss: 0.155935
+Train loss: 0.146452
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0376268
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.223527 0.499423
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\x97\x9c\xe7\xa2\xb1\xe6\x80\xa7\xe7\xb2\x92\xe7\xbb\x86\xe8\x83\x9e%/img_14758890_9_1.jpg' 73 85
+0.431762 0.529724
+Epoch 223
+Train loss: 0.157875
+Train loss: 0.14241
+Train loss: 0.141238
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.044365
+Epoch 224
+Train loss: 0.151281
+Train loss: 0.155785
+Train loss: 0.143228
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.0359084
+Epoch 225
+Train loss: 0.144745
+Train loss: 0.166205
+Train loss: 0.149981
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.046133
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.223 0.554482
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.354864 0.633215
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\x97\x9c\xe7\xa2\xb1\xe6\x80\xa7\xe7\xb2\x92\xe7\xbb\x86\xe8\x83\x9e%/img_14758890_9_1.jpg' 73 85
+0.41183 0.553695
+Epoch 226
+Train loss: 0.135756
+Train loss: 0.156941
+Train loss: 0.148294
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0385442
+Epoch 227
+Train loss: 0.149858
+Train loss: 0.151356
+Train loss: 0.170092
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0566866
+Epoch 228
+Train loss: 0.14809
+Train loss: 0.129671
+Train loss: 0.149259
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0617805
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.13941 0.677426
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0154247 0.977802
+Epoch 229
+Train loss: 0.13735
+Train loss: 0.140951
+Train loss: 0.153871
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0414202
+Epoch 230
+Train loss: 0.139849
+Train loss: 0.142661
+Train loss: 0.134813
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0489038
+Epoch 231
+Train loss: 0.140496
+Train loss: 0.156967
+Train loss: 0.153563
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0524477
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0780945 0.709977
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.143341 0.842526
+Epoch 232
+Train loss: 0.136661
+Train loss: 0.140652
+Train loss: 0.147407
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0391578
+Epoch 233
+Train loss: 0.14724
+Train loss: 0.149591
+Train loss: 0.145149
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0553395
+Epoch 234
+Train loss: 0.138306
+Train loss: 0.126114
+Train loss: 0.141745
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0691285
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.106976 0.709801
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0172167 0.977076
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\x97\x9c\xe7\xa2\xb1\xe6\x80\xa7\xe7\xb2\x92\xe7\xbb\x86\xe8\x83\x9e%/img_14758890_9_1.jpg' 73 85
+0.341748 0.612641
+Epoch 235
+Train loss: 0.166224
+Train loss: 0.142206
+Train loss: 0.163521
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0667756
+Epoch 236
+Train loss: 0.13128
+Train loss: 0.150393
+Train loss: 0.168477
+Train accuracy: 0.988462
+Test accuracy: 0.987342
+Test loss: 0.0546493
+Epoch 237
+Train loss: 0.170664
+Train loss: 0.15644
+Train loss: 0.140864
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0366595
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.305116 0.405779
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.37104 0.615969
+Epoch 238
+Train loss: 0.146356
+Train loss: 0.136847
+Train loss: 0.154723
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0468718
+Epoch 239
+Train loss: 0.159198
+Train loss: 0.145279
+Train loss: 0.165561
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0562241
+Epoch 240
+Train loss: 0.147743
+Train loss: 0.139308
+Train loss: 0.134519
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0670421
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0815314 0.685739
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0207405 0.974059
+Epoch 241
+Train loss: 0.157772
+Train loss: 0.144662
+Train loss: 0.157311
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0425554
+Epoch 242
+Train loss: 0.140151
+Train loss: 0.152171
+Train loss: 0.142811
+Train accuracy: 1.0
+Test accuracy: 0.993671
+Test loss: 0.0412803
+Epoch 243
+Train loss: 0.142573
+Train loss: 0.149737
+Train loss: 0.173025
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0623007
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0674866 0.708921
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0257941 0.969166
+Epoch 244
+Train loss: 0.146618
+Train loss: 0.133039
+Train loss: 0.134059
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.058149
+Epoch 245
+Train loss: 0.142323
+Train loss: 0.167301
+Train loss: 0.139926
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.052244
+Epoch 246
+Train loss: 0.138612
+Train loss: 0.15372
+Train loss: 0.137685
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0356948
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.275558 0.51274
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.327021 0.656539
+Epoch 247
+Train loss: 0.128484
+Train loss: 0.142103
+Train loss: 0.155415
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0527267
+Epoch 248
+Train loss: 0.13172
+Train loss: 0.13667
+Train loss: 0.123555
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0539233
+Epoch 249
+Train loss: 0.174569
+Train loss: 0.1387
+Train loss: 0.144132
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0425306
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.255708 0.484594
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.129374 0.856526
+Epoch 250
+Train loss: 0.150549
+Train loss: 0.15318
+Train loss: 0.153787
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0430289
+Epoch 251
+Train loss: 0.130471
+Train loss: 0.136372
+Train loss: 0.125008
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0696639
+Epoch 252
+Train loss: 0.142574
+Train loss: 0.182243
+Train loss: 0.156958
+Train accuracy: 0.992308
+Test accuracy: 0.981013
+Test loss: 0.0551843
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.133065 0.465275
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.24798 0.733736
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\x97\x9c\xe7\xa2\xb1\xe6\x80\xa7\xe7\xb2\x92\xe7\xbb\x86\xe8\x83\x9e%/img_14758890_9_1.jpg' 73 85
+0.352882 0.581983
+Epoch 253
+Train loss: 0.140638
+Train loss: 0.163044
+Train loss: 0.156205
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0478049
+Epoch 254
+Train loss: 0.132251
+Train loss: 0.122048
+Train loss: 0.138379
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0561978
+Epoch 255
+Train loss: 0.135298
+Train loss: 0.172062
+Train loss: 0.133309
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0473697
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.142079 0.515966
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.156118 0.83069
+Epoch 256
+Train loss: 0.131333
+Train loss: 0.150387
+Train loss: 0.15255
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0496405
+Epoch 257
+Train loss: 0.141279
+Train loss: 0.130869
+Train loss: 0.128178
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.052033
+Epoch 258
+Train loss: 0.140993
+Train loss: 0.138494
+Train loss: 0.134288
+Train accuracy: 0.996154
+Test accuracy: 1.0
+Test loss: 0.0335616
+Epoch 259
+Train loss: 0.126783
+Train loss: 0.201844
+Train loss: 0.126528
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.041509
+Epoch 260
+Train loss: 0.130969
+Train loss: 0.141483
+Train loss: 0.143275
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0479045
+Epoch 261
+Train loss: 0.152044
+Train loss: 0.136642
+Train loss: 0.144505
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0440238
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.234158 0.491853
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.255566 0.729855
+Epoch 262
+Train loss: 0.123186
+Train loss: 0.146416
+Train loss: 0.138043
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0449532
+Epoch 263
+Train loss: 0.131035
+Train loss: 0.123895
+Train loss: 0.14265
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0456882
+Epoch 264
+Train loss: 0.133955
+Train loss: 0.14296
+Train loss: 0.137653
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0526517
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.174143 0.533415
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0909295 0.901477
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\x8d\x95\xe6\xa0\xb8\xe7\xbb\x86\xe8\x83\x9e\xe7\xbb\x9d\xe5\xaf\xb9\xe6\x95\xb0/_0_8012.jpeg' 67 66
+0.346333 0.540864
+Epoch 265
+Train loss: 0.152793
+Train loss: 0.127928
+Train loss: 0.134303
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0487099
+Epoch 266
+Train loss: 0.137914
+Train loss: 0.162037
+Train loss: 0.136673
+Train accuracy: 0.988461
+Test accuracy: 0.974684
+Test loss: 0.114706
+Epoch 267
+Train loss: 0.129805
+Train loss: 0.125529
+Train loss: 0.1328
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0422424
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.228302 0.513925
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.198069 0.790407
+Epoch 268
+Train loss: 0.163108
+Train loss: 0.155907
+Train loss: 0.13478
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0441077
+Epoch 269
+Train loss: 0.149798
+Train loss: 0.139027
+Train loss: 0.160225
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0459943
+Epoch 270
+Train loss: 0.134773
+Train loss: 0.135473
+Train loss: 0.134823
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0436881
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0781771 0.613163
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.277701 0.712749
+Epoch 271
+Train loss: 0.155555
+Train loss: 0.134097
+Train loss: 0.132704
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0576673
+Epoch 272
+Train loss: 0.118318
+Train loss: 0.147573
+Train loss: 0.162152
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0606888
+Epoch 273
+Train loss: 0.120536
+Train loss: 0.139555
+Train loss: 0.153224
+Train accuracy: 1.0
+Test accuracy: 0.974684
+Test loss: 0.0489454
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.249906 0.500276
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.217386 0.770212
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\x8d\x95\xe6\xa0\xb8\xe7\xbb\x86\xe8\x83\x9e\xe7\xbb\x9d\xe5\xaf\xb9\xe6\x95\xb0/_0_8012.jpeg' 67 66
+0.394405 0.505507
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\x97\x9c\xe7\xa2\xb1\xe6\x80\xa7\xe7\xb2\x92\xe7\xbb\x86\xe8\x83\x9e%/img_14758890_9_1.jpg' 73 85
+0.425541 0.530133
+Epoch 274
+Train loss: 0.123915
+Train loss: 0.115169
+Train loss: 0.125196
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.0551059
+Epoch 275
+Train loss: 0.139904
+Train loss: 0.138252
+Train loss: 0.124528
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0444579
+Epoch 276
+Train loss: 0.134078
+Train loss: 0.131985
+Train loss: 0.174496
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0543072
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0279999 0.781655
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\x97\x9c\xe7\xa2\xb1\xe6\x80\xa7\xe7\xb2\x92\xe7\xbb\x86\xe8\x83\x9e%/img_14758890_9_1.jpg' 73 85
+0.410894 0.555128
+Epoch 277
+Train loss: 0.132732
+Train loss: 0.131038
+Train loss: 0.134836
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0515715
+Epoch 278
+Train loss: 0.126088
+Train loss: 0.116766
+Train loss: 0.13204
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.042972
+Epoch 279
+Train loss: 0.149915
+Train loss: 0.128452
+Train loss: 0.148915
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0553294
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.106779 0.556666
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0642479 0.921212
+Epoch 280
+Train loss: 0.120842
+Train loss: 0.129141
+Train loss: 0.129536
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0506524
+Epoch 281
+Train loss: 0.117227
+Train loss: 0.124504
+Train loss: 0.13088
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0494759
+Epoch 282
+Train loss: 0.125115
+Train loss: 0.14124
+Train loss: 0.126699
+Train accuracy: 1.0
+Test accuracy: 0.993671
+Test loss: 0.0367824
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.466686 0.520584
+Epoch 283
+Train loss: 0.139227
+Train loss: 0.122865
+Train loss: 0.140667
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0388155
+Epoch 284
+Train loss: 0.141419
+Train loss: 0.138308
+Train loss: 0.136184
+Train accuracy: 1.0
+Test accuracy: 0.993671
+Test loss: 0.0432417
+Epoch 285
+Train loss: 0.115313
+Train loss: 0.117897
+Train loss: 0.11875
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0622967
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.135176 0.582881
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0164126 0.98025
+Epoch 286
+Train loss: 0.120769
+Train loss: 0.119799
+Train loss: 0.113586
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0591059
+Epoch 287
+Train loss: 0.113228
+Train loss: 0.119759
+Train loss: 0.117195
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.0504516
+Epoch 288
+Train loss: 0.116833
+Train loss: 0.121356
+Train loss: 0.129219
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0437653
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.21856 0.527085
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0710794 0.922593
+Epoch 289
+Train loss: 0.127284
+Train loss: 0.125197
+Train loss: 0.126034
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0439006
+Epoch 290
+Train loss: 0.13903
+Train loss: 0.15735
+Train loss: 0.175463
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.046475
+Epoch 291
+Train loss: 0.157454
+Train loss: 0.130914
+Train loss: 0.116221
+Train accuracy: 0.984615
+Test accuracy: 0.987342
+Test loss: 0.050704
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0687998 0.659173
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.101271 0.890285
+Epoch 292
+Train loss: 0.115405
+Train loss: 0.140295
+Train loss: 0.134336
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.0520209
+Epoch 293
+Train loss: 0.140431
+Train loss: 0.137495
+Train loss: 0.137232
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.0525287
+Epoch 294
+Train loss: 0.139031
+Train loss: 0.126759
+Train loss: 0.146324
+Train accuracy: 0.992308
+Test accuracy: 0.981013
+Test loss: 0.0546243
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0926572 0.665723
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0928157 0.901802
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\x97\x9c\xe7\xa2\xb1\xe6\x80\xa7\xe7\xb2\x92\xe7\xbb\x86\xe8\x83\x9e%/img_14758890_9_1.jpg' 73 85
+0.357544 0.603269
+Epoch 295
+Train loss: 0.11944
+Train loss: 0.125807
+Train loss: 0.131172
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0534802
+Epoch 296
+Train loss: 0.127922
+Train loss: 0.121344
+Train loss: 0.115411
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0330932
+Epoch 297
+Train loss: 0.125223
+Train loss: 0.127948
+Train loss: 0.160049
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0440753
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0739379 0.633187
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.34818 0.641553
+Epoch 298
+Train loss: 0.117745
+Train loss: 0.119485
+Train loss: 0.141308
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0423352
+Epoch 299
+Train loss: 0.120278
+Train loss: 0.128355
+Train loss: 0.124912
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0424696
+Epoch 300
+Train loss: 0.132662
+Train loss: 0.12991
+Train loss: 0.135463
+Train accuracy: 1.0
+Test accuracy: 0.993671
+Test loss: 0.0360131
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.149854 0.651159
+Epoch 301
+Train loss: 0.121152
+Train loss: 0.122022
+Train loss: 0.120126
+Train accuracy: 0.980769
+Test accuracy: 0.981013
+Test loss: 0.0539361
+Epoch 302
+Train loss: 0.136315
+Train loss: 0.120238
+Train loss: 0.134265
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.053869
+Epoch 303
+Train loss: 0.113815
+Train loss: 0.127402
+Train loss: 0.139665
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0465205
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.13361 0.572756
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.198406 0.792024
+Epoch 304
+Train loss: 0.131786
+Train loss: 0.127921
+Train loss: 0.134544
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0524187
+Epoch 305
+Train loss: 0.110036
+Train loss: 0.1165
+Train loss: 0.130239
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0402532
+Epoch 306
+Train loss: 0.129202
+Train loss: 0.114775
+Train loss: 0.129798
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0486197
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.126722 0.636443
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.11446 0.877848
+Epoch 307
+Train loss: 0.130874
+Train loss: 0.119699
+Train loss: 0.119938
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0479009
+Epoch 308
+Train loss: 0.126334
+Train loss: 0.120994
+Train loss: 0.134489
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0395177
+Epoch 309
+Train loss: 0.123834
+Train loss: 0.13259
+Train loss: 0.121021
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0595462
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.104086 0.665781
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0279447 0.967595
+Epoch 310
+Train loss: 0.110182
+Train loss: 0.133898
+Train loss: 0.138
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0546566
+Epoch 311
+Train loss: 0.123951
+Train loss: 0.124124
+Train loss: 0.135982
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0450427
+Epoch 312
+Train loss: 0.109339
+Train loss: 0.119894
+Train loss: 0.127349
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0526306
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.133207 0.617429
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0430658 0.951945
+Epoch 313
+Train loss: 0.127624
+Train loss: 0.132815
+Train loss: 0.115589
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.057528
+Epoch 314
+Train loss: 0.122457
+Train loss: 0.109248
+Train loss: 0.125838
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0507294
+Epoch 315
+Train loss: 0.122293
+Train loss: 0.118872
+Train loss: 0.129165
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0486387
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.261957 0.527702
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0778536 0.915256
+Epoch 316
+Train loss: 0.112082
+Train loss: 0.109732
+Train loss: 0.119396
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0479239
+Epoch 317
+Train loss: 0.116921
+Train loss: 0.120415
+Train loss: 0.128114
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.0525015
+Epoch 318
+Train loss: 0.120206
+Train loss: 0.124334
+Train loss: 0.129005
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0484046
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.110138 0.680462
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.138543 0.853016
+Epoch 319
+Train loss: 0.122863
+Train loss: 0.116466
+Train loss: 0.120135
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0404721
+Epoch 320
+Train loss: 0.109577
+Train loss: 0.115124
+Train loss: 0.118716
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0424533
+Epoch 321
+Train loss: 0.10875
+Train loss: 0.130415
+Train loss: 0.148247
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.04468
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.11767 0.577102
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.186898 0.803168
+Epoch 322
+Train loss: 0.134895
+Train loss: 0.124339
+Train loss: 0.152065
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0573394
+Epoch 323
+Train loss: 0.11822
+Train loss: 0.12261
+Train loss: 0.118652
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0435073
+Epoch 324
+Train loss: 0.122678
+Train loss: 0.117387
+Train loss: 0.140884
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0494035
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0826723 0.727021
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0966353 0.89728
+Epoch 325
+Train loss: 0.121488
+Train loss: 0.141294
+Train loss: 0.132776
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0429172
+Epoch 326
+Train loss: 0.138505
+Train loss: 0.116221
+Train loss: 0.113718
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0430362
+Epoch 327
+Train loss: 0.115616
+Train loss: 0.112127
+Train loss: 0.11338
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0573842
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0762645 0.738923
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0306551 0.964701
+Epoch 328
+Train loss: 0.105834
+Train loss: 0.125805
+Train loss: 0.109166
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0514954
+Epoch 329
+Train loss: 0.111175
+Train loss: 0.125702
+Train loss: 0.132098
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0418209
+Epoch 330
+Train loss: 0.11611
+Train loss: 0.103011
+Train loss: 0.123536
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0501707
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.117609 0.64775
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0509386 0.942472
+Epoch 331
+Train loss: 0.125938
+Train loss: 0.111855
+Train loss: 0.12057
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0597051
+Epoch 332
+Train loss: 0.109903
+Train loss: 0.123628
+Train loss: 0.11759
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.058729
+Epoch 333
+Train loss: 0.134608
+Train loss: 0.112626
+Train loss: 0.127302
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0659114
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0555841 0.757725
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0108596 0.985584
+Epoch 334
+Train loss: 0.112466
+Train loss: 0.111515
+Train loss: 0.113096
+Train accuracy: 1.0
+Test accuracy: 0.993671
+Test loss: 0.0345633
+Epoch 335
+Train loss: 0.110707
+Train loss: 0.114398
+Train loss: 0.124704
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0444725
+Epoch 336
+Train loss: 0.108778
+Train loss: 0.132848
+Train loss: 0.110524
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0413782
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.304762 0.481392
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0832544 0.911824
+Epoch 337
+Train loss: 0.112689
+Train loss: 0.144195
+Train loss: 0.114902
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0641017
+Epoch 338
+Train loss: 0.115295
+Train loss: 0.107586
+Train loss: 0.116458
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0386562
+Epoch 339
+Train loss: 0.144172
+Train loss: 0.12135
+Train loss: 0.111946
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0429104
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.117234 0.643137
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.197815 0.791442
+Epoch 340
+Train loss: 0.11958
+Train loss: 0.104316
+Train loss: 0.112635
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0496775
+Epoch 341
+Train loss: 0.114342
+Train loss: 0.116708
+Train loss: 0.133295
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0389499
+Epoch 342
+Train loss: 0.110069
+Train loss: 0.111401
+Train loss: 0.116581
+Train accuracy: 1.0
+Test accuracy: 0.974684
+Test loss: 0.066824
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0573081 0.743679
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.254948 0.734249
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\x8d\x95\xe6\xa0\xb8\xe7\xbb\x86\xe8\x83\x9e/img_14807722_9_5.jpg' 55 230
+0.161286 0.395887
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\x97\x9c\xe7\xa2\xb1\xe6\x80\xa7\xe7\xb2\x92\xe7\xbb\x86\xe8\x83\x9e%/img_14758890_9_1.jpg' 73 85
+0.319937 0.617834
+Epoch 343
+Train loss: 0.121248
+Train loss: 0.115269
+Train loss: 0.113078
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0457149
+Epoch 344
+Train loss: 0.123442
+Train loss: 0.109951
+Train loss: 0.118332
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0629635
+Epoch 345
+Train loss: 0.119749
+Train loss: 0.117987
+Train loss: 0.108211
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0359434
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.183192 0.558955
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.342689 0.64252
+Epoch 346
+Train loss: 0.113124
+Train loss: 0.119512
+Train loss: 0.105863
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0433691
+Epoch 347
+Train loss: 0.103294
+Train loss: 0.11992
+Train loss: 0.108791
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0415393
+Epoch 348
+Train loss: 0.11039
+Train loss: 0.113374
+Train loss: 0.117608
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0565959
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0548879 0.772981
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0293986 0.967767
+Epoch 349
+Train loss: 0.115624
+Train loss: 0.109421
+Train loss: 0.109101
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0613399
+Epoch 350
+Train loss: 0.118467
+Train loss: 0.118363
+Train loss: 0.114152
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0622788
+Epoch 351
+Train loss: 0.111153
+Train loss: 0.119247
+Train loss: 0.116307
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0463095
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.195048 0.598207
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0585651 0.936997
+Epoch 352
+Train loss: 0.126476
+Train loss: 0.106141
+Train loss: 0.109625
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.054582
+Epoch 353
+Train loss: 0.113332
+Train loss: 0.113748
+Train loss: 0.110621
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.04293
+Epoch 354
+Train loss: 0.0973488
+Train loss: 0.121283
+Train loss: 0.123368
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0385488
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.174309 0.607848
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.186898 0.804567
+Epoch 355
+Train loss: 0.105805
+Train loss: 0.110765
+Train loss: 0.129309
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0514795
+Epoch 356
+Train loss: 0.117281
+Train loss: 0.102447
+Train loss: 0.104447
+Train accuracy: 1.0
+Test accuracy: 0.974684
+Test loss: 0.0654573
+Epoch 357
+Train loss: 0.109792
+Train loss: 0.107822
+Train loss: 0.103355
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0455882
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.157265 0.617728
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0941284 0.89752
+Epoch 358
+Train loss: 0.107378
+Train loss: 0.126203
+Train loss: 0.125527
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0502449
+Epoch 359
+Train loss: 0.121382
+Train loss: 0.113606
+Train loss: 0.12061
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0343076
+Epoch 360
+Train loss: 0.111222
+Train loss: 0.136583
+Train loss: 0.130995
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0375139
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.166783 0.564377
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.290676 0.698441
+Epoch 361
+Train loss: 0.102847
+Train loss: 0.111134
+Train loss: 0.114455
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0425804
+Epoch 362
+Train loss: 0.104243
+Train loss: 0.10101
+Train loss: 0.111459
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0505226
+Epoch 363
+Train loss: 0.0973298
+Train loss: 0.109631
+Train loss: 0.113871
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0596224
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.076125 0.731709
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0207377 0.973862
+Epoch 364
+Train loss: 0.137134
+Train loss: 0.121644
+Train loss: 0.108875
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.0383474
+Epoch 365
+Train loss: 0.096463
+Train loss: 0.123675
+Train loss: 0.103576
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0429285
+Epoch 366
+Train loss: 0.113797
+Train loss: 0.122912
+Train loss: 0.106888
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0553004
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.106108 0.682457
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0380253 0.953923
+Epoch 367
+Train loss: 0.119737
+Train loss: 0.11962
+Train loss: 0.118341
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0442297
+Epoch 368
+Train loss: 0.104908
+Train loss: 0.120799
+Train loss: 0.116879
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0466091
+Epoch 369
+Train loss: 0.100802
+Train loss: 0.11557
+Train loss: 0.111495
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0357947
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0676775 0.777181
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.486438 0.499849
+Epoch 370
+Train loss: 0.127291
+Train loss: 0.0976621
+Train loss: 0.110257
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0423508
+Epoch 371
+Train loss: 0.0980692
+Train loss: 0.0973041
+Train loss: 0.136017
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0523099
+Epoch 372
+Train loss: 0.112881
+Train loss: 0.102676
+Train loss: 0.106343
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0492634
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.182359 0.611872
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.050677 0.942461
+Epoch 373
+Train loss: 0.121065
+Train loss: 0.116119
+Train loss: 0.122545
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0516902
+Epoch 374
+Train loss: 0.100332
+Train loss: 0.134739
+Train loss: 0.111997
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0415001
+Epoch 375
+Train loss: 0.113315
+Train loss: 0.134399
+Train loss: 0.104016
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0540349
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.028435 0.732408
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0666398 0.923516
+Epoch 376
+Train loss: 0.102871
+Train loss: 0.0975384
+Train loss: 0.104213
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0555687
+Epoch 377
+Train loss: 0.101763
+Train loss: 0.102711
+Train loss: 0.108955
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0435777
+Epoch 378
+Train loss: 0.105092
+Train loss: 0.102938
+Train loss: 0.128771
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0440877
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0656814 0.723509
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.163668 0.823545
+Epoch 379
+Train loss: 0.108027
+Train loss: 0.120172
+Train loss: 0.120565
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0348091
+Epoch 380
+Train loss: 0.111429
+Train loss: 0.103706
+Train loss: 0.107337
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.050101
+Epoch 381
+Train loss: 0.110395
+Train loss: 0.104144
+Train loss: 0.106219
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0444372
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0801099 0.679905
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.142813 0.846398
+Epoch 382
+Train loss: 0.109777
+Train loss: 0.11648
+Train loss: 0.0976106
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0415312
+Epoch 383
+Train loss: 0.105186
+Train loss: 0.132249
+Train loss: 0.107641
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0522502
+Epoch 384
+Train loss: 0.107829
+Train loss: 0.0983476
+Train loss: 0.111409
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0576421
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.193775 0.598623
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.00830257 0.987724
+Epoch 385
+Train loss: 0.115296
+Train loss: 0.118195
+Train loss: 0.10461
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0548743
+Epoch 386
+Train loss: 0.109615
+Train loss: 0.106768
+Train loss: 0.110478
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0493956
+Epoch 387
+Train loss: 0.107157
+Train loss: 0.0980181
+Train loss: 0.130201
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0518412
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.137035 0.699837
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0346477 0.960809
+Epoch 388
+Train loss: 0.102608
+Train loss: 0.101165
+Train loss: 0.112324
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0581693
+Epoch 389
+Train loss: 0.102279
+Train loss: 0.116501
+Train loss: 0.0983935
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0519689
+Epoch 390
+Train loss: 0.101944
+Train loss: 0.13976
+Train loss: 0.108734
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.063156
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0614914 0.779362
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0130876 0.983847
+Epoch 391
+Train loss: 0.114998
+Train loss: 0.103898
+Train loss: 0.102254
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0591756
+Epoch 392
+Train loss: 0.120565
+Train loss: 0.134436
+Train loss: 0.125996
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.0608304
+Epoch 393
+Train loss: 0.104472
+Train loss: 0.109709
+Train loss: 0.114377
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0509692
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0406303 0.661002
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.13024 0.858608
+Epoch 394
+Train loss: 0.101666
+Train loss: 0.122229
+Train loss: 0.101145
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0611291
+Epoch 395
+Train loss: 0.0918257
+Train loss: 0.10243
+Train loss: 0.100239
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0454779
+Epoch 396
+Train loss: 0.111734
+Train loss: 0.112809
+Train loss: 0.104287
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0464027
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0755722 0.745275
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.10374 0.889759
+Epoch 397
+Train loss: 0.109802
+Train loss: 0.0959216
+Train loss: 0.100334
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0562775
+Epoch 398
+Train loss: 0.0994527
+Train loss: 0.115972
+Train loss: 0.0969318
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0649527
+Epoch 399
+Train loss: 0.100477
+Train loss: 0.110415
+Train loss: 0.107777
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0433132
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.135778 0.692486
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0909131 0.900788
+Epoch 400
+Train loss: 0.11089
+Train loss: 0.102264
+Train loss: 0.109898
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.052316
+Epoch 401
+Train loss: 0.103407
+Train loss: 0.116138
+Train loss: 0.105001
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0406137
+Epoch 402
+Train loss: 0.0927502
+Train loss: 0.114471
+Train loss: 0.113393
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.0547636
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0375633 0.771714
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.179509 0.800868
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\x97\x9c\xe7\xa2\xb1\xe6\x80\xa7\xe7\xb2\x92\xe7\xbb\x86\xe8\x83\x9e%/img_14758890_9_1.jpg' 73 85
+0.469372 0.472126
+Epoch 403
+Train loss: 0.107383
+Train loss: 0.10714
+Train loss: 0.0990612
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0529064
+Epoch 404
+Train loss: 0.10724
+Train loss: 0.104106
+Train loss: 0.108728
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0487922
+Epoch 405
+Train loss: 0.102943
+Train loss: 0.122612
+Train loss: 0.108912
+Train accuracy: 1.0
+Test accuracy: 0.993671
+Test loss: 0.0296911
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.222904 0.58103
+Epoch 406
+Train loss: 0.11298
+Train loss: 0.100713
+Train loss: 0.0986173
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0501888
+Epoch 407
+Train loss: 0.103661
+Train loss: 0.123381
+Train loss: 0.107615
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0576723
+Epoch 408
+Train loss: 0.100706
+Train loss: 0.0991735
+Train loss: 0.106489
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.061623
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0658387 0.739419
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0214621 0.974576
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\x97\x9c\xe7\xa2\xb1\xe6\x80\xa7\xe7\xb2\x92\xe7\xbb\x86\xe8\x83\x9e%/img_14758890_9_1.jpg' 73 85
+0.372155 0.575756
+Epoch 409
+Train loss: 0.0967278
+Train loss: 0.099852
+Train loss: 0.102522
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0453575
+Epoch 410
+Train loss: 0.0930004
+Train loss: 0.105849
+Train loss: 0.0979383
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0469957
+Epoch 411
+Train loss: 0.105123
+Train loss: 0.104176
+Train loss: 0.0995108
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0700781
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0138913 0.820745
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0106514 0.986617
+Epoch 412
+Train loss: 0.104121
+Train loss: 0.118995
+Train loss: 0.100751
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.042223
+Epoch 413
+Train loss: 0.10506
+Train loss: 0.107395
+Train loss: 0.0958356
+Train accuracy: 0.988461
+Test accuracy: 0.987342
+Test loss: 0.0430749
+Epoch 414
+Train loss: 0.100552
+Train loss: 0.116866
+Train loss: 0.104719
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0389027
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0955315 0.704881
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.346711 0.631166
+Epoch 415
+Train loss: 0.11296
+Train loss: 0.10384
+Train loss: 0.128456
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0609938
+Epoch 416
+Train loss: 0.120425
+Train loss: 0.0915745
+Train loss: 0.102715
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0354865
+Epoch 417
+Train loss: 0.0933149
+Train loss: 0.107731
+Train loss: 0.0979916
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0419824
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.15828 0.678988
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.105872 0.885313
+Epoch 418
+Train loss: 0.105075
+Train loss: 0.106853
+Train loss: 0.107714
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.046278
+Epoch 419
+Train loss: 0.106023
+Train loss: 0.0993728
+Train loss: 0.114084
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0442596
+Epoch 420
+Train loss: 0.107232
+Train loss: 0.107144
+Train loss: 0.119889
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0557495
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0689467 0.719612
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0322695 0.964001
+Epoch 421
+Train loss: 0.0967255
+Train loss: 0.0989935
+Train loss: 0.104765
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0483395
+Epoch 422
+Train loss: 0.101085
+Train loss: 0.110533
+Train loss: 0.102533
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.048122
+Epoch 423
+Train loss: 0.0989885
+Train loss: 0.0924845
+Train loss: 0.102217
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0466541
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.190219 0.567819
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0716845 0.922849
+Epoch 424
+Train loss: 0.0907321
+Train loss: 0.113691
+Train loss: 0.0999312
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0661835
+Epoch 425
+Train loss: 0.0958763
+Train loss: 0.103878
+Train loss: 0.0950459
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0535407
+Epoch 426
+Train loss: 0.101264
+Train loss: 0.108151
+Train loss: 0.129441
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0570783
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.087722 0.682432
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0463803 0.945609
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\x8d\x95\xe6\xa0\xb8\xe7\xbb\x86\xe8\x83\x9e\xe7\xbb\x9d\xe5\xaf\xb9\xe6\x95\xb0/_0_8012.jpeg' 67 66
+0.409976 0.505425
+Epoch 427
+Train loss: 0.0966143
+Train loss: 0.100184
+Train loss: 0.102134
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0587655
+Epoch 428
+Train loss: 0.101469
+Train loss: 0.0883871
+Train loss: 0.102168
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0404868
+Epoch 429
+Train loss: 0.104141
+Train loss: 0.113364
+Train loss: 0.107162
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0547586
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0394422 0.781562
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.049658 0.942964
+Epoch 430
+Train loss: 0.0940221
+Train loss: 0.115153
+Train loss: 0.0936084
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0484094
+Epoch 431
+Train loss: 0.098095
+Train loss: 0.100047
+Train loss: 0.0987095
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0356325
+Epoch 432
+Train loss: 0.111876
+Train loss: 0.0953557
+Train loss: 0.102137
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0437779
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0643818 0.745847
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.19385 0.795381
+Epoch 433
+Train loss: 0.100204
+Train loss: 0.107124
+Train loss: 0.108991
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0420975
+Epoch 434
+Train loss: 0.105713
+Train loss: 0.0989543
+Train loss: 0.0904816
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.046666
+Epoch 435
+Train loss: 0.132116
+Train loss: 0.124601
+Train loss: 0.105014
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0598459
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0502841 0.712661
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0236199 0.971276
+Epoch 436
+Train loss: 0.094577
+Train loss: 0.0998239
+Train loss: 0.104856
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.0446116
+Epoch 437
+Train loss: 0.0929815
+Train loss: 0.12211
+Train loss: 0.0961825
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0429826
+Epoch 438
+Train loss: 0.112277
+Train loss: 0.108334
+Train loss: 0.108174
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0501323
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0735845 0.70887
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0442613 0.951696
+Epoch 439
+Train loss: 0.102334
+Train loss: 0.102564
+Train loss: 0.0917145
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0427181
+Epoch 440
+Train loss: 0.0921495
+Train loss: 0.0937495
+Train loss: 0.0977622
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0502395
+Epoch 441
+Train loss: 0.0980372
+Train loss: 0.0935297
+Train loss: 0.0991639
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0421095
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.202442 0.557
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.100926 0.890496
+Epoch 442
+Train loss: 0.0980844
+Train loss: 0.0914378
+Train loss: 0.0876996
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0458021
+Epoch 443
+Train loss: 0.0990889
+Train loss: 0.103963
+Train loss: 0.103924
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.044009
+Epoch 444
+Train loss: 0.105557
+Train loss: 0.0985493
+Train loss: 0.096645
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0613931
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.00940808 0.771149
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0741583 0.919299
+Epoch 445
+Train loss: 0.114822
+Train loss: 0.0972982
+Train loss: 0.0930078
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0352811
+Epoch 446
+Train loss: 0.105743
+Train loss: 0.0971209
+Train loss: 0.103433
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0360354
+Epoch 447
+Train loss: 0.119052
+Train loss: 0.0959132
+Train loss: 0.0887995
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0358517
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.150631 0.652182
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.309068 0.677
+Epoch 448
+Train loss: 0.0916175
+Train loss: 0.0941887
+Train loss: 0.112982
+Train accuracy: 1.0
+Test accuracy: 0.993671
+Test loss: 0.038091
+Epoch 449
+Train loss: 0.0902111
+Train loss: 0.11117
+Train loss: 0.102333
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0457399
+Epoch 450
+Train loss: 0.0977953
+Train loss: 0.107782
+Train loss: 0.116097
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0320136
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.196694 0.624116
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.345914 0.643265
+Epoch 451
+Train loss: 0.095581
+Train loss: 0.0977803
+Train loss: 0.136707
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0466948
+Epoch 452
+Train loss: 0.094916
+Train loss: 0.108977
+Train loss: 0.100283
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0499349
+Epoch 453
+Train loss: 0.105468
+Train loss: 0.0953089
+Train loss: 0.0906822
+Train accuracy: 0.996154
+Test accuracy: 0.993671
+Test loss: 0.0377386
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0916595 0.645847
+Epoch 454
+Train loss: 0.0975721
+Train loss: 0.0952057
+Train loss: 0.109134
+Train accuracy: 1.0
+Test accuracy: 0.993671
+Test loss: 0.0336894
+Epoch 455
+Train loss: 0.106907
+Train loss: 0.107773
+Train loss: 0.0927867
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.044787
+Epoch 456
+Train loss: 0.112425
+Train loss: 0.0956291
+Train loss: 0.0947507
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0526166
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0736156 0.705184
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0412216 0.954596
+Epoch 457
+Train loss: 0.109779
+Train loss: 0.105754
+Train loss: 0.0959562
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0444298
+Epoch 458
+Train loss: 0.119989
+Train loss: 0.113131
+Train loss: 0.0989832
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0323289
+Epoch 459
+Train loss: 0.105465
+Train loss: 0.0882618
+Train loss: 0.112344
+Train accuracy: 1.0
+Test accuracy: 0.993671
+Test loss: 0.0269514
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.479079 0.510841
+Epoch 460
+Train loss: 0.142541
+Train loss: 0.0951073
+Train loss: 0.10173
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0374599
+Epoch 461
+Train loss: 0.0879995
+Train loss: 0.0879929
+Train loss: 0.0925843
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0507893
+Epoch 462
+Train loss: 0.0919227
+Train loss: 0.0894996
+Train loss: 0.101146
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0345112
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.157104 0.596038
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.206031 0.784326
+Epoch 463
+Train loss: 0.0815552
+Train loss: 0.0965676
+Train loss: 0.102117
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0453533
+Epoch 464
+Train loss: 0.109976
+Train loss: 0.0978992
+Train loss: 0.0966209
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0335424
+Epoch 465
+Train loss: 0.0975631
+Train loss: 0.111702
+Train loss: 0.10705
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0419354
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.233366 0.574503
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0897489 0.903871
+Epoch 466
+Train loss: 0.0935621
+Train loss: 0.105079
+Train loss: 0.0988216
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0561112
+Epoch 467
+Train loss: 0.0889207
+Train loss: 0.115443
+Train loss: 0.0944491
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0359261
+Epoch 468
+Train loss: 0.0946309
+Train loss: 0.095354
+Train loss: 0.102214
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0547538
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0983991 0.709542
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0172894 0.97785
+Epoch 469
+Train loss: 0.0868734
+Train loss: 0.0964441
+Train loss: 0.0893887
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0519658
+Epoch 470
+Train loss: 0.092015
+Train loss: 0.0961493
+Train loss: 0.107534
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0517765
+Epoch 471
+Train loss: 0.0892126
+Train loss: 0.0909654
+Train loss: 0.084499
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0426345
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.220147 0.575858
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0904436 0.902966
+Epoch 472
+Train loss: 0.0885345
+Train loss: 0.0904897
+Train loss: 0.0909359
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0428916
+Epoch 473
+Train loss: 0.0882704
+Train loss: 0.105774
+Train loss: 0.0870778
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0529018
+Epoch 474
+Train loss: 0.0986704
+Train loss: 0.0961266
+Train loss: 0.095374
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0387709
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.117758 0.582691
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.337673 0.646144
+Epoch 475
+Train loss: 0.105237
+Train loss: 0.0989442
+Train loss: 0.0935869
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0495925
+Epoch 476
+Train loss: 0.0922373
+Train loss: 0.0920206
+Train loss: 0.0946148
+Train accuracy: 0.992308
+Test accuracy: 0.987342
+Test loss: 0.0523707
+Epoch 477
+Train loss: 0.0854572
+Train loss: 0.086302
+Train loss: 0.0942763
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0334752
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.143648 0.650454
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.305252 0.686853
+Epoch 478
+Train loss: 0.0914907
+Train loss: 0.103088
+Train loss: 0.0957033
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0324813
+Epoch 479
+Train loss: 0.0885457
+Train loss: 0.0945907
+Train loss: 0.0956737
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0409562
+Epoch 480
+Train loss: 0.128257
+Train loss: 0.097942
+Train loss: 0.0912753
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0482646
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0433595 0.753576
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.10663 0.882694
+Epoch 481
+Train loss: 0.105148
+Train loss: 0.0893949
+Train loss: 0.0921959
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0344261
+Epoch 482
+Train loss: 0.115079
+Train loss: 0.0934191
+Train loss: 0.0980126
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0429358
+Epoch 483
+Train loss: Using TensorFlow backend.
+0.110059
+Train loss: 0.0991036
+Train loss: 0.0957291
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0434324
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.048427 0.687561
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.322353 0.665988
+Epoch 484
+Train loss: 0.0982312
+Train loss: 0.0943248
+Train loss: 0.0867299
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.0560217
+Epoch 485
+Train loss: 0.111052
+Train loss: 0.0931958
+Train loss: 0.0961679
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0504155
+Epoch 486
+Train loss: 0.110966
+Train loss: 0.0887013
+Train loss: 0.0959603
+Train accuracy: 1.0
+Test accuracy: 0.981013
+Test loss: 0.0544204
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0970348 0.702617
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.0444368 0.948872
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe5\x97\x9c\xe7\xa2\xb1\xe6\x80\xa7\xe7\xb2\x92\xe7\xbb\x86\xe8\x83\x9e%/img_14758890_9_1.jpg' 73 85
+0.4442 0.489428
+Epoch 487
+Train loss: 0.0934939
+Train loss: 0.0948541
+Train loss: 0.0959403
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0460635
+Epoch 488
+Train loss: 0.0994704
+Train loss: 0.0855777
+Train loss: 0.0977521
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.053021
+Epoch 489
+Train loss: 0.0924272
+Train loss: 0.0890115
+Train loss: 0.0923347
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0351807
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.175196 0.60887
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.272965 0.717208
+Epoch 490
+Train loss: 0.0928254
+Train loss: 0.0927561
+Train loss: 0.0848301
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0344665
+Epoch 491
+Train loss: 0.0921713
+Train loss: 0.0912939
+Train loss: 0.0920923
+Train accuracy: 0.996154
+Test accuracy: 0.981013
+Test loss: 0.0548314
+Epoch 492
+Train loss: 0.103189
+Train loss: 0.0901224
+Train loss: 0.0911974
+Train accuracy: 1.0
+Test accuracy: 0.993671
+Test loss: 0.0334472
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0707962 0.721662
+Epoch 493
+Train loss: 0.0953121
+Train loss: 0.0867865
+Train loss: 0.0840906
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0480348
+Epoch 494
+Train loss: 0.0895597
+Train loss: 0.100498
+Train loss: 0.0994539
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0646566
+Epoch 495
+Train loss: 0.110834
+Train loss: 0.102813
+Train loss: 0.0880035
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0384848
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0726512 0.735755
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.288832 0.700599
+Epoch 496
+Train loss: 0.0854738
+Train loss: 0.0898914
+Train loss: 0.0927023
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0508346
+Epoch 497
+Train loss: 0.0851986
+Train loss: 0.090354
+Train loss: 0.0872063
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0387178
+Epoch 498
+Train loss: 0.0970654
+Train loss: 0.107839
+Train loss: 0.0894766
+Train accuracy: 1.0
+Test accuracy: 0.987342
+Test loss: 0.0419148
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/\xe8\xa1\x80\xe5\xb0\x8f\xe6\x9d\xbf\xe4\xbd\x93\xe7\xa7\xaf\xe5\x88\x86\xe5\xb8\x83\xe5\xae\xbd\xe5\xba\xa6/img_14757946_18_0.jpg' 292 291
+0.0460374 0.782226
+b'/home/lihang/ocr/master/data/data_0/cate_data/1025/*\xe5\xb9\xb3\xe5\x9d\x87\xe8\xa1\x80\xe7\xba\xa2\xe8\x9b\x8b\xe7\x99\xbd\xe5\x90\xab\xe9\x87\x8f/_0_9165.jpeg' 169 171
+0.368612 0.621156
+Epoch 499
+Train loss: 0.0992014
+Train loss: 0.0946976
+Train loss: 0.0935424
+Train accuracy: 0.996154
+Test accuracy: 0.987342
+Test loss: 0.0443605
+0.987341785431

@@ -1,0 +1,3884 @@
+Using TensorFlow backend.
+2017-11-11 10:45:28.883334: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-11 10:45:28.883360: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-11 10:45:28.883365: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-11 10:45:28.883368: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-11 10:45:28.883372: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-11 10:45:35.113947: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: TITAN X (Pascal)
+major: 6 minor: 1 memoryClockRate (GHz) 1.531
+pciBusID 0000:04:00.0
+Total memory: 11.90GiB
+Free memory: 11.76GiB
+2017-11-11 10:45:35.114000: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2017-11-11 10:45:35.114006: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2017-11-11 10:45:35.114023: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:04:00.0)
+classnum: 324
+/home/lihang/ocr/master/data/data_0/cate_data/1025/Lvmoh% 淋巴细胞百分数
+/home/lihang/ocr/master/data/data_0/cate_data/1025/细胞平均压积
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白浓度298.00 ↓320--355 g/L
+(15718, 25, 150, 1)
+(15718, 1)
+Train:  14932
+Test:  786
+(?, 10, 24, 16)
+(?, 10, 24, 32)
+(?, 4, 11, 128)
+(?, 3, 10, 256)
+(?, 7680)
+batch_size: 248
+Epoch 0
+Train loss: 7.03454
+Train loss: 5.92743
+Train loss: 4.89344
+Train accuracy: 0.016129
+Test accuracy: 0.0178117
+Test loss: 6.33346
+Epoch 1
+Train loss: 4.18566
+Train loss: 3.88676
+Train loss: 3.45223
+Train accuracy: 0.00403226
+Test accuracy: 0.0279898
+Test loss: 6.52664
+Epoch 2
+Train loss: 3.09435
+Train loss: 2.90687
+Train loss: 2.64685
+Train accuracy: 0.0282258
+Test accuracy: 0.0419847
+Test loss: 6.90636
+Epoch 3
+Train loss: 2.71194
+Train loss: 2.53496
+Train loss: 2.50726
+Train accuracy: 0.451613
+Test accuracy: 0.482188
+Test loss: 3.09072
+Epoch 4
+Train loss: 2.25979
+Train loss: 2.1318
+Train loss: 2.19379
+Train accuracy: 0.741936
+Test accuracy: 0.697201
+Test loss: 1.80354
+Epoch 5
+Train loss: 2.25629
+Train loss: 1.98629
+Train loss: 2.19879
+Train accuracy: 0.717742
+Test accuracy: 0.754453
+Test loss: 1.63669
+Epoch 6
+Train loss: 1.88236
+Train loss: 1.8402
+Train loss: 1.73979
+Train accuracy: 0.774194
+Test accuracy: 0.76972
+Test loss: 1.38613
+Epoch 7
+Train loss: 1.60476
+Train loss: 1.60486
+Train loss: 1.70729
+Train accuracy: 0.754032
+Test accuracy: 0.768448
+Test loss: 1.37873
+Epoch 8
+Train loss: 1.56708
+Train loss: 1.47333
+Train loss: 1.56636
+Train accuracy: 0.774194
+Test accuracy: 0.807888
+Test loss: 1.21744
+Epoch 9
+Train loss: 1.46354
+Train loss: 1.28186
+Train loss: 1.44728
+Train accuracy: 0.834677
+Test accuracy: 0.847328
+Test loss: 0.993417
+Epoch 10
+Train loss: 1.26893
+Train loss: 1.33821
+Train loss: 1.25518
+Train accuracy: 0.846774
+Test accuracy: 0.862595
+Test loss: 0.966065
+Epoch 11
+Train loss: 1.22076
+Train loss: 1.20751
+Train loss: 1.11113
+Train accuracy: 0.903226
+Test accuracy: 0.885496
+Test loss: 0.850374
+Epoch 12
+Train loss: 1.13596
+Train loss: 1.12509
+Train loss: 1.00057
+Train accuracy: 0.895161
+Test accuracy: 0.877863
+Test loss: 0.814011
+Epoch 13
+Train loss: 1.09289
+Train loss: 1.13509
+Train loss: 0.929846
+Train accuracy: 0.931452
+Test accuracy: 0.90458
+Test loss: 0.763378
+Epoch 14
+Train loss: 0.959669
+Train loss: 0.921354
+Train loss: 1.00769
+Train accuracy: 0.927419
+Test accuracy: 0.923664
+Test loss: 0.649265
+Epoch 15
+Train loss: 0.929623
+Train loss: 0.918918
+Train loss: 0.905513
+Train accuracy: 0.931452
+Test accuracy: 0.937659
+Test loss: 0.582694
+Epoch 16
+Train loss: 0.880504
+Train loss: 0.99707
+Train loss: 0.829148
+Train accuracy: 0.923387
+Test accuracy: 0.942748
+Test loss: 0.580702
+Epoch 17
+Train loss: 0.922351
+Train loss: 0.91797
+Train loss: 0.875544
+Train accuracy: 0.943548
+Test accuracy: 0.942748
+Test loss: 0.587386
+Epoch 18
+Train loss: 0.838071
+Train loss: 0.861706
+Train loss: 0.805881
+Train accuracy: 0.951613
+Test accuracy: 0.947837
+Test loss: 0.528622
+Epoch 19
+Train loss: 0.803237
+Train loss: 0.820071
+Train loss: 0.763859
+Train accuracy: 0.955645
+Test accuracy: 0.958015
+Test loss: 0.495272
+Epoch 20
+Train loss: 0.669936
+Train loss: 0.717675
+Train loss: 0.845935
+Train accuracy: 0.96371
+Test accuracy: 0.959288
+Test loss: 0.437852
+Epoch 21
+Train loss: 0.693783
+Train loss: 0.706813
+Train loss: 0.77135
+Train accuracy: 0.967742
+Test accuracy: 0.963104
+Test loss: 0.432832
+Epoch 22
+Train loss: 0.722317
+Train loss: 0.7452
+Train loss: 0.675517
+Train accuracy: 0.975806
+Test accuracy: 0.966921
+Test loss: 0.40102
+Epoch 23
+Train loss: 0.671137
+Train loss: 0.677584
+Train loss: 0.64625
+Train accuracy: 0.979839
+Test accuracy: 0.97201
+Test loss: 0.387501
+Epoch 24
+Train loss: 0.678477
+Train loss: 0.622968
+Train loss: 0.725683
+Train accuracy: 0.967742
+Test accuracy: 0.970738
+Test loss: 0.385205
+Epoch 25
+Train loss: 0.589094
+Train loss: 0.651268
+Train loss: 0.629178
+Train accuracy: 0.951613
+Test accuracy: 0.97201
+Test loss: 0.381908
+Epoch 26
+Train loss: 0.60457
+Train loss: 0.672353
+Train loss: 0.611179
+Train accuracy: 0.987903
+Test accuracy: 0.964377
+Test loss: 0.382491
+Epoch 27
+Train loss: 0.614684
+Train loss: 0.640526
+Train loss: 0.595847
+Train accuracy: 0.983871
+Test accuracy: 0.978372
+Test loss: 0.358938
+Epoch 28
+Train loss: 0.575567
+Train loss: 0.58604
+Train loss: 0.55755
+Train accuracy: 0.975806
+Test accuracy: 0.977099
+Test loss: 0.334088
+Epoch 29
+Train loss: 0.541797
+Train loss: 0.555506
+Train loss: 0.593423
+Train accuracy: 0.947581
+Test accuracy: 0.977099
+Test loss: 0.326216
+Epoch 30
+Train loss: 0.519316
+Train loss: 0.53291
+Train loss: 0.568667
+Train accuracy: 0.959677
+Test accuracy: 0.977099
+Test loss: 0.303977
+Epoch 31
+Train loss: 0.593852
+Train loss: 0.549838
+Train loss: 0.632319
+Train accuracy: 0.983871
+Test accuracy: 0.979644
+Test loss: 0.309407
+Epoch 32
+Train loss: 0.537239
+Train loss: 0.549911
+Train loss: 0.526351
+Train accuracy: 0.979839
+Test accuracy: 0.978372
+Test loss: 0.293957
+Epoch 33
+Train loss: 0.509661
+Train loss: 0.542616
+Train loss: 0.512577
+Train accuracy: 0.991935
+Test accuracy: 0.980916
+Test loss: 0.328647
+Epoch 34
+Train loss: 0.516689
+Train loss: 0.504762
+Train loss: 0.51131
+Train accuracy: 0.967742
+Test accuracy: 0.978372
+Test loss: 0.280844
+Epoch 35
+Train loss: 0.471206
+Train loss: 0.525847
+Train loss: 0.50254
+Train accuracy: 0.975806
+Test accuracy: 0.977099
+Test loss: 0.293245
+Epoch 36
+Train loss: 0.466701
+Train loss: 0.493444
+Train loss: 0.503216
+Train accuracy: 0.96371
+Test accuracy: 0.974555
+Test loss: 0.308618
+Epoch 37
+Train loss: 0.464454
+Train loss: 0.476967
+Train loss: 0.525871
+Train accuracy: 0.991935
+Test accuracy: 0.978372
+Test loss: 0.286045
+Epoch 38
+Train loss: 0.419342
+Train loss: 0.493983
+Train loss: 0.462027
+Train accuracy: 0.971774
+Test accuracy: 0.982188
+Test loss: 0.275792
+Epoch 39
+Train loss: 0.467722
+Train loss: 0.438094
+Train loss: 0.449126
+Train accuracy: 0.983871
+Test accuracy: 0.979644
+Test loss: 0.254166
+Epoch 40
+Train loss: 0.451564
+Train loss: 0.478936
+Train loss: 0.439668
+Train accuracy: 0.971774
+Test accuracy: 0.979644
+Test loss: 0.261561
+Epoch 41
+Train loss: 0.429553
+Train loss: 0.485358
+Train loss: 0.496357
+Train accuracy: 0.991935
+Test accuracy: 0.980916
+Test loss: 0.268798
+Epoch 42
+Train loss: 0.462551
+Train loss: 0.469688
+Train loss: 0.460073
+Train accuracy: 0.979839
+Test accuracy: 0.983461
+Test loss: 0.230977
+Epoch 43
+Train loss: 0.407233
+Train loss: 0.424639
+Train loss: 0.434987
+Train accuracy: 0.971774
+Test accuracy: 0.980916
+Test loss: 0.273745
+Epoch 44
+Train loss: 0.451732
+Train loss: 0.403752
+Train loss: 0.43476
+Train accuracy: 0.975806
+Test accuracy: 0.986005
+Test loss: 0.245666
+Epoch 45
+Train loss: 0.42032
+Train loss: 0.419754
+Train loss: 0.447328
+Train accuracy: 0.983871
+Test accuracy: 0.977099
+Test loss: 0.257214
+Epoch 46
+Train loss: 0.400003
+Train loss: 0.428223
+Train loss: 0.396717
+Train accuracy: 0.979839
+Test accuracy: 0.984733
+Test loss: 0.238466
+Epoch 47
+Train loss: 0.41535
+Train loss: 0.377781
+Train loss: 0.408562
+Train accuracy: 0.979839
+Test accuracy: 0.986005
+Test loss: 0.239978
+Epoch 48
+Train loss: 0.370804
+Train loss: 0.410947
+Train loss: 0.436788
+Train accuracy: 0.983871
+Test accuracy: 0.982188
+Test loss: 0.232375
+Epoch 49
+Train loss: 0.372908
+Train loss: 0.395237
+Train loss: 0.406229
+Train accuracy: 0.991935
+Test accuracy: 0.984733
+Test loss: 0.241924
+Epoch 50
+Train loss: 0.378521
+Train loss: 0.413742
+Train loss: 0.374736
+Train accuracy: 0.987903
+Test accuracy: 0.980916
+Test loss: 0.214355
+Epoch 51
+Train loss: 0.376725
+Train loss: 0.387946
+Train loss: 0.403434
+Train accuracy: 0.971774
+Test accuracy: 0.984733
+Test loss: 0.272332
+Epoch 52
+Train loss: 0.384899
+Train loss: 0.363769
+Train loss: 0.392518
+Train accuracy: 0.991935
+Test accuracy: 0.980916
+Test loss: 0.218705
+Epoch 53
+Train loss: 0.348074
+Train loss: 0.4058
+Train loss: 0.364508
+Train accuracy: 0.991935
+Test accuracy: 0.986005
+Test loss: 0.219738
+Epoch 54
+Train loss: 0.355578
+Train loss: 0.386475
+Train loss: 0.375331
+Train accuracy: 0.983871
+Test accuracy: 0.980916
+Test loss: 0.221469
+Epoch 55
+Train loss: 0.372638
+Train loss: 0.380549
+Train loss: 0.408214
+Train accuracy: 0.979839
+Test accuracy: 0.979644
+Test loss: 0.221457
+Epoch 56
+Train loss: 0.380548
+Train loss: 0.382741
+Train loss: 0.371784
+Train accuracy: 0.979839
+Test accuracy: 0.982188
+Test loss: 0.218106
+Epoch 57
+Train loss: 0.358377
+Train loss: 0.362356
+Train loss: 0.354771
+Train accuracy: 0.995968
+Test accuracy: 0.983461
+Test loss: 0.217067
+Epoch 58
+Train loss: 0.381744
+Train loss: 0.362202
+Train loss: 0.343085
+Train accuracy: 0.991935
+Test accuracy: 0.987277
+Test loss: 0.198087
+Epoch 59
+Train loss: 0.341796
+Train loss: 0.349816
+Train loss: 0.325496
+Train accuracy: 0.987903
+Test accuracy: 0.984733
+Test loss: 0.226164
+Epoch 60
+Train loss: 0.367962
+Train loss: 0.369195
+Train loss: 0.335286
+Train accuracy: 0.995968
+Test accuracy: 0.982188
+Test loss: 0.193374
+Epoch 61
+Train loss: 0.328756
+Train loss: 0.325199
+Train loss: 0.402517
+Train accuracy: 0.987903
+Test accuracy: 0.984733
+Test loss: 0.201294
+Epoch 62
+Train loss: 0.35286
+Train loss: 0.333276
+Train loss: 0.336746
+Train accuracy: 0.987903
+Test accuracy: 0.987277
+Test loss: 0.198198
+Epoch 63
+Train loss: 0.32249
+Train loss: 0.366516
+Train loss: 0.340396
+Train accuracy: 0.991935
+Test accuracy: 0.984733
+Test loss: 0.193343
+Epoch 64
+Train loss: 0.335236
+Train loss: 0.334762
+Train loss: 0.297361
+Train accuracy: 0.991935
+Test accuracy: 0.984733
+Test loss: 0.191533
+Epoch 65
+Train loss: 0.415729
+Train loss: 0.342976
+Train loss: 0.325721
+Train accuracy: 1.0
+Test accuracy: 0.984733
+Test loss: 0.18973
+Epoch 66
+Train loss: 0.308802
+Train loss: 0.379682
+Train loss: 0.307603
+Train accuracy: 0.987903
+Test accuracy: 0.982188
+Test loss: 0.186006
+Epoch 67
+Train loss: 0.319524
+Train loss: 0.318889
+Train loss: 0.35098
+Train accuracy: 0.991935
+Test accuracy: 0.986005
+Test loss: 0.185016
+Epoch 68
+Train loss: 0.329314
+Train loss: 0.43994
+Train loss: 0.367036
+Train accuracy: 0.995968
+Test accuracy: 0.982188
+Test loss: 0.200476
+Epoch 69
+Train loss: 0.302077
+Train loss: 0.286079
+Train loss: 0.325957
+Train accuracy: 1.0
+Test accuracy: 0.986005
+Test loss: 0.183751
+Epoch 70
+Train loss: 0.328756
+Train loss: 0.331723
+Train loss: 0.300053
+Train accuracy: 0.987903
+Test accuracy: 0.987277
+Test loss: 0.176116
+Epoch 71
+Train loss: 0.31546
+Train loss: 0.344728
+Train loss: 0.308803
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.169719
+Epoch 72
+Train loss: 0.310852
+Train loss: 0.295833
+Train loss: 0.285793
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.184411
+Epoch 73
+Train loss: 0.257449
+Train loss: 0.299339
+Train loss: 0.295016
+Train accuracy: 0.995968
+Test accuracy: 0.986005
+Test loss: 0.178723
+Epoch 74
+Train loss: 0.285085
+Train loss: 0.281185
+Train loss: 0.340812
+Train accuracy: 0.995968
+Test accuracy: 0.986005
+Test loss: 0.182443
+Epoch 75
+Train loss: 0.305402
+Train loss: 0.310429
+Train loss: 0.322756
+Train accuracy: 0.995968
+Test accuracy: 0.984733
+Test loss: 0.172125
+Epoch 76
+Train loss: 0.30911
+Train loss: 0.284469
+Train loss: 0.314841
+Train accuracy: 0.983871
+Test accuracy: 0.986005
+Test loss: 0.171463
+Epoch 77
+Train loss: 0.304483
+Train loss: 0.295374
+Train loss: 0.298679
+Train accuracy: 0.991935
+Test accuracy: 0.987277
+Test loss: 0.175209
+Epoch 78
+Train loss: 0.283043
+Train loss: 0.273577
+Train loss: 0.282463
+Train accuracy: 0.991935
+Test accuracy: 0.984733
+Test loss: 0.163143
+Epoch 79
+Train loss: 0.311315
+Train loss: 0.297155
+Train loss: 0.303133
+Train accuracy: 0.991935
+Test accuracy: 0.986005
+Test loss: 0.175666
+Epoch 80
+Train loss: 0.264658
+Train loss: 0.298297
+Train loss: 0.302015
+Train accuracy: 0.991935
+Test accuracy: 0.984733
+Test loss: 0.166648
+Epoch 81
+Train loss: 0.294406
+Train loss: 0.285451
+Train loss: 0.323769
+Train accuracy: 1.0
+Test accuracy: 0.983461
+Test loss: 0.17174
+Epoch 82
+Train loss: 0.302933
+Train loss: 0.276656
+Train loss: 0.288231
+Train accuracy: 0.991935
+Test accuracy: 0.986005
+Test loss: 0.230596
+Epoch 83
+Train loss: 0.282662
+Train loss: 0.280476
+Train loss: 0.274514
+Train accuracy: 0.987903
+Test accuracy: 0.986005
+Test loss: 0.178681
+Epoch 84
+Train loss: 0.292562
+Train loss: 0.270445
+Train loss: 0.314424
+Train accuracy: 0.995968
+Test accuracy: 0.984733
+Test loss: 0.157365
+Epoch 85
+Train loss: 0.257248
+Train loss: 0.284237
+Train loss: 0.296653
+Train accuracy: 0.995968
+Test accuracy: 0.984733
+Test loss: 0.158946
+Epoch 86
+Train loss: 0.28229
+Train loss: 0.271706
+Train loss: 0.28821
+Train accuracy: 0.987903
+Test accuracy: 0.986005
+Test loss: 0.161047
+Epoch 87
+Train loss: 0.283752
+Train loss: 0.264567
+Train loss: 0.286466
+Train accuracy: 0.991935
+Test accuracy: 0.984733
+Test loss: 0.159417
+Epoch 88
+Train loss: 0.24497
+Train loss: 0.27886
+Train loss: 0.267496
+Train accuracy: 0.991935
+Test accuracy: 0.983461
+Test loss: 0.165643
+Epoch 89
+Train loss: 0.255748
+Train loss: 0.255007
+Train loss: 0.259698
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.166622
+Epoch 90
+Train loss: 0.236256
+Train loss: 0.301083
+Train loss: 0.267822
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.153849
+Epoch 91
+Train loss: 0.25089
+Train loss: 0.289407
+Train loss: 0.273523
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.155923
+Epoch 92
+Train loss: 0.252547
+Train loss: 0.257057
+Train loss: 0.285009
+Train accuracy: 0.995968
+Test accuracy: 0.984733
+Test loss: 0.172214
+Epoch 93
+Train loss: 0.232382
+Train loss: 0.288929
+Train loss: 0.26677
+Train accuracy: 0.995968
+Test accuracy: 0.983461
+Test loss: 0.153148
+Epoch 94
+Train loss: 0.286304
+Train loss: 0.264292
+Train loss: 0.265041
+Train accuracy: 0.995968
+Test accuracy: 0.984733
+Test loss: 0.154065
+Epoch 95
+Train loss: 0.267061
+Train loss: 0.286122
+Train loss: 0.284515
+Train accuracy: 0.987903
+Test accuracy: 0.98855
+Test loss: 0.163727
+Epoch 96
+Train loss: 0.314923
+Train loss: 0.277561
+Train loss: 0.242667
+Train accuracy: 1.0
+Test accuracy: 0.984733
+Test loss: 0.144657
+Epoch 97
+Train loss: 0.255154
+Train loss: 0.279713
+Train loss: 0.312324
+Train accuracy: 0.991935
+Test accuracy: 0.986005
+Test loss: 0.153673
+Epoch 98
+Train loss: 0.247341
+Train loss: 0.283487
+Train loss: 0.264741
+Train accuracy: 1.0
+Test accuracy: 0.984733
+Test loss: 0.150298
+Epoch 99
+Train loss: 0.24041
+Train loss: 0.261075
+Train loss: 0.237514
+Train accuracy: 0.987903
+Test accuracy: 0.986005
+Test loss: 0.159245
+Epoch 100
+Train loss: 0.2489
+Train loss: 0.246342
+Train loss: 0.281539
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.151275
+Epoch 101
+Train loss: 0.244232
+Train loss: 0.257399
+Train loss: 0.255747
+Train accuracy: 0.987903
+Test accuracy: 0.987277
+Test loss: 0.145019
+Epoch 102
+Train loss: 0.265055
+Train loss: 0.240721
+Train loss: 0.226579
+Train accuracy: 0.991935
+Test accuracy: 0.987277
+Test loss: 0.14347
+Epoch 103
+Train loss: 0.227166
+Train loss: 0.229387
+Train loss: 0.264478
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.149349
+Epoch 104
+Train loss: 0.222887
+Train loss: 0.253573
+Train loss: 0.207755
+Train accuracy: 0.991935
+Test accuracy: 0.987277
+Test loss: 0.148604
+Epoch 105
+Train loss: 0.247748
+Train loss: 0.239963
+Train loss: 0.232491
+Train accuracy: 0.995968
+Test accuracy: 0.983461
+Test loss: 0.148193
+Epoch 106
+Train loss: 0.256596
+Train loss: 0.247656
+Train loss: 0.271945
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.142667
+Epoch 107
+Train loss: 0.22707
+Train loss: 0.265258
+Train loss: 0.246306
+Train accuracy: 0.96371
+Test accuracy: 0.964377
+Test loss: 1.08768
+Epoch 108
+Train loss: 0.215134
+Train loss: 0.228619
+Train loss: 0.243567
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.1324
+Epoch 109
+Train loss: 0.224586
+Train loss: 0.233199
+Train loss: 0.232898
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.145324
+Epoch 110
+Train loss: 0.23141
+Train loss: 0.227235
+Train loss: 0.262792
+Train accuracy: 0.991935
+Test accuracy: 0.989822
+Test loss: 0.134585
+Epoch 111
+Train loss: 0.250392
+Train loss: 0.248382
+Train loss: 0.239572
+Train accuracy: 0.995968
+Test accuracy: 0.986005
+Test loss: 0.142391
+Epoch 112
+Train loss: 0.242432
+Train loss: 0.233007
+Train loss: 0.258207
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.151145
+Epoch 113
+Train loss: 0.267707
+Train loss: 0.228425
+Train loss: 0.248605
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.147047
+Epoch 114
+Train loss: 0.244504
+Train loss: 0.232783
+Train loss: 0.22037
+Train accuracy: 0.991935
+Test accuracy: 0.984733
+Test loss: 0.142707
+Epoch 115
+Train loss: 0.244743
+Train loss: 0.248993
+Train loss: 0.237372
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.14199
+Epoch 116
+Train loss: 0.224418
+Train loss: 0.206527
+Train loss: 0.219192
+Train accuracy: 1.0
+Test accuracy: 0.984733
+Test loss: 0.149075
+Epoch 117
+Train loss: 0.222698
+Train loss: 0.207863
+Train loss: 0.23196
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.134725
+Epoch 118
+Train loss: 0.218957
+Train loss: 0.226165
+Train loss: 0.2275
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.134228
+Epoch 119
+Train loss: 0.236879
+Train loss: 0.21043
+Train loss: 0.214882
+Train accuracy: 1.0
+Test accuracy: 0.983461
+Test loss: 0.137668
+Epoch 120
+Train loss: 0.209423
+Train loss: 0.214565
+Train loss: 0.221276
+Train accuracy: 0.991935
+Test accuracy: 0.987277
+Test loss: 0.141572
+Epoch 121
+Train loss: 0.219011
+Train loss: 0.228848
+Train loss: 0.214685
+Train accuracy: 0.991935
+Test accuracy: 0.986005
+Test loss: 0.131228
+Epoch 122
+Train loss: 0.207876
+Train loss: 0.216197
+Train loss: 0.240711
+Train accuracy: 0.995968
+Test accuracy: 0.986005
+Test loss: 0.136706
+Epoch 123
+Train loss: 0.214035
+Train loss: 0.209889
+Train loss: 0.208426
+Train accuracy: 1.0
+Test accuracy: 0.986005
+Test loss: 0.128999
+Epoch 124
+Train loss: 0.230035
+Train loss: 0.221009
+Train loss: 0.218061
+Train accuracy: 1.0
+Test accuracy: 0.988549
+Test loss: 0.124602
+Epoch 125
+Train loss: 0.222927
+Train loss: 0.234489
+Train loss: 0.201401
+Train accuracy: 0.995968
+Test accuracy: 0.986005
+Test loss: 0.134276
+Epoch 126
+Train loss: 0.210823
+Train loss: 0.1974
+Train loss: 0.21244
+Train accuracy: 0.983871
+Test accuracy: 0.987277
+Test loss: 0.12483
+Epoch 127
+Train loss: 0.226021
+Train loss: 0.215732
+Train loss: 0.224176
+Train accuracy: 1.0
+Test accuracy: 0.986005
+Test loss: 0.126094
+Epoch 128
+Train loss: 0.230953
+Train loss: 0.207456
+Train loss: 0.219813
+Train accuracy: 0.987903
+Test accuracy: 0.987277
+Test loss: 0.132889
+Epoch 129
+Train loss: 0.203238
+Train loss: 0.198392
+Train loss: 0.230895
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.123302
+Epoch 130
+Train loss: 0.180151
+Train loss: 0.184663
+Train loss: 0.207685
+Train accuracy: 0.96371
+Test accuracy: 0.973282
+Test loss: 0.791418
+Epoch 131
+Train loss: 0.198657
+Train loss: 0.216408
+Train loss: 0.219178
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.12168
+Epoch 132
+Train loss: 0.205493
+Train loss: 0.203898
+Train loss: 0.211552
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.125079
+Epoch 133
+Train loss: 0.192017
+Train loss: 0.189392
+Train loss: 0.201272
+Train accuracy: 0.991935
+Test accuracy: 0.987277
+Test loss: 0.129905
+Epoch 134
+Train loss: 0.213436
+Train loss: 0.263776
+Train loss: 0.195513
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.1197
+Epoch 135
+Train loss: 0.227714
+Train loss: 0.281015
+Train loss: 0.190988
+Train accuracy: 0.995968
+Test accuracy: 0.986005
+Test loss: 0.13477
+Epoch 136
+Train loss: 0.20535
+Train loss: 0.19257
+Train loss: 0.225644
+Train accuracy: 0.987903
+Test accuracy: 0.989822
+Test loss: 0.119284
+Epoch 137
+Train loss: 0.184826
+Train loss: 0.18081
+Train loss: 0.202222
+Train accuracy: 0.991935
+Test accuracy: 0.984733
+Test loss: 0.124198
+Epoch 138
+Train loss: 0.189131
+Train loss: 0.235496
+Train loss: 0.216402
+Train accuracy: 1.0
+Test accuracy: 0.986005
+Test loss: 0.134329
+Epoch 139
+Train loss: 0.26232
+Train loss: 0.204873
+Train loss: 0.198375
+Train accuracy: 1.0
+Test accuracy: 0.984733
+Test loss: 0.128829
+Epoch 140
+Train loss: 0.211681
+Train loss: 0.190851
+Train loss: 0.209248
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.118405
+Epoch 141
+Train loss: 0.224354
+Train loss: 0.18953
+Train loss: 0.205291
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.131301
+Epoch 142
+Train loss: 0.184005
+Train loss: 0.17918
+Train loss: 0.207333
+Train accuracy: 0.995968
+Test accuracy: 0.984733
+Test loss: 0.133978
+Epoch 143
+Train loss: 0.187588
+Train loss: 0.178626
+Train loss: 0.194937
+Train accuracy: 0.987903
+Test accuracy: 0.98855
+Test loss: 0.120149
+Epoch 144
+Train loss: 0.189064
+Train loss: 0.198312
+Train loss: 0.184328
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.11932
+Epoch 145
+Train loss: 0.191141
+Train loss: 0.209963
+Train loss: 0.178043
+Train accuracy: 0.987903
+Test accuracy: 0.987277
+Test loss: 0.151021
+Epoch 146
+Train loss: 0.181887
+Train loss: 0.194925
+Train loss: 0.176426
+Train accuracy: 0.995968
+Test accuracy: 0.986005
+Test loss: 0.117938
+Epoch 147
+Train loss: 0.170768
+Train loss: 0.195674
+Train loss: 0.203621
+Train accuracy: 1.0
+Test accuracy: 0.991094
+Test loss: 0.11714
+Epoch 148
+Train loss: 0.19573
+Train loss: 0.19266
+Train loss: 0.214234
+Train accuracy: 0.995968
+Test accuracy: 0.984733
+Test loss: 0.124354
+Epoch 149
+Train loss: 0.180165
+Train loss: 0.21868
+Train loss: 0.177681
+Train accuracy: 0.991935
+Test accuracy: 0.989822
+Test loss: 0.115156
+Epoch 150
+Train loss: 0.211464
+Train loss: 0.199762
+Train loss: 0.207619
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.120518
+Epoch 151
+Train loss: 0.193599
+Train loss: 0.171715
+Train loss: 0.227199
+Train accuracy: 0.991935
+Test accuracy: 0.984733
+Test loss: 0.119948
+Epoch 152
+Train loss: 0.196112
+Train loss: 0.214873
+Train loss: 0.201038
+Train accuracy: 0.991935
+Test accuracy: 0.987277
+Test loss: 0.161243
+Epoch 153
+Train loss: 0.189012
+Train loss: 0.193094
+Train loss: 0.18793
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.111211
+Epoch 154
+Train loss: 0.182188
+Train loss: 0.179008
+Train loss: 0.177632
+Train accuracy: 1.0
+Test accuracy: 0.984733
+Test loss: 0.128302
+Epoch 155
+Train loss: 0.214781
+Train loss: 0.196185
+Train loss: 0.184391
+Train accuracy: 0.991935
+Test accuracy: 0.98855
+Test loss: 0.124692
+Epoch 156
+Train loss: 0.173886
+Train loss: 0.163909
+Train loss: 0.188917
+Train accuracy: 0.991935
+Test accuracy: 0.987277
+Test loss: 0.11674
+Epoch 157
+Train loss: 0.196024
+Train loss: 0.167153
+Train loss: 0.187466
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.1103
+Epoch 158
+Train loss: 0.166822
+Train loss: 0.200995
+Train loss: 0.189574
+Train accuracy: 0.991935
+Test accuracy: 0.988549
+Test loss: 0.108319
+Epoch 159
+Train loss: 0.168115
+Train loss: 0.164515
+Train loss: 0.194425
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.114682
+Epoch 160
+Train loss: 0.175408
+Train loss: 0.205089
+Train loss: 0.171828
+Train accuracy: 0.991935
+Test accuracy: 0.98855
+Test loss: 0.116535
+Epoch 161
+Train loss: 0.191314
+Train loss: 0.188495
+Train loss: 0.199297
+Train accuracy: 0.987903
+Test accuracy: 0.987277
+Test loss: 0.110224
+Epoch 162
+Train loss: 0.17542
+Train loss: 0.183404
+Train loss: 0.187349
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.120143
+Epoch 163
+Train loss: 0.159906
+Train loss: 0.184781
+Train loss: 0.186784
+Train accuracy: 0.991935
+Test accuracy: 0.986005
+Test loss: 0.159365
+Epoch 164
+Train loss: 0.187276
+Train loss: 0.164335
+Train loss: 0.191774
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.115538
+Epoch 165
+Train loss: 0.17365
+Train loss: 0.230934
+Train loss: 0.17973
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.11776
+Epoch 166
+Train loss: 0.202713
+Train loss: 0.19044
+Train loss: 0.18464
+Train accuracy: 1.0
+Test accuracy: 0.991094
+Test loss: 0.118781
+Epoch 167
+Train loss: 0.176028
+Train loss: 0.196159
+Train loss: 0.166279
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.110616
+Epoch 168
+Train loss: 0.196415
+Train loss: 0.196986
+Train loss: 0.210089
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.1093
+Epoch 169
+Train loss: 0.187592
+Train loss: 0.165535
+Train loss: 0.188961
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.115288
+Epoch 170
+Train loss: 0.188723
+Train loss: 0.16738
+Train loss: 0.183483
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.119639
+Epoch 171
+Train loss: 0.161527
+Train loss: 0.188065
+Train loss: 0.181999
+Train accuracy: 0.991935
+Test accuracy: 0.983461
+Test loss: 0.112263
+Epoch 172
+Train loss: 0.160906
+Train loss: 0.194288
+Train loss: 0.182025
+Train accuracy: 0.995968
+Test accuracy: 0.983461
+Test loss: 0.116195
+Epoch 173
+Train loss: 0.177827
+Train loss: 0.176665
+Train loss: 0.190074
+Train accuracy: 1.0
+Test accuracy: 0.983461
+Test loss: 0.11678
+Epoch 174
+Train loss: 0.182949
+Train loss: 0.173184
+Train loss: 0.187453
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.130001
+Epoch 175
+Train loss: 0.170438
+Train loss: 0.17876
+Train loss: 0.176363
+Train accuracy: 0.995968
+Test accuracy: 0.983461
+Test loss: 0.119369
+Epoch 176
+Train loss: 0.211165
+Train loss: 0.161882
+Train loss: 0.206654
+Train accuracy: 0.975806
+Test accuracy: 0.984733
+Test loss: 0.115196
+Epoch 177
+Train loss: 0.166052
+Train loss: 0.226417
+Train loss: 0.18066
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.108545
+Epoch 178
+Train loss: 0.170348
+Train loss: 0.17458
+Train loss: 0.164538
+Train accuracy: 1.0
+Test accuracy: 0.982188
+Test loss: 0.116245
+Epoch 179
+Train loss: 0.175964
+Train loss: 0.182985
+Train loss: 0.169902
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.111645
+Epoch 180
+Train loss: 0.151019
+Train loss: 0.173744
+Train loss: 0.167879
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.109074
+Epoch 181
+Train loss: 0.167614
+Train loss: 0.190218
+Train loss: 0.185606
+Train accuracy: 1.0
+Test accuracy: 0.991094
+Test loss: 0.102592
+Epoch 182
+Train loss: 0.187588
+Train loss: 0.1618
+Train loss: 0.174102
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.109673
+Epoch 183
+Train loss: 0.17162
+Train loss: 0.147546
+Train loss: 0.172589
+Train accuracy: 0.995968
+Test accuracy: 0.986005
+Test loss: 0.105896
+Epoch 184
+Train loss: 0.167578
+Train loss: 0.164523
+Train loss: 0.191151
+Train accuracy: 0.991935
+Test accuracy: 0.987277
+Test loss: 0.111057
+Epoch 185
+Train loss: 0.179865
+Train loss: 0.176762
+Train loss: 0.196234
+Train accuracy: 0.991935
+Test accuracy: 0.989822
+Test loss: 0.107715
+Epoch 186
+Train loss: 0.166536
+Train loss: 0.165852
+Train loss: 0.175234
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.110232
+Epoch 187
+Train loss: 0.161534
+Train loss: 0.179375
+Train loss: 0.196451
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.110087
+Epoch 188
+Train loss: 0.178595
+Train loss: 0.154356
+Train loss: 0.163316
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.108269
+Epoch 189
+Train loss: 0.156907
+Train loss: 0.154391
+Train loss: 0.151127
+Train accuracy: 0.991935
+Test accuracy: 0.98855
+Test loss: 0.110585
+Epoch 190
+Train loss: 0.160064
+Train loss: 0.150956
+Train loss: 0.179415
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.11093
+Epoch 191
+Train loss: 0.183455
+Train loss: 0.164444
+Train loss: 0.150716
+Train accuracy: 0.991935
+Test accuracy: 0.987277
+Test loss: 0.113278
+Epoch 192
+Train loss: 0.151002
+Train loss: 0.170224
+Train loss: 0.180286
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.111255
+Epoch 193
+Train loss: 0.171623
+Train loss: 0.176025
+Train loss: 0.17357
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.101448
+Epoch 194
+Train loss: 0.154388
+Train loss: 0.183388
+Train loss: 0.16965
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.118114
+Epoch 195
+Train loss: 0.151467
+Train loss: 0.152303
+Train loss: 0.185581
+Train accuracy: 0.991935
+Test accuracy: 0.987277
+Test loss: 0.107099
+Epoch 196
+Train loss: 0.174466
+Train loss: 0.153115
+Train loss: 0.160266
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.104146
+Epoch 197
+Train loss: 0.170528
+Train loss: 0.161317
+Train loss: 0.15868
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.110758
+Epoch 198
+Train loss: 0.164026
+Train loss: 0.176241
+Train loss: 0.155341
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.106141
+Epoch 199
+Train loss: 0.151949
+Train loss: 0.169373
+Train loss: 0.166681
+Train accuracy: 0.991935
+Test accuracy: 0.98855
+Test loss: 0.104647
+Epoch 200
+Train loss: 0.143555
+Train loss: 0.161849
+Train loss: 0.15622
+Train accuracy: 0.991935
+Test accuracy: 0.989822
+Test loss: 0.0999462
+Epoch 201
+Train loss: 0.151711
+Train loss: 0.152607
+Train loss: 0.167931
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.108277
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞/img_14855309_16_1.jpg 71 72
+0.304903 0.323541
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00159948 0.994868
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.413434 0.487472
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0119648 0.25821
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.221778 0.756263
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0157675 0.838863
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.267137 0.69932
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0379197 0.132591
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0342 0.955061
+Epoch 202
+Train loss: 0.145553
+Train loss: 0.155035
+Train loss: 0.164261
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.107412
+Epoch 203
+Train loss: 0.141496
+Train loss: 0.142935
+Train loss: 0.174488
+Train accuracy: 1.0
+Test accuracy: 0.986005
+Test loss: 0.13582
+Epoch 204
+Train loss: 0.208706
+Train loss: 0.148867
+Train loss: 0.167633
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.110376
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.281237 0.636601
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00419247 0.990672
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.417959 0.467285
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00941744 0.14926
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白浓度/img_14806438_16_1.jpg 169 170
+0.363273 0.527198
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0273378 0.813959
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.0981219 0.88927
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 292
+0.0250665 0.158673
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟单核细胞比值/_0_1140.png 203 201
+0.455965 0.481153
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0386216 0.951455
+Epoch 205
+Train loss: 0.173402
+Train loss: 0.182431
+Train loss: 0.159009
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.105754
+Epoch 206
+Train loss: 0.135695
+Train loss: 0.156444
+Train loss: 0.159772
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.104176
+Epoch 207
+Train loss: 0.177262
+Train loss: 0.160133
+Train loss: 0.151028
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.0980099
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞/img_14855309_16_1.jpg 71 73
+0.289312 0.369364
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.412436 0.534954
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.0173083 0.977019
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 229
+0.0167124 0.0710417
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白浓度/img_14806438_16_1.jpg 169 170
+0.449458 0.489018
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0238162 0.832455
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.0601102 0.93239
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 292
+0.0177759 0.226599
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟单核细胞比值/_0_1140.png 203 201
+0.450708 0.491879
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.235104 0.747763
+Epoch 208
+Train loss: 0.158358
+Train loss: 0.161279
+Train loss: 0.152661
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.106478
+Epoch 209
+Train loss: 0.157144
+Train loss: 0.151402
+Train loss: 0.161829
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.102579
+Epoch 210
+Train loss: 0.156338
+Train loss: 0.163164
+Train loss: 0.180818
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.106108
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜酸性粒细胞计数/img_14858648_9_0.jpg 115 84
+0.278317 0.585326
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00135378 0.995485
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.250933 0.616365
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 229
+0.00455621 0.233089
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.385231 0.59398
+/home/lihang/ocr/master/data/data_0/cate_data/1025/高荧光RET比率/_0_8600.png 320 50
+0.40228 0.520129
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0168865 0.888033
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 294
+0.0170405 0.273508
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟单核细胞比值/_0_1140.png 203 201
+0.388918 0.478373
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性粒细胞/5_3.png 25 41
+0.249981 0.556926
+Epoch 211
+Train loss: 0.140517
+Train loss: 0.157842
+Train loss: 0.159759
+Train accuracy: 1.0
+Test accuracy: 0.986005
+Test loss: 0.112715
+Epoch 212
+Train loss: 0.158058
+Train loss: 0.15309
+Train loss: 0.156661
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.100919
+Epoch 213
+Train loss: 0.165975
+Train loss: 0.148468
+Train loss: 0.164592
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.101607
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00139657 0.996776
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.465721 0.481992
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.271885 0.667444
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 229
+0.0113894 0.128548
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0221123 0.897297
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.414291 0.567809
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 292
+0.0214423 0.349592
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟单核细胞比值/_0_1140.png 203 201
+0.42822 0.523841
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性粒细胞/5_3.png 25 41
+0.415048 0.461553
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0462742 0.945081
+Epoch 214
+Train loss: 0.156439
+Train loss: 0.147546
+Train loss: 0.14734
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.100088
+Epoch 215
+Train loss: 0.133271
+Train loss: 0.164632
+Train loss: 0.169895
+Train accuracy: 1.0
+Test accuracy: 0.991094
+Test loss: 0.104936
+Epoch 216
+Train loss: 0.141719
+Train loss: 0.15645
+Train loss: 0.146575
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.101434
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00570432 0.99119
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.285819 0.677694
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00663791 0.240297
+/home/lihang/ocr/master/data/data_0/cate_data/1025/高荧光RET比率/_0_8600.png 320 50
+0.42014 0.487662
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0162339 0.867862
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.139038 0.848594
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0400114 0.198962
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性粒细胞/5_3.png 25 41
+0.460522 0.487977
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0762717 0.907263
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.306179 0.526251
+Epoch 217
+Train loss: 0.144586
+Train loss: 0.16119
+Train loss: 0.159303
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0995464
+Epoch 218
+Train loss: 0.130357
+Train loss: 0.146996
+Train loss: 0.150158
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.105828
+Epoch 219
+Train loss: 0.168749
+Train loss: 0.16832
+Train loss: 0.15232
+Train accuracy: 1.0
+Test accuracy: 0.991094
+Test loss: 0.0968103
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00371266 0.99114
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.463086 0.473214
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 229
+0.0106793 0.144852
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0148318 0.901932
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 141
+0.0398903 0.163953
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟单核细胞比值/_0_1140.png 203 201
+0.402776 0.521151
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0791336 0.909549
+Epoch 220
+Train loss: 0.146194
+Train loss: 0.139971
+Train loss: 0.163016
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.101582
+Epoch 221
+Train loss: 0.155844
+Train loss: 0.154805
+Train loss: 0.140008
+Train accuracy: 1.0
+Test accuracy: 0.991094
+Test loss: 0.0992537
+Epoch 222
+Train loss: 0.156083
+Train loss: 0.162539
+Train loss: 0.147036
+Train accuracy: 0.987903
+Test accuracy: 0.989822
+Test loss: 0.1069
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00489978 0.991392
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0165986 0.0777526
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白浓度/img_14806438_16_1.jpg 169 170
+0.240512 0.697437
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0327166 0.793795
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.445478 0.526212
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 294
+0.0389609 0.156941
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.005428 0.988304
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.131218 0.803564
+Epoch 223
+Train loss: 0.150645
+Train loss: 0.149287
+Train loss: 0.173417
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.110738
+Epoch 224
+Train loss: 0.174788
+Train loss: 0.142047
+Train loss: 0.154796
+Train accuracy: 0.991935
+Test accuracy: 0.992366
+Test loss: 0.0983208
+Epoch 225
+Train loss: 0.149815
+Train loss: 0.157912
+Train loss: 0.14595
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.0972034
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00541578 0.991381
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.164359 0.794897
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0104037 0.345612
+/home/lihang/ocr/master/data/data_0/cate_data/1025/高荧光RET比率/_0_8600.png 320 50
+0.415143 0.485266
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.026825 0.870052
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.263724 0.72347
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 299
+0.0262507 0.126754
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0651011 0.927189
+Epoch 226
+Train loss: 0.139481
+Train loss: 0.157242
+Train loss: 0.17069
+Train accuracy: 0.995968
+Test accuracy: 0.992366
+Test loss: 0.0977775
+Epoch 227
+Train loss: 0.148944
+Train loss: 0.148031
+Train loss: 0.152561
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.102122
+Epoch 228
+Train loss: 0.143737
+Train loss: 0.135646
+Train loss: 0.140293
+Train accuracy: 0.991935
+Test accuracy: 0.989822
+Test loss: 0.095899
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.404681 0.540413
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00259913 0.994715
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.4033 0.505172
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 218
+0.0202632 0.0991874
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白浓度/img_14806438_16_1.jpg 169 170
+0.388089 0.505629
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.01743 0.890986
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0530495 0.259314
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0352538 0.950821
+Epoch 229
+Train loss: 0.157358
+Train loss: 0.145191
+Train loss: 0.131191
+Train accuracy: 1.0
+Test accuracy: 0.986005
+Test loss: 0.106083
+Epoch 230
+Train loss: 0.134739
+Train loss: 0.145071
+Train loss: 0.138833
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.0996815
+Epoch 231
+Train loss: 0.149396
+Train loss: 0.152755
+Train loss: 0.148214
+Train accuracy: 0.995968
+Test accuracy: 0.986005
+Test loss: 0.0988152
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞/img_14855309_16_1.jpg 71 72
+0.285528 0.451045
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00291837 0.99404
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.377566 0.561662
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0171489 0.234678
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.276047 0.707561
+/home/lihang/ocr/master/data/data_0/cate_data/1025/高荧光RET比率/_0_8600.png 320 50
+0.35169 0.544477
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0260082 0.829557
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.042115 0.206285
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟单核细胞比值/_0_1140.png 203 201
+0.318713 0.643787
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性粒细胞/5_3.png 25 41
+0.273937 0.586961
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.211013 0.768709
+Epoch 232
+Train loss: 0.132982
+Train loss: 0.145841
+Train loss: 0.166814
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0992823
+Epoch 233
+Train loss: 0.136328
+Train loss: 0.133027
+Train loss: 0.141035
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.104605
+Epoch 234
+Train loss: 0.178503
+Train loss: 0.158305
+Train loss: 0.162661
+Train accuracy: 0.987903
+Test accuracy: 0.98855
+Test loss: 0.0963957
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.393963 0.552857
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.0123403 0.982436
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.152987 0.805945
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0113312 0.146706
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0310315 0.860389
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.222335 0.763904
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 141
+0.0510768 0.174007
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0194606 0.972567
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.314345 0.462052
+Epoch 235
+Train loss: 0.155462
+Train loss: 0.144664
+Train loss: 0.156963
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.097698
+Epoch 236
+Train loss: 0.138013
+Train loss: 0.157678
+Train loss: 0.143486
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.100536
+Epoch 237
+Train loss: 0.150476
+Train loss: 0.135502
+Train loss: 0.139706
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.100854
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞/img_14855309_16_1.jpg 71 72
+0.217963 0.501929
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00815466 0.986674
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00782417 0.107737
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白浓度/img_14806438_16_1.jpg 169 170
+0.434359 0.494657
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0282074 0.818376
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.106535 0.882968
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 294
+0.0532036 0.187887
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟单核细胞比值/_0_1140.png 203 201
+0.394201 0.511311
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0333348 0.956909
+Epoch 238
+Train loss: 0.152416
+Train loss: 0.15729
+Train loss: 0.157976
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0959894
+Epoch 239
+Train loss: 0.14086
+Train loss: 0.176314
+Train loss: 0.137165
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.096795
+Epoch 240
+Train loss: 0.130427
+Train loss: 0.137361
+Train loss: 0.14867
+Train accuracy: 1.0
+Test accuracy: 0.991094
+Test loss: 0.0972388
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞/img_14855309_16_1.jpg 71 72
+0.307545 0.427911
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00245874 0.991
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0109971 0.203558
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.231615 0.741658
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0174531 0.877426
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0409698 0.144774
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0267006 0.957243
+Epoch 241
+Train loss: 0.167538
+Train loss: 0.139913
+Train loss: 0.155517
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.0976961
+Epoch 242
+Train loss: 0.129147
+Train loss: 0.156643
+Train loss: 0.137385
+Train accuracy: 1.0
+Test accuracy: 0.986005
+Test loss: 0.102134
+Epoch 243
+Train loss: 0.145702
+Train loss: 0.144685
+Train loss: 0.171785
+Train accuracy: 0.991935
+Test accuracy: 0.98855
+Test loss: 0.0979358
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.000438412 0.998098
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.368421 0.58892
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.387087 0.546614
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00309992 0.371415
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.0788345 0.909667
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0198242 0.874128
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0585378 0.135935
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟单核细胞比值/_0_1140.png 203 201
+0.361674 0.581998
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.187249 0.798209
+Epoch 244
+Train loss: 0.128152
+Train loss: 0.136751
+Train loss: 0.149379
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.0959176
+Epoch 245
+Train loss: 0.164724
+Train loss: 0.15611
+Train loss: 0.13883
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0959289
+Epoch 246
+Train loss: 0.149917
+Train loss: 0.132638
+Train loss: 0.150312
+Train accuracy: 0.991935
+Test accuracy: 0.98855
+Test loss: 0.100128
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00164564 0.995574
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.226231 0.711459
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 218
+0.0199367 0.199469
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.108966 0.879793
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0194812 0.778989
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 299
+0.0304243 0.202442
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟单核细胞比值/_0_1140.png 203 201
+0.421721 0.517827
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性粒细胞/5_3.png 25 41
+0.354223 0.47455
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0415818 0.948229
+Epoch 247
+Train loss: 0.128102
+Train loss: 0.12664
+Train loss: 0.136036
+Train accuracy: 1.0
+Test accuracy: 0.982188
+Test loss: 0.108362
+Epoch 248
+Train loss: 0.139531
+Train loss: 0.144113
+Train loss: 0.130526
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.0917858
+Epoch 249
+Train loss: 0.1512
+Train loss: 0.158996
+Train loss: 0.205528
+Train accuracy: 0.991935
+Test accuracy: 0.986005
+Test loss: 0.275544
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.161839 0.703099
+/home/lihang/ocr/master/data/data_0/cate_data/1025/细胞压积/_0_7852.png 258 294
+0.277243 0.414937
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0130437 0.0341768
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白浓度/img_14806438_16_1.jpg 169 170
+0.236901 0.426283
+/home/lihang/ocr/master/data/data_0/cate_data/1025/高荧光RET比率/_0_8600.png 320 50
+0.446845 0.483357
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0296403 0.517576
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.0292664 0.931507
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 299
+0.0471953 0.178841
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0343129 0.820709
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.130936 0.298786
+/home/lihang/ocr/master/data/data_0/cate_data/1025/碱性粒细胞比率/_0_9610.png 78 32
+0.0523314 0.0865652
+Epoch 250
+Train loss: 0.134589
+Train loss: 0.1321
+Train loss: 0.15279
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.0966187
+Epoch 251
+Train loss: 0.131007
+Train loss: 0.145453
+Train loss: 0.156843
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0915272
+Epoch 252
+Train loss: 0.121443
+Train loss: 0.136243
+Train loss: 0.153375
+Train accuracy: 0.987903
+Test accuracy: 0.98855
+Test loss: 0.101446
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.422551 0.533037
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.000820558 0.997608
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.0930385 0.859449
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0153067 0.116999
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0148919 0.879632
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.343706 0.640997
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0604889 0.169922
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0067719 0.986451
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.232278 0.653777
+Epoch 253
+Train loss: 0.144776
+Train loss: 0.138705
+Train loss: 0.133597
+Train accuracy: 1.0
+Test accuracy: 0.991094
+Test loss: 0.0916723
+Epoch 254
+Train loss: 0.16293
+Train loss: 0.136182
+Train loss: 0.138992
+Train accuracy: 1.0
+Test accuracy: 0.992366
+Test loss: 0.0923992
+Epoch 255
+Train loss: 0.168021
+Train loss: 0.139544
+Train loss: 0.129936
+Train accuracy: 1.0
+Test accuracy: 0.993639
+Test loss: 0.0923956
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00334299 0.992843
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0142603 0.20949
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.026403 0.83231
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 299
+0.0229381 0.271449
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0516724 0.935977
+Epoch 256
+Train loss: 0.132888
+Train loss: 0.146606
+Train loss: 0.128506
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.098127
+Epoch 257
+Train loss: 0.134479
+Train loss: 0.169568
+Train loss: 0.133897
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.0939255
+Epoch 258
+Train loss: 0.155383
+Train loss: 0.144841
+Train loss: 0.147747
+Train accuracy: 1.0
+Test accuracy: 0.992366
+Test loss: 0.0931624
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.0132817 0.980298
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.004954 0.20178
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0332573 0.852634
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.38168 0.600178
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0428174 0.114037
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0899551 0.888152
+Epoch 259
+Train loss: 0.163
+Train loss: 0.145654
+Train loss: 0.129766
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.091092
+Epoch 260
+Train loss: 0.121302
+Train loss: 0.132345
+Train loss: 0.134591
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0930465
+Epoch 261
+Train loss: 0.125394
+Train loss: 0.140221
+Train loss: 0.143124
+Train accuracy: 0.991935
+Test accuracy: 0.991094
+Test loss: 0.0927922
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00320412 0.993422
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.378376 0.576642
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00478125 0.346874
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0338588 0.739928
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.0992421 0.891338
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 299
+0.0377284 0.0834691
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0537353 0.931409
+Epoch 262
+Train loss: 0.131861
+Train loss: 0.138046
+Train loss: 0.127693
+Train accuracy: 1.0
+Test accuracy: 0.992366
+Test loss: 0.0921952
+Epoch 263
+Train loss: 0.13381
+Train loss: 0.138032
+Train loss: 0.138746
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.0949612
+Epoch 264
+Train loss: 0.12119
+Train loss: 0.158385
+Train loss: 0.117019
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0943874
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00306415 0.992965
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.262679 0.652553
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 229
+0.0106225 0.0411861
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白浓度/img_14806438_16_1.jpg 169 170
+0.383341 0.50948
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.254508 0.729745
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0254305 0.861811
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 299
+0.0549804 0.189627
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.00670834 0.986719
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.342454 0.517971
+Epoch 265
+Train loss: 0.139361
+Train loss: 0.131715
+Train loss: 0.136859
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.0928544
+Epoch 266
+Train loss: 0.125568
+Train loss: 0.139907
+Train loss: 0.122294
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.091589
+Epoch 267
+Train loss: 0.131297
+Train loss: 0.147698
+Train loss: 0.131073
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0933238
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00431518 0.989961
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.432291 0.462289
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00635704 0.188082
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.217447 0.748366
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0319528 0.842001
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 299
+0.034327 0.128933
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性粒细胞/5_3.png 25 41
+0.385264 0.524812
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.194755 0.768842
+Epoch 268
+Train loss: 0.126415
+Train loss: 0.127451
+Train loss: 0.143574
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0907561
+Epoch 269
+Train loss: 0.144927
+Train loss: 0.131143
+Train loss: 0.109067
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0885698
+Epoch 270
+Train loss: 0.129812
+Train loss: 0.138081
+Train loss: 0.124819
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.0921433
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00117407 0.997768
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.410541 0.491027
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0134871 0.230302
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0267926 0.887007
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.342823 0.645111
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 294
+0.0396033 0.136902
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.00991543 0.983295
+Epoch 271
+Train loss: 0.158963
+Train loss: 0.129606
+Train loss: 0.141971
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.088156
+Epoch 272
+Train loss: 0.128064
+Train loss: 0.123668
+Train loss: 0.125974
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.092734
+Epoch 273
+Train loss: 0.125781
+Train loss: 0.145161
+Train loss: 0.135043
+Train accuracy: 0.991935
+Test accuracy: 0.987277
+Test loss: 0.0930021
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.459758 0.488078
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.0048659 0.991951
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.231999 0.709333
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.236713 0.705725
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.010823 0.205079
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0207315 0.871443
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.12922 0.856714
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.05891 0.163285
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0105715 0.983681
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.308566 0.578901
+Epoch 274
+Train loss: 0.141038
+Train loss: 0.142322
+Train loss: 0.135386
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0927637
+Epoch 275
+Train loss: 0.143939
+Train loss: 0.131603
+Train loss: 0.142372
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0984801
+Epoch 276
+Train loss: 0.12723
+Train loss: 0.132252
+Train loss: 0.147445
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.0947803
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.237548 0.722129
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.0014382 0.9962
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.17768 0.774717
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.134475 0.798928
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0372252 0.147939
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0176672 0.813121
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.291293 0.693775
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0504242 0.110396
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0371363 0.949704
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.331464 0.441367
+Epoch 277
+Train loss: 0.124491
+Train loss: 0.12946
+Train loss: 0.126907
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0936502
+Epoch 278
+Train loss: 0.122703
+Train loss: 0.133313
+Train loss: 0.14621
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0888922
+Epoch 279
+Train loss: 0.12106
+Train loss: 0.1296
+Train loss: 0.123584
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.0943871
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.429277 0.518547
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00429549 0.991768
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.012455 0.206459
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.015211 0.868791
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.125015 0.85531
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0318058 0.123833
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0322459 0.953147
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.299805 0.594462
+Epoch 280
+Train loss: 0.122966
+Train loss: 0.131227
+Train loss: 0.126854
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.090506
+Epoch 281
+Train loss: 0.122943
+Train loss: 0.131981
+Train loss: 0.125759
+Train accuracy: 0.987903
+Test accuracy: 0.991094
+Test loss: 0.0924789
+Epoch 282
+Train loss: 0.127289
+Train loss: 0.134484
+Train loss: 0.132337
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0903789
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞/img_14855309_16_1.jpg 71 73
+0.33984 0.386797
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00507384 0.990387
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.410983 0.512035
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.030561 0.0659909
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0103274 0.927014
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.02627 0.966814
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 292
+0.0488912 0.13475
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0619317 0.924904
+Epoch 283
+Train loss: 0.123893
+Train loss: 0.13195
+Train loss: 0.127678
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0933721
+Epoch 284
+Train loss: 0.118999
+Train loss: 0.137841
+Train loss: 0.123216
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.089697
+Epoch 285
+Train loss: 0.114831
+Train loss: 0.123412
+Train loss: 0.124655
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.0883834
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜酸性粒细胞计数/img_14858648_9_0.jpg 115 84
+0.227094 0.690909
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00892465 0.985441
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.410321 0.534133
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.456811 0.476814
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 229
+0.0095041 0.183155
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白浓度/img_14806438_16_1.jpg 169 170
+0.389576 0.54399
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0225207 0.80648
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.163217 0.81886
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 292
+0.0281185 0.318954
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.076726 0.915004
+Epoch 286
+Train loss: 0.130416
+Train loss: 0.123254
+Train loss: 0.132912
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.104604
+Epoch 287
+Train loss: 0.12531
+Train loss: 0.131323
+Train loss: 0.132969
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.0899835
+Epoch 288
+Train loss: 0.120304
+Train loss: 0.147196
+Train loss: 0.117102
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.0991347
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.323142 0.627235
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00229696 0.994618
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.36186 0.562341
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0165661 0.185271
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.489992 0.490786
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0146421 0.881834
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.243089 0.732332
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0533406 0.132585
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0040175 0.987931
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.228376 0.684976
+Epoch 289
+Train loss: 0.122604
+Train loss: 0.13135
+Train loss: 0.143313
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0901539
+Epoch 290
+Train loss: 0.130686
+Train loss: 0.141988
+Train loss: 0.122163
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0911674
+Epoch 291
+Train loss: 0.15725
+Train loss: 0.12641
+Train loss: 0.126405
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.0878951
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.433148 0.535973
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.0292241 0.962512
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.424257 0.519216
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.322708 0.608752
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00662775 0.183302
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白浓度/img_14806438_16_1.jpg 169 170
+0.436224 0.480466
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0230909 0.901256
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.00510967 0.992478
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 292
+0.0421497 0.143251
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.157449 0.830249
+Epoch 292
+Train loss: 0.137935
+Train loss: 0.137831
+Train loss: 0.155789
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0961552
+Epoch 293
+Train loss: 0.110411
+Train loss: 0.119331
+Train loss: 0.126238
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.0935367
+Epoch 294
+Train loss: 0.110559
+Train loss: 0.11994
+Train loss: 0.127794
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0976894
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.312446 0.640306
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00275907 0.994736
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.0482374 0.928627
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0111709 0.215152
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0163017 0.942786
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.268827 0.720003
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 292
+0.0285375 0.108431
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0128329 0.979583
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.376331 0.479253
+Epoch 295
+Train loss: 0.134102
+Train loss: 0.129604
+Train loss: 0.122349
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0929014
+Epoch 296
+Train loss: 0.126567
+Train loss: 0.14747
+Train loss: 0.122203
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.090066
+Epoch 297
+Train loss: 0.112387
+Train loss: 0.139047
+Train loss: 0.142698
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0898993
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00350281 0.993705
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.440623 0.464073
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0112677 0.167776
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白浓度/img_14806438_16_1.jpg 169 170
+0.384844 0.477202
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.011834 0.887566
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.0892291 0.898365
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 294
+0.0301525 0.289748
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0451386 0.945352
+Epoch 298
+Train loss: 0.143477
+Train loss: 0.109937
+Train loss: 0.134249
+Train accuracy: 1.0
+Test accuracy: 0.992366
+Test loss: 0.0880519
+Epoch 299
+Train loss: 0.159663
+Train loss: 0.119661
+Train loss: 0.145623
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.0943786
+Epoch 300
+Train loss: 0.120104
+Train loss: 0.124
+Train loss: 0.122558
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0932501
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00259551 0.994797
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.124008 0.823347
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.293253 0.655059
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00750002 0.0763538
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0267554 0.846742
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.351103 0.628403
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 141
+0.049357 0.129762
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0180734 0.974246
+Epoch 301
+Train loss: 0.13268
+Train loss: 0.135044
+Train loss: 0.149409
+Train accuracy: 1.0
+Test accuracy: 0.991094
+Test loss: 0.0863405
+Epoch 302
+Train loss: 0.125701
+Train loss: 0.127278
+Train loss: 0.137417
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0875559
+Epoch 303
+Train loss: 0.12935
+Train loss: 0.124952
+Train loss: 0.17982
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0900803
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00405755 0.991738
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.426694 0.509549
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.342165 0.575324
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0168105 0.0877156
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0114702 0.921729
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.116581 0.867497
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0518409 0.175285
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.00418395 0.988851
+Epoch 304
+Train loss: 0.118761
+Train loss: 0.134284
+Train loss: 0.144448
+Train accuracy: 1.0
+Test accuracy: 0.992366
+Test loss: 0.0886392
+Epoch 305
+Train loss: 0.157831
+Train loss: 0.122845
+Train loss: 0.117035
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0895351
+Epoch 306
+Train loss: 0.126355
+Train loss: 0.109609
+Train loss: 0.12053
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.0873471
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞/img_14855309_16_1.jpg 71 73
+0.303089 0.329905
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00120639 0.996452
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.277618 0.678634
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.336571 0.594566
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00461536 0.484288
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.00922189 0.933357
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0486845 0.169602
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.406611 0.578731
+Epoch 307
+Train loss: 0.126953
+Train loss: 0.115059
+Train loss: 0.122675
+Train accuracy: 0.991935
+Test accuracy: 0.984733
+Test loss: 0.202516
+Epoch 308
+Train loss: 0.118023
+Train loss: 0.108819
+Train loss: 0.134865
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.0887736
+Epoch 309
+Train loss: 0.130046
+Train loss: 0.127725
+Train loss: 0.114966
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0925415
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00215357 0.995628
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.175217 0.785175
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 258
+0.00775651 0.0701212
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0162982 0.861899
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.166465 0.821795
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 294
+0.0506155 0.126661
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.00468501 0.990722
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.433969 0.464314
+Epoch 310
+Train loss: 0.120951
+Train loss: 0.125114
+Train loss: 0.111143
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.093843
+Epoch 311
+Train loss: 0.128925
+Train loss: 0.135724
+Train loss: 0.126268
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.0884238
+Epoch 312
+Train loss: 0.109804
+Train loss: 0.119512
+Train loss: 0.13186
+Train accuracy: 0.995968
+Test accuracy: 0.984733
+Test loss: 0.0929888
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.432623 0.517552
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00217667 0.995301
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.456603 0.467829
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0121769 0.149163
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白浓度/img_14806438_16_1.jpg 169 170
+0.418393 0.491397
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.172151 0.816052
+/home/lihang/ocr/master/data/data_0/cate_data/1025/高荧光RET比率/_0_8600.png 320 50
+0.417638 0.459366
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0190756 0.897362
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.240497 0.749469
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 294
+0.0486646 0.145838
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.00695655 0.986476
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.31402 0.597568
+Epoch 313
+Train loss: 0.165298
+Train loss: 0.126829
+Train loss: 0.121455
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0954958
+Epoch 314
+Train loss: 0.120645
+Train loss: 0.120553
+Train loss: 0.115361
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.0937946
+Epoch 315
+Train loss: 0.11925
+Train loss: 0.126132
+Train loss: 0.145753
+Train accuracy: 0.991935
+Test accuracy: 0.992366
+Test loss: 0.0874986
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00839515 0.987605
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00316682 0.316292
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.014921 0.917357
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.0213673 0.975193
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 292
+0.0287971 0.220973
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0406334 0.950871
+Epoch 316
+Train loss: 0.119399
+Train loss: 0.117075
+Train loss: 0.127059
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0855653
+Epoch 317
+Train loss: 0.11588
+Train loss: 0.109576
+Train loss: 0.109026
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.0936744
+Epoch 318
+Train loss: 0.129941
+Train loss: 0.129542
+Train loss: 0.143899
+Train accuracy: 1.0
+Test accuracy: 0.991094
+Test loss: 0.0857201
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00154808 0.996799
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.276644 0.663744
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00964717 0.103293
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0188324 0.82592
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.127038 0.864581
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 292
+0.034758 0.120248
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0928665 0.895818
+Epoch 319
+Train loss: 0.116689
+Train loss: 0.128168
+Train loss: 0.108911
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0914019
+Epoch 320
+Train loss: 0.120485
+Train loss: 0.127002
+Train loss: 0.113817
+Train accuracy: 1.0
+Test accuracy: 0.991094
+Test loss: 0.0890899
+Epoch 321
+Train loss: 0.116762
+Train loss: 0.126822
+Train loss: 0.122947
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.08396
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00476079 0.992311
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.350989 0.604972
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.215692 0.730238
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0370064 0.129299
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.014564 0.863618
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.0527096 0.93642
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0389443 0.166593
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0660593 0.922913
+Epoch 322
+Train loss: 0.133173
+Train loss: 0.120784
+Train loss: 0.120609
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0889539
+Epoch 323
+Train loss: 0.137057
+Train loss: 0.112532
+Train loss: 0.122051
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0861323
+Epoch 324
+Train loss: 0.113394
+Train loss: 0.122663
+Train loss: 0.116351
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0845852
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.0068086 0.989657
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.426201 0.517901
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0106711 0.127951
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白浓度/img_14806438_16_1.jpg 169 170
+0.374926 0.41994
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0241775 0.886066
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.0736488 0.916596
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 299
+0.0601294 0.11389
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0608193 0.928731
+Epoch 325
+Train loss: 0.135293
+Train loss: 0.126025
+Train loss: 0.108937
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0862091
+Epoch 326
+Train loss: 0.123458
+Train loss: 0.12605
+Train loss: 0.134268
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0818284
+Epoch 327
+Train loss: 0.124534
+Train loss: 0.117867
+Train loss: 0.138321
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.0883757
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.46649 0.477798
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00902905 0.988344
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.265282 0.680763
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.349 0.603106
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 229
+0.00798382 0.130986
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0277414 0.874306
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.227053 0.760334
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0437393 0.11132
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.00878636 0.984449
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.32434 0.569875
+Epoch 328
+Train loss: 0.122985
+Train loss: 0.108844
+Train loss: 0.132939
+Train accuracy: 1.0
+Test accuracy: 0.991094
+Test loss: 0.0917465
+Epoch 329
+Train loss: 0.12557
+Train loss: 0.118791
+Train loss: 0.123967
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0848188
+Epoch 330
+Train loss: 0.105098
+Train loss: 0.111278
+Train loss: 0.115904
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.0863078
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.478305 0.478482
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00167824 0.996618
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 229
+0.0121777 0.138294
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.16669 0.822893
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0100019 0.917789
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0365381 0.117323
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.240441 0.746299
+Epoch 331
+Train loss: 0.111397
+Train loss: 0.124229
+Train loss: 0.116952
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.0874138
+Epoch 332
+Train loss: 0.12135
+Train loss: 0.107946
+Train loss: 0.117384
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0898014
+Epoch 333
+Train loss: 0.152709
+Train loss: 0.122136
+Train loss: 0.111947
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.091184
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00101096 0.99725
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.199933 0.742751
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.228434 0.70848
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 229
+0.0122267 0.126694
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.290676 0.696744
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0109652 0.897992
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0539733 0.166813
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0166013 0.977624
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.332182 0.511116
+Epoch 334
+Train loss: 0.103592
+Train loss: 0.117961
+Train loss: 0.124525
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0873799
+Epoch 335
+Train loss: 0.103184
+Train loss: 0.113803
+Train loss: 0.134133
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.089501
+Epoch 336
+Train loss: 0.108852
+Train loss: 0.110087
+Train loss: 0.129203
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.0919718
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00232248 0.995583
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.103719 0.852251
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00882212 0.166814
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白浓度/img_14806438_16_1.jpg 169 170
+0.149596 0.790824
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0113645 0.876531
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.0488251 0.945389
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 141
+0.0646501 0.141576
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.00774573 0.985997
+Epoch 337
+Train loss: 0.11294
+Train loss: 0.123522
+Train loss: 0.10523
+Train accuracy: 1.0
+Test accuracy: 0.991094
+Test loss: 0.0922779
+Epoch 338
+Train loss: 0.123477
+Train loss: 0.121893
+Train loss: 0.117862
+Train accuracy: 1.0
+Test accuracy: 0.991094
+Test loss: 0.0874981
+Epoch 339
+Train loss: 0.119077
+Train loss: 0.11627
+Train loss: 0.138884
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.0927016
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.428598 0.528044
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00389579 0.993828
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.443674 0.501316
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00576486 0.52102
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0123397 0.916196
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.0179239 0.9781
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 299
+0.0413808 0.151369
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.00505832 0.990463
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.19721 0.66078
+Epoch 340
+Train loss: 0.115182
+Train loss: 0.112656
+Train loss: 0.146623
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.0853358
+Epoch 341
+Train loss: 0.129123
+Train loss: 0.114553
+Train loss: 0.138879
+Train accuracy: 1.0
+Test accuracy: 0.991094
+Test loss: 0.0847563
+Epoch 342
+Train loss: 0.114177
+Train loss: 0.130158
+Train loss: 0.109906
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.0811005
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00962252 0.987172
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.269105 0.681418
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0205209 0.25827
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0185158 0.837033
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.11678 0.874932
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0725919 0.187767
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.02785 0.964463
+Epoch 343
+Train loss: 0.106555
+Train loss: 0.105862
+Train loss: 0.128094
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0968544
+Epoch 344
+Train loss: 0.110819
+Train loss: 0.109147
+Train loss: 0.122627
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0823396
+Epoch 345
+Train loss: 0.125108
+Train loss: 0.110358
+Train loss: 0.108231
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.0882829
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.000601141 0.998193
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.197099 0.750678
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00454574 0.673474
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.28949 0.696937
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0214891 0.860275
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.277338 0.707538
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 294
+0.0418147 0.105812
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0291996 0.962191
+Epoch 346
+Train loss: 0.105709
+Train loss: 0.121596
+Train loss: 0.135555
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.086361
+Epoch 347
+Train loss: 0.1199
+Train loss: 0.111551
+Train loss: 0.11189
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0847271
+Epoch 348
+Train loss: 0.108243
+Train loss: 0.142564
+Train loss: 0.122587
+Train accuracy: 0.995968
+Test accuracy: 0.982188
+Test loss: 0.406966
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.0320463 0.920136
+/home/lihang/ocr/master/data/data_0/cate_data/1025/细胞压积/_0_7852.png 258 288
+0.0144052 0.0755464
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.266466 0.62419
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 229
+0.00758195 0.0277503
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白浓度/img_14806438_16_1.jpg 169 170
+0.211988 0.27843
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14787609_19_1.jpg 301 288
+0.0524155 0.27643
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血红蛋白/img_14858440_14_2.jpg 306 288
+0.0323956 0.0476458
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0205542 0.127354
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.0140542 0.981495
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*红细胞压积/_0_9960.png 258 294
+0.218282 0.301152
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板分布宽度/img_14852762_3_6.jpg 292 304
+0.012713 0.0134892
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 288
+0.0211838 0.0813467
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0998283 0.885003
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.322397 0.3388
+Epoch 349
+Train loss: 0.122789
+Train loss: 0.12337
+Train loss: 0.11543
+Train accuracy: 1.0
+Test accuracy: 0.991094
+Test loss: 0.0848164
+Epoch 350
+Train loss: 0.117345
+Train loss: 0.126081
+Train loss: 0.121996
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.0867723
+Epoch 351
+Train loss: 0.124742
+Train loss: 0.144026
+Train loss: 0.121571
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.082377
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.0196307 0.974873
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.433373 0.474493
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00389277 0.301804
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0155676 0.894568
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.0425529 0.947904
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0692038 0.136214
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.038239 0.943099
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.35901 0.437027
+Epoch 352
+Train loss: 0.117618
+Train loss: 0.115084
+Train loss: 0.117457
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.0843793
+Epoch 353
+Train loss: 0.1048
+Train loss: 0.137688
+Train loss: 0.107411
+Train accuracy: 0.995968
+Test accuracy: 0.992366
+Test loss: 0.0852979
+Epoch 354
+Train loss: 0.122474
+Train loss: 0.114873
+Train loss: 0.1074
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0903103
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.0322808 0.958908
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.364746 0.537241
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.377171 0.56769
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00750885 0.191441
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0117193 0.924073
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.0323626 0.957045
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 294
+0.0352208 0.215957
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0182983 0.974704
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.0800621 0.850163
+Epoch 355
+Train loss: 0.113366
+Train loss: 0.133608
+Train loss: 0.111636
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.083891
+Epoch 356
+Train loss: 0.102473
+Train loss: 0.100041
+Train loss: 0.1342
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.0821631
+Epoch 357
+Train loss: 0.118997
+Train loss: 0.112656
+Train loss: 0.118061
+Train accuracy: 0.995968
+Test accuracy: 0.987277
+Test loss: 0.0852431
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00217744 0.995714
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.469917 0.477224
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00819661 0.188712
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白浓度/img_14806438_16_1.jpg 169 170
+0.397396 0.498108
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.489641 0.496497
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0190474 0.919253
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.345879 0.627716
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0455197 0.118037
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.00810248 0.985139
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.186609 0.599398
+Epoch 358
+Train loss: 0.104326
+Train loss: 0.109126
+Train loss: 0.115706
+Train accuracy: 0.991935
+Test accuracy: 0.991094
+Test loss: 0.0832749
+Epoch 359
+Train loss: 0.113038
+Train loss: 0.107514
+Train loss: 0.106822
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.0901269
+Epoch 360
+Train loss: 0.128134
+Train loss: 0.113962
+Train loss: 0.120922
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0838423
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00789923 0.987601
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.381395 0.566823
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.0860705 0.867739
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0109778 0.250316
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0160779 0.866699
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.0980361 0.889235
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 292
+0.0526661 0.136887
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.19621 0.78118
+Epoch 361
+Train loss: 0.118343
+Train loss: 0.106949
+Train loss: 0.107289
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.085854
+Epoch 362
+Train loss: 0.108669
+Train loss: 0.107089
+Train loss: 0.127594
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.0926922
+Epoch 363
+Train loss: 0.1052
+Train loss: 0.108142
+Train loss: 0.11435
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.0892259
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.0343712 0.947036
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00822868 0.180672
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.36739 0.615763
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0227233 0.757236
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.123459 0.860027
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 292
+0.0349117 0.184502
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.01839 0.975443
+Epoch 364
+Train loss: 0.120713
+Train loss: 0.119531
+Train loss: 0.101865
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0827354
+Epoch 365
+Train loss: 0.103765
+Train loss: 0.1091
+Train loss: 0.111408
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0849469
+Epoch 366
+Train loss: 0.110552
+Train loss: 0.11717
+Train loss: 0.120651
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.092312
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.000623425 0.997546
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.196265 0.762502
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.00497325 0.18031
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.0489318 0.941968
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0211592 0.887548
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 294
+0.0221153 0.157112
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0361842 0.952916
+Epoch 367
+Train loss: 0.1234
+Train loss: 0.113112
+Train loss: 0.122843
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.0887961
+Epoch 368
+Train loss: 0.115721
+Train loss: 0.154685
+Train loss: 0.1245
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0858137
+Epoch 369
+Train loss: 0.114332
+Train loss: 0.108342
+Train loss: 0.109797
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.0902456
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.000301344 0.998417
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0156251 0.0830496
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.0117652 0.984308
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0141563 0.919686
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 141
+0.0347637 0.170534
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.073184 0.917014
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.445403 0.463512
+Epoch 370
+Train loss: 0.107347
+Train loss: 0.115087
+Train loss: 0.110187
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.0982778
+Epoch 371
+Train loss: 0.100485
+Train loss: 0.115958
+Train loss: 0.0918416
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0825294
+Epoch 372
+Train loss: 0.109952
+Train loss: 0.137106
+Train loss: 0.105116
+Train accuracy: 0.991935
+Test accuracy: 0.987277
+Test loss: 0.0854301
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00278781 0.995691
+/home/lihang/ocr/master/data/data_0/cate_data/1025/中性细胞比率/img_14767387_6_2.jpg 42 32
+0.443635 0.483931
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.263121 0.654337
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0146547 0.254821
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.328531 0.660646
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0109941 0.895735
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.133034 0.85876
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0549701 0.115449
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0223397 0.965813
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.301019 0.567199
+Epoch 373
+Train loss: 0.103859
+Train loss: 0.118497
+Train loss: 0.134107
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.0880792
+Epoch 374
+Train loss: 0.106631
+Train loss: 0.11521
+Train loss: 0.100799
+Train accuracy: 1.0
+Test accuracy: 0.98855
+Test loss: 0.0816358
+Epoch 375
+Train loss: 0.101059
+Train loss: 0.110251
+Train loss: 0.107574
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.080001
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00185956 0.997239
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.157767 0.802289
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0188103 0.156884
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.287019 0.703292
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0120718 0.936598
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.47699 0.509543
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 292
+0.0338389 0.138143
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0518819 0.935879
+Epoch 376
+Train loss: 0.0970518
+Train loss: 0.107943
+Train loss: 0.113061
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0888451
+Epoch 377
+Train loss: 0.1136
+Train loss: 0.109761
+Train loss: 0.11109
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0843765
+Epoch 378
+Train loss: 0.103592
+Train loss: 0.113034
+Train loss: 0.116926
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.0830937
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.474798 0.488524
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.0030997 0.994112
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.3993 0.533531
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0185104 0.117042
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.262341 0.721008
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0115762 0.939095
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.043542 0.112311
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0099865 0.985021
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.293982 0.620125
+Epoch 379
+Train loss: 0.104749
+Train loss: 0.114927
+Train loss: 0.103331
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.0754152
+Epoch 380
+Train loss: 0.104204
+Train loss: 0.101567
+Train loss: 0.10666
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.0841166
+Epoch 381
+Train loss: 0.12298
+Train loss: 0.125692
+Train loss: 0.0982084
+Train accuracy: 0.995968
+Test accuracy: 0.992366
+Test loss: 0.0796038
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.0055126 0.989383
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0204752 0.250738
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.0143693 0.915273
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.0909882 0.897868
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 299
+0.0473535 0.126216
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0317329 0.962418
+Epoch 382
+Train loss: 0.108776
+Train loss: 0.118519
+Train loss: 0.117743
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.0856438
+Epoch 383
+Train loss: 0.122402
+Train loss: 0.11109
+Train loss: 0.0976044
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.0871786
+Epoch 384
+Train loss: 0.0982527
+Train loss: 0.169013
+Train loss: 0.0977226
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.0825325
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00402559 0.993431
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.252292 0.689559
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0119652 0.114018
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.459759 0.526599
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.00711005 0.93858
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.177944 0.797026
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 292
+0.0380494 0.182468
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.275999 0.699858
+Epoch 385
+Train loss: 0.0985411
+Train loss: 0.118067
+Train loss: 0.119906
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.0839757
+Epoch 386
+Train loss: 0.101529
+Train loss: 0.100905
+Train loss: 0.0996189
+Train accuracy: 0.995968
+Test accuracy: 0.989822
+Test loss: 0.0824047
+Epoch 387
+Train loss: 0.116425
+Train loss: 0.11414
+Train loss: 0.112993
+Train accuracy: 0.995968
+Test accuracy: 0.991094
+Test loss: 0.0804258
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.000968617 0.997563
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.155458 0.793049
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 41
+0.0121566 0.188991
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.00538469 0.951468
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.176123 0.806796
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.045849 0.165114
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0449673 0.944953
+Epoch 388
+Train loss: 0.11956
+Train loss: 0.123199
+Train loss: 0.107282
+Train accuracy: 0.991935
+Test accuracy: 0.98855
+Test loss: 0.0806527
+Epoch 389
+Train loss: 0.095069
+Train loss: 0.109369
+Train loss: 0.114175
+Train accuracy: 0.991935
+Test accuracy: 0.991094
+Test loss: 0.0806957
+Epoch 390
+Train loss: 0.115526
+Train loss: 0.111482
+Train loss: 0.0939162
+Train accuracy: 1.0
+Test accuracy: 0.987277
+Test loss: 0.0798715
+/home/lihang/ocr/master/data/data_0/cate_data/1025/未成熟淋巴细胞比值/_0_9524.png 205 203
+0.429 0.536099
+/home/lihang/ocr/master/data/data_0/cate_data/1025/平均血红蛋白量/img_14778634_15_1.jpg 170 168
+0.00102948 0.997509
+/home/lihang/ocr/master/data/data_0/cate_data/1025/红细胞体积宽度-CV/_0_7092.png 244 245
+0.473888 0.477415
+/home/lihang/ocr/master/data/data_0/cate_data/1025/单核细胞/img_14855421_13_0.jpg 55 229
+0.0138333 0.115716
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白量/_0_5289.png 170 168
+0.469831 0.5178
+/home/lihang/ocr/master/data/data_0/cate_data/1025/有核红细胞%/23_1.png 190 189
+0.00720366 0.952755
+/home/lihang/ocr/master/data/data_0/cate_data/1025/*平均血红蛋白含量/_0_4474.png 168 170
+0.223537 0.75961
+/home/lihang/ocr/master/data/data_0/cate_data/1025/血小板数目/img_14764488_5_5.jpg 301 296
+0.0532287 0.170053
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14855019_7_1.jpg 82 112
+0.0154189 0.978182
+/home/lihang/ocr/master/data/data_0/cate_data/1025/嗜碱性粒细胞绝对值/img_14883217_13_1.jpg 82 112
+0.370324 0.504124
+Epoch 391
+Train loss: 0.092608
+Train loss: 0.118681
+Train loss: 0.12146
+Train accuracy: 1.0
+Test accuracy: 0.989822
+Test loss: 0.0812455
+Epoch 392
+Train loss: 0.0924386
+Train loss: 0.0971089
+Train loss: 0.110013
+Train accuracy: 1.0
+Test accuracy: 0.988549
+Test loss: 0.0858328
+Epoch 393
+Train loss: 0.111647
+Train loss: 0.112148
+Train loss: 0.101093
+Train accuracy: 0.995968
+Test accuracy: 0.98855
+Test loss: 0.0841188
+/home/lihang/ocr
